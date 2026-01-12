@@ -425,18 +425,30 @@ function renderTestTable() {
 // Toggle row expansion
 function toggleRow(id) {
   const wasExpanded = expandedRow === id;
+  const isExpanding = !wasExpanded;
+  
   expandedRow = wasExpanded ? null : id;
   renderTestTable();
   
-  // Scroll to the row if we just expanded it
-  if (!wasExpanded && expandedRow) {
-    setTimeout(() => {
-      const row = document.querySelector(`tr[data-id="${id}"]`);
-      if (row) {
-        row.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, 50); // Small delay to let DOM update
-  }
+  // Always scroll to keep the clicked row visible at the top
+  // Use requestAnimationFrame to ensure DOM has updated
+  requestAnimationFrame(() => {
+    const row = document.querySelector(`tr[data-id="${id}"]`);
+    if (row) {
+      // Get header height to offset scroll position
+      const header = document.querySelector('.header');
+      const headerHeight = header ? header.offsetHeight : 0;
+      
+      // Calculate position and scroll
+      const rowRect = row.getBoundingClientRect();
+      const scrollTop = window.pageYOffset + rowRect.top - headerHeight - 16;
+      
+      window.scrollTo({
+        top: scrollTop,
+        behavior: 'instant'  // Instant to avoid fighting with page reflow
+      });
+    }
+  });
 }
 
 // Render detail panel for expanded row
