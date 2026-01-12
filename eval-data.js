@@ -1,4 +1,4 @@
-// Auto-generated evaluation data - 2026-01-12T10:58:22.396Z
+// Auto-generated evaluation data - 2026-01-12T11:44:09.083Z
 // Sources:
 //   Expected: /Users/mbach/Vibe/clara_eval/data/eval-q-dk.json
 //   Actual: /Users/mbach/Vibe/clara_eval/data/superagent-eval-2026-01-12T08-49-30-298Z.json
@@ -6,7 +6,7 @@
 
 const EVAL_DATA = {
   timestamp: "2026-01-12T08:49:30.289Z",
-  generatedAt: "2026-01-12T10:58:22.397Z",
+  generatedAt: "2026-01-12T11:44:09.084Z",
   
   // Summary metrics
   totalTests: 166,
@@ -18,12 +18,12 @@ const EVAL_DATA = {
   overallGrade: "C",
   
   // Style metrics (NEW)
-  avgStyleScore: 53.7,
-  avgTone: 3.36,
+  avgStyleScore: 55.6,
+  avgTone: 3.63,
   avgConciseness: 2.09,
   avgHelpfulness: 2.62,
-  styleGrade: "C",
-  preferredBreakdown: {"actual":51,"expected":34,"similar":81},
+  styleGrade: "C+",
+  preferredBreakdown: {"actual":43,"expected":38,"similar":85},
   
   // Grade distribution
   grades: {"A":13,"B":67,"C":36,"D":42,"F":8},
@@ -44,7 +44,7 @@ const EVAL_DATA = {
     "total": 6,
     "passRate": 0.8333333333333334,
     "avgScore": 0.8449999999999999,
-    "avgStyleScore": 55.5
+    "avgStyleScore": 57.833333333333336
   },
   "Lookups - Speakers": {
     "passed": 3,
@@ -52,7 +52,7 @@ const EVAL_DATA = {
     "total": 6,
     "passRate": 0.5,
     "avgScore": 0.7566666666666665,
-    "avgStyleScore": 54.5
+    "avgStyleScore": 57.833333333333336
   },
   "Lookups - Budget": {
     "passed": 1,
@@ -60,7 +60,7 @@ const EVAL_DATA = {
     "total": 4,
     "passRate": 0.25,
     "avgScore": 0.6699999999999999,
-    "avgStyleScore": 48.5
+    "avgStyleScore": 51.5
   },
   "Lookups - Registration": {
     "passed": 4,
@@ -68,7 +68,7 @@ const EVAL_DATA = {
     "total": 5,
     "passRate": 0.8,
     "avgScore": 0.8160000000000001,
-    "avgStyleScore": 46.8
+    "avgStyleScore": 48
   },
   "Lookups - Milestones": {
     "passed": 2,
@@ -84,7 +84,7 @@ const EVAL_DATA = {
     "total": 10,
     "passRate": 0.4,
     "avgScore": 0.712,
-    "avgStyleScore": 48.6
+    "avgStyleScore": 50.6
   },
   "Opinions & Advice": {
     "passed": 3,
@@ -92,7 +92,7 @@ const EVAL_DATA = {
     "total": 8,
     "passRate": 0.375,
     "avgScore": 0.6950000000000001,
-    "avgStyleScore": 51.625
+    "avgStyleScore": 52.375
   },
   "Direct Execution - Event Details": {
     "passed": 2,
@@ -100,7 +100,7 @@ const EVAL_DATA = {
     "total": 3,
     "passRate": 0.6666666666666666,
     "avgScore": 0.7033333333333335,
-    "avgStyleScore": 46.666666666666664
+    "avgStyleScore": 48.666666666666664
   },
   "Direct Execution - Schedule": {
     "passed": 1,
@@ -108,7 +108,7 @@ const EVAL_DATA = {
     "total": 6,
     "passRate": 0.16666666666666666,
     "avgScore": 0.55,
-    "avgStyleScore": 51
+    "avgStyleScore": 56.666666666666664
   },
   "Direct Execution - Speakers": {
     "passed": 3,
@@ -116,7 +116,7 @@ const EVAL_DATA = {
     "total": 5,
     "passRate": 0.6,
     "avgScore": 0.778,
-    "avgStyleScore": 49.4
+    "avgStyleScore": 53.2
   },
   "Direct Execution - Budget": {
     "passed": 2,
@@ -124,7 +124,7 @@ const EVAL_DATA = {
     "total": 3,
     "passRate": 0.6666666666666666,
     "avgScore": 0.6699999999999999,
-    "avgStyleScore": 46.333333333333336
+    "avgStyleScore": 55.666666666666664
   },
   "Direct Execution - Website": {
     "passed": 5,
@@ -132,7 +132,7 @@ const EVAL_DATA = {
     "total": 6,
     "passRate": 0.8333333333333334,
     "avgScore": 0.7749999999999999,
-    "avgStyleScore": 42.166666666666664
+    "avgStyleScore": 45.666666666666664
   },
   "Direct Execution - Registration": {
     "passed": 4,
@@ -140,7 +140,7 @@ const EVAL_DATA = {
     "total": 6,
     "passRate": 0.6666666666666666,
     "avgScore": 0.7533333333333334,
-    "avgStyleScore": 46.666666666666664
+    "avgStyleScore": 49
   },
   "Direct Execution - Milestones": {
     "passed": 1,
@@ -148,7 +148,7 @@ const EVAL_DATA = {
     "total": 4,
     "passRate": 0.25,
     "avgScore": 0.6825,
-    "avgStyleScore": 43.25
+    "avgStyleScore": 46.5
   },
   "Propose + Confirm - Website": {
     "passed": 3,
@@ -180,7 +180,7 @@ const EVAL_DATA = {
     "total": 3,
     "passRate": 0,
     "avgScore": 0.5433333333333333,
-    "avgStyleScore": 82.33333333333333
+    "avgStyleScore": 84.33333333333333
   },
   "Propose + Confirm - Structure": {
     "passed": 0,
@@ -188,7 +188,7 @@ const EVAL_DATA = {
     "total": 4,
     "passRate": 0,
     "avgScore": 0.505,
-    "avgStyleScore": 70
+    "avgStyleScore": 75.25
   },
   "Venue - Discovery": {
     "passed": 2,
@@ -204,7 +204,7 @@ const EVAL_DATA = {
     "total": 8,
     "passRate": 0.375,
     "avgScore": 0.6999999999999998,
-    "avgStyleScore": 55.625
+    "avgStyleScore": 56.5
   },
   "Venue - Selection": {
     "passed": 1,
@@ -212,7 +212,7 @@ const EVAL_DATA = {
     "total": 3,
     "passRate": 0.3333333333333333,
     "avgScore": 0.6,
-    "avgStyleScore": 62.333333333333336
+    "avgStyleScore": 64.66666666666667
   },
   "Milestones - Basic": {
     "passed": 3,
@@ -220,7 +220,7 @@ const EVAL_DATA = {
     "total": 10,
     "passRate": 0.3,
     "avgScore": 0.518,
-    "avgStyleScore": 46.7
+    "avgStyleScore": 48.7
   },
   "Milestones - Context": {
     "passed": 4,
@@ -236,7 +236,7 @@ const EVAL_DATA = {
     "total": 9,
     "passRate": 0.1111111111111111,
     "avgScore": 0.5833333333333334,
-    "avgStyleScore": 53.22222222222222
+    "avgStyleScore": 55.55555555555556
   },
   "Capability Boundaries": {
     "passed": 8,
@@ -252,7 +252,7 @@ const EVAL_DATA = {
     "total": 12,
     "passRate": 0.4166666666666667,
     "avgScore": 0.6891666666666666,
-    "avgStyleScore": 61.583333333333336
+    "avgStyleScore": 62.666666666666664
   }
 },
   
@@ -461,7 +461,234 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      },
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "L-005",
@@ -571,7 +798,292 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      },
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "L-011",
@@ -686,7 +1198,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-001",
@@ -801,7 +1377,231 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": [],
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "L-002",
@@ -911,7 +1711,230 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "L-003",
@@ -1021,7 +2044,231 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {},
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "L-006",
@@ -1038,12 +2285,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 4,
       "styleScore": 53,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 2,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -1131,7 +2378,230 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "L-012",
@@ -1241,7 +2711,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-010",
@@ -1356,7 +2890,72 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-014",
@@ -1466,7 +3065,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-013",
@@ -1479,16 +3142,16 @@ const EVAL_DATA = {
     "summary": "Clara’s answer is accurate and closely aligned with the event schedule for Day 3, including correct times, session names, keynote speaker/title, and the 3:00 PM wrap. The response is clearly structured and comprehensive, adding useful workshop-level detail consistent with the four-track format. Minor improvement: include the year (2026) when stating the date for Day 3.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 3,
+          "score": 4,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -1596,7 +3259,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-015",
@@ -1609,16 +3336,16 @@ const EVAL_DATA = {
     "summary": "Clara accurately identifies all sessions in the Ethics & Safety track and provides correct dates/times and the session lead where specified in the schedule. The response is well-structured and directly answers the question. A minor improvement would be to include the room names (already available in the event data), though she appropriately offered to add them as a follow-up.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 2,
       "helpfulness": 4,
-      "styleScore": 60,
+      "styleScore": 67,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -1716,7 +3443,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-023",
@@ -1729,16 +3520,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly states that Yann LeCun is delivering the Closing Keynote “Open Innovation Paths to AGI,” including accurate time, date, venue room, and hybrid format per the event schedule. The response is clear and well-structured. A minor improvement would be adding the one-sentence topic framing from the session description to better align with the expected reference answer.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 5,
       "helpfulness": 2,
-      "styleScore": 60,
+      "styleScore": 67,
       "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 0,
+          "score": 3,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -1826,7 +3617,72 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-021",
@@ -1848,7 +3704,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -1941,7 +3797,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "L-024",
@@ -1963,7 +3822,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -2056,7 +3915,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "L-025",
@@ -2166,7 +4028,72 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "L-020",
@@ -2179,16 +4106,16 @@ const EVAL_DATA = {
     "summary": "Clara’s answer correctly identifies the main Day 1 speakers (Fahd Al‑Rasheed, Sam Altman, Demis Hassabis, Dario Amodei, Ilya Sutskever) and appropriately includes Jensen Huang as invited/TBC per the schedule. The only notable issue is slight imprecision around the SDAIA keynote panel lead—she cites “SDAIA leadership” rather than the schedule’s exact label or the tentative named individual—so overall accuracy is strong but not perfectly precise.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 2,
+          "score": 4,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -2286,7 +4213,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "L-030",
@@ -2304,7 +4234,7 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 60,
       "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -2396,7 +4326,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "L-032",
@@ -2409,16 +4403,16 @@ const EVAL_DATA = {
     "summary": "Clara provided correct dollar amounts for Catering—Food ($137,500) and AV & Technical Production ($158,000) from the budget, but incorrectly concluded that catering is the biggest expense. The response is clear and well-formatted, yet it omits the helpful venue partnership/in-kind context found in the budget notes and contains an internal logic inconsistency by labeling the higher AV cost as the runner-up.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 4,
       "helpfulness": 1,
-      "styleScore": 47,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining.",
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 0,
+          "score": 3,
+          "warmCount": 1,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -2506,7 +4500,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "L-022",
@@ -2519,16 +4577,16 @@ const EVAL_DATA = {
     "summary": "Clara accurately identifies Dr. Yann LeCun as the closing keynote speaker and correctly provides the session title, time (13:15–14:00), date (Sat, Oct 17, 2026), and location (KAFD Conference Center — Auditorium) as reflected in the event schedule JSON. The response is clear, direct, and includes helpful context without unnecessary detail. No tool calls were needed and none were made.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 4,
       "helpfulness": 1,
-      "styleScore": 47,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining.",
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 0,
+          "score": 3,
+          "warmCount": 1,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -2626,7 +4684,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "L-033",
@@ -2648,7 +4709,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -2731,7 +4792,72 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "speakers": [],
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "L-041",
@@ -2744,16 +4870,16 @@ const EVAL_DATA = {
     "summary": "Clara avoids fabricating registrant data and accurately states that the provided event JSON does not include real-time RSVP submissions. However, the response does not fulfill the user’s request to identify who registered today and lacks actionable guidance to obtain that information (or a tool-based retrieval if supported). The message is clear but incomplete relative to the prompt’s intent.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 1,
       "helpfulness": 2,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 5,
+          "score": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -2831,7 +4957,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "L-042",
@@ -2941,7 +5073,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "L-040",
@@ -2963,7 +5101,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 8,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -3051,7 +5189,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "L-031",
@@ -3064,16 +5208,16 @@ const EVAL_DATA = {
     "summary": "Clara appropriately explains that the plan does not track actual spend-to-date and avoids inventing a spent figure, which aligns with the available event data. However, the budget totals she reports do not match the amounts in the event JSON, reducing accuracy and usefulness. The response is otherwise clear and proposes a sensible next step for establishing spend tracking.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 1,
       "helpfulness": 2,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 8,
+          "score": 5,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -3166,7 +5310,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "L-043",
@@ -3188,7 +5396,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 7,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -3301,7 +5509,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "L-050",
@@ -3323,7 +5537,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -3411,7 +5625,8 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "L-044",
@@ -3433,7 +5648,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 8,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -3531,7 +5746,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "L-052",
@@ -3661,7 +5882,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "L-051",
@@ -3683,7 +5907,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -3781,7 +6005,8 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "V-001",
@@ -3799,7 +6024,7 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 47,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
           "score": 4,
@@ -3896,7 +6121,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "V-003",
@@ -3913,12 +6360,12 @@ const EVAL_DATA = {
       "conciseness": 2,
       "helpfulness": 3,
       "styleScore": 67,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 7,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4016,7 +6463,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "L-053",
@@ -4153,7 +6603,8 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {}
   },
   {
     "id": "V-002",
@@ -4175,7 +6626,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4273,7 +6724,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "V-004",
@@ -4291,11 +6806,11 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4388,7 +6903,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "V-005",
@@ -4410,7 +6989,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4513,7 +7092,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "V-007",
@@ -4531,11 +7332,11 @@ const EVAL_DATA = {
       "helpfulness": 4,
       "styleScore": 53,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4623,7 +7424,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "V-006",
@@ -4636,16 +7659,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is clear and provides actionable, realistic cost-cutting levers across several event areas. However, it misses the key scoping question of the target reduction and makes at least one likely inaccurate claim (“AV/Production biggest line item”) when compared to the budget data. The response would better match the prompt by first asking where the user wants to cut and the desired savings target, then tailoring recommendations accordingly.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 3,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "expected",
       "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 11,
+          "score": 4,
+          "warmCount": 13,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4748,7 +7771,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "A-003",
@@ -4766,11 +7853,11 @@ const EVAL_DATA = {
       "helpfulness": 4,
       "styleScore": 60,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -4843,7 +7930,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "V-009",
@@ -4861,7 +8012,7 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 53,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 4,
@@ -4985,7 +8136,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "A-002",
@@ -4998,16 +8371,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is generally accurate and clearly presented, and it appropriately references the event’s actual break lengths and the 90-minute Friday lunch/Jumu’ah buffer. The main gap is completeness relative to the expected guidance: she underplays that 30 minutes is “workable but tight” for a 500-person, networking-oriented event and doesn’t explicitly recommend a 30–45 minute range for major breaks.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 2,
       "helpfulness": 2,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 7,
+          "score": 4,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5105,7 +8478,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "V-010",
@@ -5118,16 +8713,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is clear and partially aligned with the schedule (notably the tight 14:00→14:15 transition and the existence of a Friday Jumu’ah lunch buffer), and she appropriately asks the user to clarify which part of the flow feels off. However, she goes beyond the prompt by asserting multiple specific friction points and includes a few unsupported details (e.g., “500-person auditorium,” headset reset needs), which makes the response less faithful to the expected clarifying-first approach.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 9,
+          "score": 4,
+          "warmCount": 14,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5225,7 +8820,230 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "A-007",
@@ -5247,7 +9065,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5345,7 +9163,72 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "A-001",
@@ -5367,7 +9250,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5470,7 +9353,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "A-005",
@@ -5488,11 +9435,11 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 6,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5600,7 +9547,230 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "A-006",
@@ -5622,7 +9792,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5720,7 +9890,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "V-008",
@@ -5733,16 +10125,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is largely aligned with the event plan (KAFD as primary; RFECC and Hilton as logical contingencies) and is clearly written with a good clarifying question. However, she overstepped by immediately making plan mutations and logging a formal risk when the user only expressed concern, and some fallback details are more specific than what the JSON explicitly supports. Tool use was not appropriate for this lightweight, exploratory user message.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 2,
-      "styleScore": 40,
+      "styleScore": 47,
       "preferredResponse": "expected",
       "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 4,
+          "score": 4,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5857,7 +10249,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "A-004",
@@ -5874,12 +10269,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 4,
       "styleScore": 53,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 10,
+          "warmCount": 11,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -5967,7 +10362,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-001",
@@ -5980,16 +10378,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully implemented the requested tagline update and clearly confirmed the new text. The only notable issue is that she added a /debug object to the event JSON, which is an unnecessary side effect for a simple tagline change, though it doesn’t interfere with the event content.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 3,
       "helpfulness": 1,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6101,7 +10499,230 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "A-008",
@@ -6123,7 +10744,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 7,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6216,7 +10837,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-010",
@@ -6229,16 +10853,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is accurate in identifying the relevant sessions and their current times, and the clarification question is understandable given the ambiguity in the schedule naming. However, the user’s requested change was not applied—eventJsonBefore and eventJsonAfter show no schedule modifications—so the response fails on completion. Tool usage was initiated but not followed through to implement the requested update.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 2,
       "helpfulness": 2,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 2,
+          "score": 5,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6345,7 +10969,72 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 4
+    "reasoningBlockCount": 4,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-002",
@@ -6367,7 +11056,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6477,7 +11166,234 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 4
+    "reasoningBlockCount": 4,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      },
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "E-012",
@@ -6490,16 +11406,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is well-written but substantively incorrect relative to the event data after the change: she edited the Day 2 MCIT keynote panel entry (09:40–10:25) to contain lunch text rather than updating/adding the noon lunch block. She also omitted the explicit 12:00–1:30 timing and did not clearly acknowledge the replacement of the existing Jumu’ah lunch buffer. Tool usage was appropriate in principle, but the specific patch path was wrong and introduced schedule inconsistency.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 3,
       "helpfulness": 1,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 2,
+          "score": 4,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6621,7 +11537,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-013",
@@ -6634,16 +11614,16 @@ const EVAL_DATA = {
     "summary": "Clara’s message is clear and matches the user’s intent in phrasing, but it is not accurate: the welcome reception in the schedule remains ending at 9:00 PM, while a different event (a keynote panel) was mistakenly extended to 10:00 PM. Although FAQ, overview, and date segment text were updated to reference a 10:00 PM reception, the core schedule mutation was applied to the wrong item, creating inconsistencies and an unintended program change.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 3,
+          "score": 4,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6765,7 +11745,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-014",
@@ -6778,16 +11822,16 @@ const EVAL_DATA = {
     "summary": "Clara did add a new coffee break at 3:00 PM on Day 1, but she set it to 15 minutes and, more importantly, introduced a schedule conflict because technical breakout sessions already run from 2:15–3:30 PM. The response is clear and uses tools appropriately, but it fails to acknowledge or resolve the overlap and the new item is appended rather than placed chronologically, reducing schedule correctness and usability.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 2,
-      "styleScore": 40,
+      "styleScore": 47,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 2,
+          "score": 4,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -6909,7 +11953,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-021",
@@ -6926,8 +12034,8 @@ const EVAL_DATA = {
       "conciseness": 5,
       "helpfulness": 1,
       "styleScore": 60,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -7048,7 +12156,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-011",
@@ -7061,16 +12172,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully removed a Day 3 workshop (“Workshop: Governance-by-Design”), and her response accurately reflects that specific mutation in the event JSON. However, this does not align with the expected removal of “Workshop: Drafting AI Safety Guidelines,” which remains in the schedule after the change, indicating a mismatch with the reference expectation and/or unresolved ambiguity in the user request. Tool usage was appropriate overall, though it required an extra applyChanges call due to an initial JSON Patch path error.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 4,
       "helpfulness": 1,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -7196,7 +12307,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 7
+    "reasoningBlockCount": 7,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-023",
@@ -7209,16 +12384,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly implemented the requested reordering: Dr. Fei‑Fei Li is now first in the Speakers & VIPs list, and her confirmation matches the updated event JSON. The response is clear and complete. Tool usage was generally appropriate, though the added debug fields constitute minor unnecessary changes.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 3,
       "helpfulness": 1,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -7335,7 +12510,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-022",
@@ -7348,16 +12526,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly updated Dario Amodei’s title to “Co-founder & CEO, Anthropic” and clearly confirmed the change. The only notable issue is that the tool operations introduced an extra top-level /debug section, which is not part of the user’s requested change and could be considered an unintended modification.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 3,
       "helpfulness": 1,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -7479,7 +12657,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-015",
@@ -7496,12 +12677,12 @@ const EVAL_DATA = {
       "conciseness": 2,
       "helpfulness": 3,
       "styleScore": 60,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -7617,7 +12798,72 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 6
+    "reasoningBlockCount": 6,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-030",
@@ -7630,16 +12876,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly implemented the requested change: the catering budget increased by exactly $25,000, reflected as two new line items in the food and beverages catering categories. The response is clear and accurate, though slightly more detailed than necessary and it introduced an extra /debug field not requested. Overall, the mutation was performed correctly with appropriate tool usage.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 5,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 67,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 2,
+          "score": 5,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -7751,7 +12997,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "E-031",
@@ -7764,16 +13074,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully implemented the requested mutation by adding a $15,000 VIP gifts budget line item under the existing VIP & Speaker Gifts category, and her user-facing confirmation matches the resulting event data. The only concerns are minor: the item label includes “(additional allocation)” and the change operations also added debug metadata and modified category notes beyond the explicit request.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 1,
-      "styleScore": 33,
+      "styleScore": 40,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -7875,7 +13185,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "E-020",
@@ -7888,16 +13262,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully added Dr. Geoffrey Hinton to the Speakers & VIPs list as tentative, and the event JSON reflects this change. However, she did not ask the expected follow-up about which session he should join, and she made extra unrequested edits (overview highlights and tags). Tool usage worked but was heavier than necessary, and the wording about a \"verified\" headshot slightly overclaims what was validated.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 4,
       "helpfulness": 1,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8036,7 +13410,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 7
+    "reasoningBlockCount": 7,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-024",
@@ -8054,11 +13431,11 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 2,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8190,7 +13567,72 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "E-040",
@@ -8212,7 +13654,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8319,7 +13761,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "E-041",
@@ -8332,16 +13777,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly updated the hero tagline to “The Future of Intelligence Starts Here” and clearly confirmed the change. The main issue is that the mutation introduced an unrelated /debug field, which is an unnecessary side effect even though it doesn’t break the requested update. Tool usage was otherwise appropriate for performing the edit.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 1,
-      "styleScore": 33,
+      "styleScore": 40,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8463,7 +13908,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "E-042",
@@ -8476,16 +13924,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly interpreted the request and updated the plan to include a homepage countdown timer targeting Oct 15, 2026 at 09:00 Asia/Riyadh, adding both a task and an immediate next step without unintended changes. The main gap is that she frames this as a spec captured in the plan rather than confirming an actual homepage implementation, and she doesn’t explicitly match the expected ‘days until Oct 15’ phrasing.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 4,
+          "score": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8602,7 +14050,72 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "website": {}
+    }
   },
   {
     "id": "E-043",
@@ -8615,16 +14128,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully removed the early bird banner by setting /overview/welcome/announcement.show to false, which aligns with the user’s request and the expected outcome. The response is clear and confirms the banner won’t display. However, the tool operation also added a new /debug section, which is extra and not requested, making tool usage and change scope slightly suboptimal.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 2,
       "helpfulness": 1,
-      "styleScore": 40,
+      "styleScore": 47,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8741,7 +14254,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "E-003",
@@ -8758,12 +14274,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 4,
       "styleScore": 53,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -8889,7 +14405,230 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 4
+    "reasoningBlockCount": 4,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "E-032",
@@ -8902,16 +14641,16 @@ const EVAL_DATA = {
     "summary": "Clara did execute a $10,000 reduction to a production-related budget line item (AV livestream/recording) in the event JSON, but her written explanation is numerically inaccurate (she cites $50k→$40k instead of the actual $60k→$50k). Tool usage was generally appropriate, though adding a new /debug field was an unnecessary side effect.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 1,
       "helpfulness": 3,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 4,
+          "score": 5,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -9023,7 +14762,71 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "E-044",
@@ -9041,7 +14844,7 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -9157,7 +14960,62 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {},
+      "faq": [
+        {
+          "question": "What are the dates and daily schedule?",
+          "answer": "October 15–17, 2026 (Thu–Sat) at the KAFD Conference Center. Sessions start at 9:00 AM daily; Day 1 includes a 6:00–9:00 PM reception; Day 3 wraps by 3:00 PM. See the Schedule page for room-by-room ti...",
+          "category": "Dates & Schedule"
+        },
+        {
+          "question": "Where is the venue?",
+          "answer": "KAFD Conference Center, King Abdullah Financial District, Riyadh (Asia/Riyadh, UTC+3). Use the main conference entrance; security screening is required—please arrive 15–20 minutes early.",
+          "category": "Venue & Access"
+        },
+        {
+          "question": "How do I register/RSVP?",
+          "answer": "Please submit the RSVP form on this site by September 20, 2026 so we can plan accreditation and logistics. Joy handles invitations and RSVP submissions; you’ll receive a confirmation email with next s...",
+          "category": "RSVP"
+        },
+        {
+          "question": "When and where do I pick up my badge?",
+          "answer": "Badge pickup opens at 8:00 AM on Day 1 in the Plenary Foyer. Bring a government-issued photo ID; badges are required for entry. A help desk will assist with late arrivals and reprints during event hou...",
+          "category": "Registration & Badges"
+        },
+        {
+          "question": "Do I need a visa to attend?",
+          "answer": "Many nationalities are eligible for a Saudi eVisa or visa-on-arrival; others require a business/conference visa. Ensure your passport has 6+ months validity and health insurance. If you need an invita...",
+          "category": "Visa & Entry"
+        },
+        {
+          "question": "What are the best ways to get from RUH airport to KAFD?",
+          "answer": "From King Khalid International Airport (RUH) it’s typically 25–45 minutes by car; allow up to 60 minutes at rush hours. Options: Riyadh Metro Line 4 from Airport T1–2 to KAFD Station (~35 minutes), ri...",
+          "category": "Travel & Transport"
+        },
+        {
+          "question": "Will there be event shuttles from hotels?",
+          "answer": "Yes. Peak-hour shuttles between select hotels and KAFD will operate; the timetable and pickup points will be posted on the Transportation page and emailed to registered guests closer to the event.",
+          "category": "Travel & Transport"
+        },
+        {
+          "question": "Where should I park?",
+          "answer": "On-site/attached KAFD parking is available with security screening at entry. Allow extra time during morning peaks. To ease flows, we recommend ride‑hailing, the Metro, or event shuttles where possibl...",
+          "category": "Travel & Parking"
+        },
+        {
+          "question": "What is the program format?",
+          "answer": "The summit runs four tracks—Technical AI, Ethics & Safety, Business & Investment, and Government & Policy—with keynotes and panels in the Auditorium. Day 3 features hands‑on workshops and a closing ke...",
+          "category": "Program"
+        },
+        {
+          "question": "What is the dress code?",
+          "answer": "Business Smart, Riyadh‑appropriate: polished business wear with modest cuts; national dress is welcome. Headscarf is optional for international guests. Indoors are cool—bring a light layer.",
+          "category": "Attire"
+        }
+      ]
+    }
   },
   {
     "id": "E-051",
@@ -9170,16 +15028,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully implemented a required phone number field in the RSVP, and the change is reflected in the eventJsonAfter (q_phone required:true, mapped to guest list). The main concern is that she added a new conditional required field (required only when attendance=yes) rather than making an existing phone field required, and she also added an unnecessary /debug change. Overall the response is clear and largely correct, with minor alignment and scope concerns.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 5,
       "conciseness": 1,
       "helpfulness": 1,
-      "styleScore": 33,
+      "styleScore": 47,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 5,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -9289,7 +15147,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "E-053",
@@ -9426,7 +15290,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "E-052",
@@ -9448,7 +15318,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -9558,7 +15428,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "E-050",
@@ -9575,12 +15451,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 3,
       "styleScore": 53,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 4,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -9704,7 +15580,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "E-045",
@@ -9722,7 +15604,7 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -9862,7 +15744,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 4
+    "reasoningBlockCount": 4,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "E-060",
@@ -9879,12 +15764,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 4,
       "styleScore": 53,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 2
         },
         "concisenessAnalysis": {
@@ -10001,7 +15886,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "E-054",
@@ -10133,7 +16021,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "E-061",
@@ -10146,16 +16040,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is clear and mostly accurate: the event JSON after-state shows a new speaker headshots task with recommendedOwners set to Sarah and a due date of Mar 8, 2026. The main concern is intent alignment—she created a new task rather than reassigning an existing one, and she didn’t disclose that nuance in her confirmation. Tool usage was generally appropriate, though the added /debug field is an extra side effect not requested by the user.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 2,
       "helpfulness": 1,
-      "styleScore": 33,
+      "styleScore": 40,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 0,
+          "score": 3,
+          "warmCount": 1,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -10267,7 +16161,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "E-062",
@@ -10280,16 +16177,16 @@ const EVAL_DATA = {
     "summary": "Clara’s user-facing confirmation is clear and the deadline value was set to October 5, 2026. However, she appears to have updated the wrong item (the sponsorship prospectus task in Phase 2, moving it from Feb 25 to Oct 5) rather than a dedicated “sponsor deck” deadline, and she introduced unintended /debug changes to the event JSON. Tool usage was mostly appropriate for a mutation, but the extra debug edits reduce correctness and cleanliness of the update.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 3,
       "helpfulness": 1,
-      "styleScore": 47,
+      "styleScore": 53,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 1,
+          "score": 4,
+          "warmCount": 2,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -10406,7 +16303,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {}
   },
   {
     "id": "E-063",
@@ -10424,7 +16322,7 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -10555,7 +16453,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {}
   },
   {
     "id": "E-055",
@@ -10577,7 +16476,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -10701,7 +16600,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "P-012",
@@ -10719,11 +16624,11 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 47,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Clara's response is warmer and more conversational. Response could be more concise. Could offer more follow-up options.",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -10833,7 +16738,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "P-014",
@@ -10935,7 +16843,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "P-003",
@@ -11002,7 +16913,71 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "P-004",
@@ -11019,12 +16994,12 @@ const EVAL_DATA = {
       "conciseness": 5,
       "helpfulness": 3,
       "styleScore": 73,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -11146,7 +17121,71 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 6
+    "reasoningBlockCount": 6,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "P-020",
@@ -11164,11 +17203,11 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 67,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -11275,7 +17314,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "P-002",
@@ -11293,11 +17335,11 @@ const EVAL_DATA = {
       "helpfulness": 4,
       "styleScore": 80,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 7,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -11409,7 +17451,71 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 6
+    "reasoningBlockCount": 6,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "P-001",
@@ -11431,7 +17537,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -11538,7 +17644,71 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 6
+    "reasoningBlockCount": 6,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "P-023",
@@ -11556,11 +17726,11 @@ const EVAL_DATA = {
       "helpfulness": 5,
       "styleScore": 67,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 11,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -11670,7 +17840,229 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "P-024",
@@ -11687,12 +18079,12 @@ const EVAL_DATA = {
       "conciseness": 2,
       "helpfulness": 3,
       "styleScore": 53,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Could offer more follow-up options.",
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -11802,7 +18194,13 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "P-022",
@@ -11820,7 +18218,7 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 67,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -11946,7 +18344,229 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "P-030",
@@ -12090,7 +18710,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "P-032",
@@ -12229,7 +18852,229 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "P-040",
@@ -12242,16 +19087,16 @@ const EVAL_DATA = {
     "summary": "Clara captured the requested intent by adding an explicit website ordering note and adjusting the CTA link order in the overview summary to put /speakers before /schedule. However, she did not present the current vs new page order or ask for confirmation as expected, and there is no evidence of a true website section reorder being implemented—only guidance text was updated.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 3,
       "helpfulness": 1,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 2,
+          "score": 5,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -12348,7 +19193,11 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": [],
+      "website": {}
+    }
   },
   {
     "id": "P-021",
@@ -12370,7 +19219,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 6,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -12506,7 +19355,230 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "P-005",
@@ -12523,12 +19595,12 @@ const EVAL_DATA = {
       "conciseness": 5,
       "helpfulness": 3,
       "styleScore": 73,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -12645,7 +19717,71 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 5
+    "reasoningBlockCount": 5,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "P-041",
@@ -12658,16 +19794,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is factually consistent with the applied changes: she added a dedicated /venue page build task and updated the overview navigation to include /venue. However, it does not fulfill the user’s request to actually create/propose the venue page content and structure (as in the expected Hero/Overview/Facilities/Getting There/Map/Nearby Hotels layout), nor does it offer the A/B/C confirmation. Tool usage was appropriate for logging plan changes, though adding a /debug section is unnecessary.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 4,
       "helpfulness": 2,
-      "styleScore": 60,
+      "styleScore": 67,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 3,
+          "score": 4,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -12789,7 +19925,11 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "venue": {},
+      "website": {}
+    }
   },
   {
     "id": "P-042",
@@ -12802,16 +19942,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly implemented the core request by adding Diamond/Gold/Silver sponsor tiers with “TBA” placeholders in the Overview summary and referencing tiers in the Overview description. However, she did not add the Partners section suggested by the expected response and did not provide tier benefit/placement descriptions. Tool usage was mostly appropriate, but she introduced an unnecessary /debug field, which counts as an unintended change.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 5,
       "helpfulness": 3,
-      "styleScore": 80,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleScore": 87,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 4,
+          "score": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -12923,7 +20063,229 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "R-001",
@@ -12941,7 +20303,7 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 47,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -13053,7 +20415,231 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {},
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "R-002",
@@ -13075,7 +20661,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 8,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -13168,7 +20754,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "P-043",
@@ -13186,11 +20775,11 @@ const EVAL_DATA = {
       "helpfulness": 4,
       "styleScore": 87,
       "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 7,
+          "warmCount": 8,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -13307,7 +20896,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "R-005",
@@ -13329,7 +20921,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -13417,7 +21009,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-003",
@@ -13555,7 +21150,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-004",
@@ -13573,11 +21171,11 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 47,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -13677,7 +21275,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-011",
@@ -13699,7 +21300,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -13799,7 +21400,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-010",
@@ -13821,7 +21425,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -13926,7 +21530,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "P-031",
@@ -13939,16 +21546,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully updated several high-profile speakers’ photoUrl fields to consistent Wikimedia-hosted portrait crops and accurately reported those changes, with tooling evidence supporting the rate-limit issue. However, the response does not fully satisfy the prompt to make *all* speaker photos consistent, and it diverges from the expected approach of offering style options and asking the user to choose a consistent visual direction. Tool use was mostly appropriate but somewhat heavy and could have been more systematic to ensure every speaker profile was addressed.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 3,
       "helpfulness": 4,
-      "styleScore": 67,
+      "styleScore": 73,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Could offer more follow-up options.",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 6,
+          "score": 4,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14166,7 +21773,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 4
+    "reasoningBlockCount": 4,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "R-012",
@@ -14184,11 +21794,11 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 53,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 11,
+          "warmCount": 14,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14286,7 +21896,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-014",
@@ -14299,16 +21912,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is polite and clear, and correctly identifies the Four Seasons Hotel Riyadh. However, it fails to implement (or confirm) the requested removal from the comparison/accommodations list—eventJsonAfter still includes the Four Seasons—so the response is incomplete for a mutation-style request. Tool usage was insufficient because a data update was likely required to satisfy the user’s intent.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 4,
       "helpfulness": 1,
-      "styleScore": 60,
+      "styleScore": 67,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleNotes": "Expected response is stylistically preferred. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 3,
+          "score": 5,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14403,7 +22016,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-013",
@@ -14425,7 +22041,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 11,
+          "warmCount": 12,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14518,7 +22134,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-015",
@@ -14540,7 +22159,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14648,7 +22267,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-016",
@@ -14670,7 +22292,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14768,7 +22390,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-042",
@@ -14785,12 +22410,12 @@ const EVAL_DATA = {
       "conciseness": 2,
       "helpfulness": 3,
       "styleScore": 60,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -14885,7 +22510,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-040",
@@ -14898,16 +22526,16 @@ const EVAL_DATA = {
     "summary": "Clara correctly aligns with the event plan by affirming KAFD Conference Center as the primary venue and suggesting practical next steps (hold dates, space assumptions, request tech pack). However, she does not explicitly mark the venue as confirmed in the event record nor offer the expected administrative actions (add venue details, create a contract milestone, send confirmation), and her wording implies the venue was already set. Overall clear and helpful, but slightly misaligned with the requested 'confirmation' workflow.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 2,
       "helpfulness": 4,
-      "styleScore": 60,
+      "styleScore": 67,
       "preferredResponse": "expected",
       "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 5,
+          "score": 4,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -15000,7 +22628,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "R-041",
@@ -15022,7 +22653,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 8,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -15140,7 +22771,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "M-002",
@@ -15272,7 +22906,8 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "M-001",
@@ -15294,7 +22929,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 12,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -15384,7 +23019,8 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {}
   },
   {
     "id": "R-017",
@@ -15513,7 +23149,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "M-005",
@@ -15535,7 +23174,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 8,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -15638,7 +23277,8 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "M-008",
@@ -15660,7 +23300,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -15750,7 +23390,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "M-004",
@@ -15763,16 +23404,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully updated the plan so the sponsorship booking/outreach milestone (“Reach 50% of sponsorship target booked”) is assigned to Ahmed and clearly confirmed the change. However, the tool operations introduced unrelated changes by adding a /debug section and duplicating decision log entries, which is an unintended side effect and should be avoided.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 2,
       "helpfulness": 1,
-      "styleScore": 33,
+      "styleScore": 40,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 0,
+          "score": 3,
+          "warmCount": 1,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -15889,7 +23530,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {}
   },
   {
     "id": "M-003",
@@ -15902,16 +23544,16 @@ const EVAL_DATA = {
     "summary": "Clara successfully added the requested speaker travel confirmation task with the correct due date and communicated the update clearly. The main issues are minor: she didn’t mirror the expected exact milestone title/label and introduced an additional /debug field in the event JSON, which is unnecessary for the user’s request but does not affect event functionality.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 1,
       "helpfulness": 1,
-      "styleScore": 27,
+      "styleScore": 33,
       "preferredResponse": "expected",
       "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 0,
+          "score": 3,
+          "warmCount": 1,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -16033,7 +23675,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "M-007",
@@ -16145,7 +23790,8 @@ const EVAL_DATA = {
     ],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "P-011",
@@ -16163,7 +23809,7 @@ const EVAL_DATA = {
       "helpfulness": 3,
       "styleScore": 67,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -16332,7 +23978,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 6
+    "reasoningBlockCount": 6,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "M-009",
@@ -16350,7 +23999,7 @@ const EVAL_DATA = {
       "helpfulness": 2,
       "styleScore": 40,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -16454,7 +24103,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "M-010",
@@ -16476,7 +24128,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 9,
+          "warmCount": 10,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -16581,7 +24233,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "M-006",
@@ -16594,16 +24247,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is clear but inaccurate: she updated the wrong timeline task (VIP/speaker invitations) while claiming to complete visa/MOFA coordination. The visa-related coordination items were not marked completed, and removing NS9 from Immediate Next Steps does not satisfy the user’s request. Tool usage was structurally appropriate, but the specific edits were incorrect and introduced an unnecessary debug field.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 2,
+      "tone": 3,
       "conciseness": 2,
       "helpfulness": 2,
-      "styleScore": 40,
+      "styleScore": 47,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 2,
-          "warmCount": 1,
+          "score": 3,
+          "warmCount": 2,
           "coldCount": 1
         },
         "concisenessAnalysis": {
@@ -16715,7 +24368,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {}
   },
   {
     "id": "M-023",
@@ -16732,12 +24386,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 2,
       "styleScore": 53,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -16822,7 +24476,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "M-020",
@@ -16844,7 +24499,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 15,
+          "warmCount": 16,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -16944,7 +24599,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "X-003",
@@ -16966,7 +24624,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 8,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17046,7 +24704,229 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-001",
@@ -17063,12 +24943,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 2,
       "styleScore": 40,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 3,
+          "warmCount": 12,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17156,7 +25036,230 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "M-021",
@@ -17178,7 +25281,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17271,7 +25374,8 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "X-004",
@@ -17284,16 +25388,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response is clear and does not fabricate event details, but it fails to fulfill the user’s direct request to export the plan to slides and does not match the expected response of initiating a slides export. The feature-request tool call is reasonable for product tracking, yet the assistant should have either generated the slides/export (or at minimum produced a slide-by-slide deck outline immediately) instead of only asking a clarifying question.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 1,
-      "styleScore": 33,
+      "styleScore": 40,
       "preferredResponse": "similar",
       "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 3,
+          "score": 4,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17400,7 +25504,229 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-002",
@@ -17422,7 +25748,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 11,
+          "warmCount": 16,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17532,7 +25858,230 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "description": "A bold, globally inclusive three-day conference on the future of AGI, held October 15–17, 2026 at the King Abdullah Financial District Conference Center (KAFD) in Riyadh. Organized by SCEGA with SDAIA, MCIT, and MISA, the summit convenes 500 founders, researchers, investors, and policymakers across ",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "M-024",
@@ -17554,7 +26103,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 15,
           "coldCount": 1
         },
         "concisenessAnalysis": {
@@ -17664,7 +26213,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "M-022",
@@ -17686,7 +26236,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 4,
+          "warmCount": 11,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17761,7 +26311,8 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {}
   },
   {
     "id": "X-005",
@@ -17783,7 +26334,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 19,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17878,7 +26429,229 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-008",
@@ -17900,7 +26673,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -17997,7 +26770,71 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "budget": {
+        "notes": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+        "categories": [
+          {
+            "name": "KAFD Conference Center — Venue Rental (auditorium + 4 track rooms + foyers)"
+          },
+          {
+            "name": "Catering — Food (breakfast items, coffee-break snacks, lunches, reception canapés)"
+          },
+          {
+            "name": "Catering — Beverages (coffee/tea, juices, water, specialty stations)"
+          },
+          {
+            "name": "AV & Technical Production (plenary + 4 breakouts; LED, audio, lighting; multicam livestream/record)"
+          },
+          {
+            "name": "Simultaneous Interpretation (Arabic ⇄ English) — equipment + interpreters"
+          },
+          {
+            "name": "Stage Scenic & Reception Decor"
+          },
+          {
+            "name": "Branding & Wayfinding Signage (print + digital)"
+          },
+          {
+            "name": "Furniture & Exhibit Rentals (lounges, registration counters, pods)"
+          },
+          {
+            "name": "Event Staffing (registration, ushers, stage management)"
+          },
+          {
+            "name": "Security & Protocol (screening, venue coordination, VIP flows)"
+          },
+          {
+            "name": "Delegate Shuttles & VIP Transport"
+          },
+          {
+            "name": "Photography (event coverage + photo desk)"
+          },
+          {
+            "name": "Videography (highlight film + b‑roll capture)"
+          },
+          {
+            "name": "Registration, Badging & Comms (platform + on‑site)"
+          },
+          {
+            "name": "Permits & Licensing (municipal, branding, filming)"
+          },
+          {
+            "name": "Event Insurance (liability, equipment, non‑appearance extensions as needed)"
+          },
+          {
+            "name": "Entertainment (Welcome Reception music)"
+          },
+          {
+            "name": "VIP & Speaker Gifts"
+          },
+          {
+            "name": "Contingency (unforeseen expenses, price moves)"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "X-009",
@@ -18010,16 +26847,16 @@ const EVAL_DATA = {
     "summary": "Clara’s reply is clear and offers a practical workaround, but it fails to match the expected product guidance: she doesn’t mention that Google Slides export is available now or that PowerPoint export is coming soon. As a result, the response is misaligned with the prompt’s intent and incomplete relative to the expected answer, despite appropriate (non-)use of tools.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 60,
+      "styleScore": 67,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 7,
+          "score": 5,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18107,7 +26944,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-006",
@@ -18120,16 +27179,16 @@ const EVAL_DATA = {
     "summary": "Clara provides a strong, sponsor-oriented deck outline that aligns well with the user’s request and includes key event snapshot details consistent with the event data. The main issue is mild overclaim risk around speaker/ministerial certainty—she should more explicitly distinguish confirmed vs. tentative/invited names to avoid sponsor-facing inaccuracies. Otherwise, the response is clear, actionable, and appropriately asks for inputs needed to draft the full deck.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 3,
+      "tone": 4,
       "conciseness": 1,
       "helpfulness": 4,
-      "styleScore": 53,
+      "styleScore": 60,
       "preferredResponse": "actual",
       "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
-          "score": 3,
-          "warmCount": 8,
+          "score": 4,
+          "warmCount": 21,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18234,7 +27293,229 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "B-001",
@@ -18366,7 +27647,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "B-002",
@@ -18388,7 +27672,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 8,
+          "warmCount": 9,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18498,7 +27782,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-007",
@@ -18520,7 +28026,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 11,
+          "warmCount": 12,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18640,7 +28146,229 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "B-004",
@@ -18662,7 +28390,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18757,7 +28485,13 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "rsvp": {
+        "deadline": "2026-09-20",
+        "responses": 0
+      }
+    }
   },
   {
     "id": "B-003",
@@ -18779,7 +28513,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18889,7 +28623,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "B-007",
@@ -18911,7 +28648,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -18984,7 +28721,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "venue": {}
+    }
   },
   {
     "id": "B-005",
@@ -19126,7 +28866,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-002-edge",
@@ -19148,7 +29110,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 6,
+          "warmCount": 7,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -19236,7 +29198,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "P-013",
@@ -19389,7 +29354,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "B-010",
@@ -19411,7 +29379,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -19521,7 +29489,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "B-008",
@@ -19543,7 +29514,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -19653,7 +29624,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "X-001-edge",
@@ -19675,7 +29649,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 5,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -19768,7 +29742,72 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "speakers": [],
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "B-009",
@@ -19910,7 +29949,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "B-006",
@@ -19932,7 +30193,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 3,
-          "warmCount": 2,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -20032,7 +30293,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 3
+    "reasoningBlockCount": 3,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-003-edge",
@@ -20169,7 +30652,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-009-edge",
@@ -20187,11 +30892,11 @@ const EVAL_DATA = {
       "helpfulness": 1,
       "styleScore": 40,
       "preferredResponse": "expected",
-      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -20279,7 +30984,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-010-edge",
@@ -20301,7 +31228,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 3,
+          "warmCount": 4,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -20394,7 +31321,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-008-edge",
@@ -20516,7 +31665,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "website": {}
+    }
   },
   {
     "id": "X-007-edge",
@@ -20529,16 +31681,16 @@ const EVAL_DATA = {
     "summary": "Clara’s response largely matches the expected behavior by asking what specifically needs fixing in the schedule, and it avoids making any unsupported edits. The main issue is premature tool usage: switching into planning mode before obtaining actionable details is unnecessary and could be confusing. Overall, the user-facing text is clear and relevant, but the workflow could be tighter by deferring tool/state changes until after clarification.",
     "passedThreshold": true,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 5,
       "helpfulness": 2,
-      "styleScore": 73,
-      "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining.",
+      "styleScore": 80,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 2,
+          "score": 5,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -20638,7 +31790,71 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "schedule": {
+        "timeZone": "Asia/Riyadh",
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main",
+            "order": 0,
+            "description": "Global sessions for all attendees: opening/closing, keynotes, and headline panels.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "technical",
+            "name": "Technical AI",
+            "order": 1,
+            "description": "Frontier models, multimodal reasoning, agents, training/scaling, evaluations, and infrastructure.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "ethics",
+            "name": "Ethics & Safety",
+            "order": 2,
+            "description": "Safety science, alignment, governance-by-design, evaluations, and risk management.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "business",
+            "name": "Business & Investment",
+            "order": 3,
+            "description": "Product strategy, go-to-market, enterprise adoption, fundraising, and partnerships.",
+            "alignsWithMain": true
+          },
+          {
+            "id": "policy",
+            "name": "Government & Policy",
+            "order": 4,
+            "description": "National strategies, standards, trade and data policy, and cross-border cooperation.",
+            "alignsWithMain": true
+          }
+        ],
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "id": "X-006-edge",
@@ -20651,16 +31867,16 @@ const EVAL_DATA = {
     "summary": "Clara accurately recognized the requested schedule shift and appropriately asked for the missing time-offset before making changes. However, the response is incomplete because it fails to clarify the scope (all days/sessions vs a subset), which is a key part of the expected behavior. Tool usage was safe (no unintended mutations) but slightly premature given the request was still ambiguous.",
     "passedThreshold": false,
     "styleGrade": {
-      "tone": 4,
+      "tone": 5,
       "conciseness": 4,
       "helpfulness": 2,
-      "styleScore": 67,
+      "styleScore": 73,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
       "details": {
         "toneAnalysis": {
-          "score": 4,
-          "warmCount": 2,
+          "score": 5,
+          "warmCount": 3,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -20775,7 +31991,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-005-edge",
@@ -20792,8 +32230,8 @@ const EVAL_DATA = {
       "conciseness": 4,
       "helpfulness": 3,
       "styleScore": 80,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining.",
       "details": {
         "toneAnalysis": {
           "score": 5,
@@ -20907,7 +32345,10 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 2
+    "reasoningBlockCount": 2,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "X-012-edge",
@@ -20929,7 +32370,7 @@ const EVAL_DATA = {
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 4,
+          "warmCount": 5,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -21017,7 +32458,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 1
+    "reasoningBlockCount": 1,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-011-edge",
@@ -21035,7 +32698,7 @@ const EVAL_DATA = {
       "helpfulness": 4,
       "styleScore": 53,
       "preferredResponse": "similar",
-      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 3,
@@ -21132,7 +32795,229 @@ const EVAL_DATA = {
     "expectedArtifacts": [],
     "mode": "Chat",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "overview": {
+        "name": "AGI Summit Riyadh 2026",
+        "dates": {
+          "id": "c3b6f4a1-9d2f-4b37-9e50-0a3ce2a31c0c",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "segments": [
+            {
+              "city": "Riyadh",
+              "label": "Opening + Technical Track (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T15:00:00Z",
+                "startDate": "2026-10-15T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Evening Reception",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-15T18:00:00Z",
+                "startDate": "2026-10-15T15:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Ethics & Safety + Government & Policy; Business & Investment (Sessions)",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-16T15:00:00Z",
+                "startDate": "2026-10-16T06:00:00Z"
+              }
+            },
+            {
+              "city": "Riyadh",
+              "label": "Workshops + Closing Keynote",
+              "country": "Saudi Arabia",
+              "dateRange": {
+                "endDate": "2026-10-17T12:00:00Z",
+                "startDate": "2026-10-17T06:00:00Z"
+              }
+            }
+          ],
+          "timeZone": "Asia/Riyadh",
+          "dateRange": {
+            "endDate": "2026-10-17",
+            "startDate": "2026-10-15",
+            "lengthDays": 3,
+            "isSingleDay": false
+          },
+          "confidence": 0.91,
+          "assumptions": [
+            "Interpreted the host’s explicit window “October 15–17, 2026” as inclusive local dates at KAFD and set Asia/Riyadh as the IANA time zone.",
+            "Preserved the Thu–Sat pattern per the brief; in the GCC this overlaps the Fri–Sat weekend, supporting local/regional attendance while still accommodating global travel. Did not convert to a Tue–Thu pattern to avoid contradicting the host’s specified dates.",
+            "Segment times mirror the supplied schedule blocks: Day 1 sessions 09:00–18:00, reception 18:00–21:00; Day 2 sessions 09:00–18:00; Day 3 sessions 09:00–15:00. Times are recorded in UTC (Z) for precision and should be displayed in Asia/Riyadh (UTC+3, no DST).",
+            "Calendar conflict analysis (Jan 2026): High-severity competitor GITEX Global shifts to Dec 7–11, 2026 at Expo City Dubai (no overlap/±2-week conflict).",
+            "Calendar conflict analysis: Future Investment Initiative (FII) historically runs in late October in Riyadh (e.g., Oct 27–30, 2025). Official 2026 dates not posted yet; expect late-October timing. Our dates fall roughly 10–14 days before—medium severity due to VIP diaries and hotel compression, with potential positioning synergies.",
+            "Holiday considerations: U.S. Indigenous Peoples’/Columbus Day is Mon Oct 12, 2026 (medium–low impact on U.S. travel); Jewish Sukkot ends Oct 2 with Shemini Atzeret/Simchat Torah Oct 3–4 (outside ±1 week; low); China National Day Golden Week runs Oct 1–7 (ends >1 week before; low residual).",
+            "Strategic positioning: Occurs ~4 weeks after SDAIA’s Global AI Summit (Sep 15–17, 2026), reducing direct competition while enabling follow-on announcements/collaborations.",
+            "Operational note: Friday programming should include accommodation for Jumu’ah (midday prayers); assumed the host’s schedule will integrate this within the 09:00–18:00 block.",
+            "Research limitations: Some 2026 calendars remain tentative; used official releases and reputable press for 2026 (e.g., GITEX date shift, Global AI Summit) and prior-year patterns (e.g., FII 2025) to infer risk windows."
+          ],
+          "constraints": {
+            "mustIncludeDates": [
+              "2026-10-15",
+              "2026-10-16",
+              "2026-10-17"
+            ]
+          },
+          "actorContext": {
+            "generatorProfile": "dual",
+            "intendedAudience": "both"
+          },
+          "alternatives": [
+            {
+              "dateRange": {
+                "endDate": "2026-10-15",
+                "startDate": "2026-10-13",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu pattern for international business travel (Mon arrival, Fri return) and weekday government availability. Sacrifices: proximity to U.S. Indigenous Peoples’/Columbus Day on Mon Oct 12 may slightly constrain U.S. travel; also trims the pre-weekend networking benefit of Thu–Sat. Confidence is high because it preserves October timing, avoids major regional tech events, and aligns with common conference cadence.",
+              "confidence": 0.78
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-22",
+                "startDate": "2026-10-20",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes Tue–Thu cadence and positions the event just ahead of Riyadh’s late-October mega-events, potentially boosting VIP/investor density and media. Sacrifices: increased risk of overlap with Future Investment Initiative (FII) patterns (late-October in Riyadh), which could strain hotel inventory and senior speaker schedules. Confidence is moderate due to these potential collisions.",
+              "confidence": 0.66
+            },
+            {
+              "dateRange": {
+                "endDate": "2026-10-08",
+                "startDate": "2026-10-06",
+                "lengthDays": 3,
+                "isSingleDay": false
+              },
+              "rationale": "Optimizes spacing from late-October investment events and keeps a clear runway after SDAIA’s Global AI Summit (mid-September). Sacrifices: proximity to China’s National Day Golden Week (Oct 1–7) and the Jewish holidays (Shemini Atzeret/Simchat Torah Oct 3–4) may dampen participation from some regions; also slightly hotter weather earlier in October. Confidence is lower given these tradeoffs.",
+              "confidence": 0.54
+            }
+          ],
+          "promptExcerpt": "AGI Summit Riyadh 2026 — three-day international conference in Riyadh at KAFD, October 15–17, 2026. Four tracks with daily schedule blocks (Day 1 Opening + Technical, reception; Day 2 Ethics/Policy + Business; Day 3 Workshops + Closing Keynote)."
+        },
+        "type": {
+          "id": "023c8ef3-a008-42d5-806b-9ec92a3257f6",
+          "i18n": {
+            "defaultLocale": "en"
+          },
+          "meta": {
+            "status": "confirmed"
+          },
+          "size": {
+            "tiers": "medium",
+            "attendeeCount": 500
+          },
+          "tags": [
+            "Riyadh",
+            "Saudi Arabia",
+            "AGI",
+            "AI",
+            "Vision 2030",
+            "KAFD",
+            "SCEGA",
+            "SDAIA",
+            "MCIT",
+            "MISA",
+            "global",
+            "international",
+            "founders",
+            "researchers",
+            "investors",
+            "policymakers",
+            "technical AI",
+            "ethics",
+            "safety",
+            "business",
+            "government",
+            "policy",
+            "keynotes",
+            "panels",
+            "workshops",
+            "reception",
+            "three-day",
+            "October 2026",
+            "500 attendees",
+            "Demis Hassabis",
+            "Dario Amodei",
+            "Fei-Fei Li",
+            "Sam Altman",
+            "Aisha Al-Rashid",
+            "Mustafa Suleyman",
+            "Yann LeCun",
+            "Ilya Sutskever",
+            "Fahd Al-Rasheed",
+            "Jensen Huang (aspirational)"
+          ],
+          "handles": [
+            {
+              "slug": "agi-summit-riyadh-2026",
+              "desirabilityRank": 1
+            },
+            {
+              "slug": "agi-riyadh-2026",
+              "desirabilityRank": 2
+            },
+            {
+              "slug": "agi-summit-riyadh",
+              "desirabilityRank": 3
+            },
+            {
+              "slug": "agi-summit-kafd-2026",
+              "desirabilityRank": 4
+            },
+            {
+              "slug": "agi-riyadh-oct-2026",
+              "desirabilityRank": 5
+            },
+            {
+              "slug": "agi-summit-ksa-2026",
+              "desirabilityRank": 6
+            },
+            {
+              "slug": "riyadh-agi-summit-2026",
+              "desirabilityRank": 7
+            },
+            {
+              "slug": "agi-future-riyadh-2026",
+              "desirabilityRank": 8
+            },
+            {
+              "slug": "future-of-agi-riyadh-2026",
+              "desirabilityRank": 9
+            },
+            {
+              "slug": "agi-summit-saudi-2026",
+              "desirabilityRank": 10
+            }
+          ],
+          "subtype": "international multi-track AGI conference",
+          "formality": "businessCasual",
+          "confidence": 0.94,
+          "canonicalType": "conference",
+          "indoorOutdoor": "indoor",
+          "alternateNames": [
+            "The Future of AGI",
+            "Riyadh: Future of Intelligence"
+          ],
+          "durationHintDays": 3,
+          "eventDisplayName": "AGI Summit Riyadh 2026"
+        }
+      }
+    }
   },
   {
     "id": "X-004-edge",
@@ -21149,12 +33034,12 @@ const EVAL_DATA = {
       "conciseness": 1,
       "helpfulness": 4,
       "styleScore": 60,
-      "preferredResponse": "actual",
-      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
       "details": {
         "toneAnalysis": {
           "score": 4,
-          "warmCount": 5,
+          "warmCount": 6,
           "coldCount": 0
         },
         "concisenessAnalysis": {
@@ -21266,7 +33151,10 @@ const EVAL_DATA = {
     ],
     "mode": "Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 6
+    "reasoningBlockCount": 6,
+    "eventContext": {
+      "speakers": []
+    }
   },
   {
     "id": "P-010",
@@ -21333,7 +33221,10 @@ const EVAL_DATA = {
     ],
     "mode": "Chat→Planning",
     "type": "single-turn",
-    "reasoningBlockCount": 0
+    "reasoningBlockCount": 0,
+    "eventContext": {
+      "website": {}
+    }
   }
 ]
 };

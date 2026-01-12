@@ -476,6 +476,21 @@ function renderDetailPanel(tc) {
             </div>
           </div>
           
+          <!-- Event Source Data -->
+          ${tc.eventContext && Object.keys(tc.eventContext).length > 0 ? `
+          <div class="event-context">
+            <div class="event-context-header" onclick="toggleEventContext('${tc.id}')">
+              <div class="event-context-title">
+                <span>📊</span> Source Event Data (for verification)
+              </div>
+              <span class="event-context-toggle" id="event-toggle-${tc.id}">▼</span>
+            </div>
+            <div class="event-context-body" id="event-body-${tc.id}">
+              ${renderEventContext(tc.eventContext)}
+            </div>
+          </div>
+          ` : ''}
+          
           <!-- Dimensions Section -->
           <div class="detail-section">
             <div class="detail-section-header">Judge Evaluation Scores</div>
@@ -740,6 +755,46 @@ function escapeForJs(str) {
     .replace(/\\/g, '\\\\')
     .replace(/`/g, '\\`')
     .replace(/\$/g, '\\$');
+}
+
+// Toggle event context visibility
+function toggleEventContext(id) {
+  const body = document.getElementById(`event-body-${id}`);
+  const toggle = document.getElementById(`event-toggle-${id}`);
+  if (body && toggle) {
+    body.classList.toggle('collapsed');
+    toggle.classList.toggle('collapsed');
+  }
+}
+
+// Render event context sections
+function renderEventContext(context) {
+  if (!context || Object.keys(context).length === 0) {
+    return '<div style="color: var(--text-muted)">No relevant event data</div>';
+  }
+  
+  const sectionNames = {
+    speakers: '👥 Speakers',
+    schedule: '📅 Schedule',
+    budget: '💰 Budget',
+    venue: '🏢 Venue',
+    rsvp: '📝 Registration/RSVP',
+    timeline: '📋 Milestones/Timeline',
+    website: '🌐 Website',
+    overview: '📄 Event Overview',
+    faq: '❓ FAQ'
+  };
+  
+  return Object.entries(context).map(([key, value]) => {
+    const title = sectionNames[key] || key;
+    const json = JSON.stringify(value, null, 2);
+    return `
+      <div class="context-section">
+        <div class="context-section-title">${title}</div>
+        <pre class="context-json">${escapeHtml(json)}</pre>
+      </div>
+    `;
+  }).join('');
 }
 
 // Copy text to clipboard and show feedback

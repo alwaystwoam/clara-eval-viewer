@@ -852,6 +852,87 @@
             line-height: 1.6;
         }
 
+        /* Event Context Styles */
+        .event-context {
+            background: rgba(59, 130, 246, 0.05);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: var(--radius-md);
+        }
+
+        .event-context-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            background: rgba(59, 130, 246, 0.1);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .event-context-header:hover {
+            background: rgba(59, 130, 246, 0.15);
+        }
+
+        .event-context-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            text-transform: uppercase;
+        }
+
+        .event-context-toggle {
+            font-size: 0.875rem;
+            color: var(--accent-blue);
+            transition: transform 0.2s;
+        }
+
+        .event-context-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .event-context-body {
+            padding: 1rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .event-context-body.collapsed {
+            display: none;
+        }
+
+        .context-section {
+            margin-bottom: 1rem;
+        }
+
+        .context-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .context-section-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .context-json {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            background: var(--bg-elevated);
+            padding: 0.75rem;
+            border-radius: var(--radius-sm);
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
         /* Tool Calls */
         .tool-calls-list {
             display: flex;
