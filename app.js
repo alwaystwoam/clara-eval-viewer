@@ -66,18 +66,21 @@ function renderSummaryCards() {
       <div class="summary-card-sub">Across all dimensions</div>
     </div>
     <div class="summary-card">
+      <div class="summary-card-label">Style Score</div>
+      <div class="summary-card-value ${EVAL_DATA.avgStyleScore >= 70 ? 'pass' : EVAL_DATA.avgStyleScore >= 50 ? 'warning' : 'fail'}">${EVAL_DATA.avgStyleScore.toFixed(0)}</div>
+      <div class="summary-card-sub">Grade: ${EVAL_DATA.styleGrade}</div>
+    </div>
+    <div class="summary-card">
       <div class="summary-card-label">Avg Response Time</div>
       <div class="summary-card-value">${(EVAL_DATA.avgResponseTime / 1000).toFixed(1)}s</div>
       <div class="summary-card-sub">Per test case</div>
     </div>
     <div class="summary-card">
-      <div class="summary-card-label">Grade Distribution</div>
-      <div class="summary-card-value" style="font-size: 1rem;">
-        <span style="color: var(--color-grade-a)">A:${EVAL_DATA.grades.A}</span>
-        <span style="color: var(--color-grade-b)">B:${EVAL_DATA.grades.B}</span>
-        <span style="color: var(--color-grade-c)">C:${EVAL_DATA.grades.C}</span>
-        <span style="color: var(--color-grade-d)">D:${EVAL_DATA.grades.D}</span>
-        <span style="color: var(--color-grade-f)">F:${EVAL_DATA.grades.F}</span>
+      <div class="summary-card-label">Preferred Response</div>
+      <div class="summary-card-value" style="font-size: 0.9rem;">
+        <span style="color: var(--color-pass)">Clara: ${EVAL_DATA.preferredBreakdown.actual}</span>
+        <span style="color: var(--color-warning)">Tie: ${EVAL_DATA.preferredBreakdown.similar}</span>
+        <span style="color: var(--color-fail)">Exp: ${EVAL_DATA.preferredBreakdown.expected}</span>
       </div>
     </div>
   `;
@@ -192,6 +195,41 @@ function renderAssessmentPanel() {
           <li><strong>4.</strong> Add few-shot examples for edge cases</li>
           <li><strong>5.</strong> Implement [A]/[B]/[C] confirmation pattern</li>
         </ul>
+      </div>
+    </div>
+    
+    <!-- Style Analysis Summary -->
+    <div style="margin-top: 1.5rem; padding: 1.25rem; background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(168, 85, 247, 0.1)); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: var(--radius-md);">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.25rem;">🎨</span>
+        <span style="font-weight: 600; color: #ec4899;">Style & Tone Analysis</span>
+        <span class="test-grade ${getGradeColorClass(EVAL_DATA.styleGrade)}" style="margin-left: auto;">${EVAL_DATA.styleGrade}</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; text-align: center;">
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Avg Tone</div>
+          <div style="font-family: var(--font-mono); font-size: 1.25rem; color: ${getToneColor(EVAL_DATA.avgTone)}">${EVAL_DATA.avgTone.toFixed(1)}/5</div>
+        </div>
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Avg Conciseness</div>
+          <div style="font-family: var(--font-mono); font-size: 1.25rem; color: ${getConcisenessColor(EVAL_DATA.avgConciseness)}">${EVAL_DATA.avgConciseness.toFixed(1)}/5</div>
+        </div>
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Avg Helpfulness</div>
+          <div style="font-family: var(--font-mono); font-size: 1.25rem; color: ${getHelpfulnessColor(EVAL_DATA.avgHelpfulness)}">${EVAL_DATA.avgHelpfulness.toFixed(1)}/5</div>
+        </div>
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Style Score</div>
+          <div style="font-family: var(--font-mono); font-size: 1.25rem; color: ${getStyleScoreColor(EVAL_DATA.avgStyleScore)}">${EVAL_DATA.avgStyleScore.toFixed(0)}/100</div>
+        </div>
+      </div>
+      <div style="margin-top: 1rem; padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+        <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem;">Preferred Response Analysis</div>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <span style="color: var(--color-pass);">✓ Clara Better: <strong>${EVAL_DATA.preferredBreakdown.actual}</strong></span>
+          <span style="color: var(--color-warning);">≈ Similar: <strong>${EVAL_DATA.preferredBreakdown.similar}</strong></span>
+          <span style="color: var(--color-fail);">✗ Expected Better: <strong>${EVAL_DATA.preferredBreakdown.expected}</strong></span>
+        </div>
       </div>
     </div>
     
@@ -405,11 +443,11 @@ function renderDetailPanel(tc) {
               <div class="comparison-grid">
                 <div class="comparison-column">
                   <div class="comparison-label">Expected Response</div>
-                  <div class="comparison-text">${escapeHtml(tc.expectedResponse)}</div>
+                  <div class="comparison-text">${renderMarkdown(tc.expectedResponse)}</div>
                 </div>
                 <div class="comparison-column">
                   <div class="comparison-label">Actual Response</div>
-                  <div class="comparison-text">${escapeHtml(tc.actualResponse)}</div>
+                  <div class="comparison-text">${renderMarkdown(tc.actualResponse)}</div>
                 </div>
               </div>
             </div>
@@ -482,7 +520,7 @@ function renderDetailPanel(tc) {
                 </div>
                 <div class="meta-item">
                   <div class="meta-label">Expected Artifacts</div>
-                  <div class="meta-value">${tc.expectedArtifacts}</div>
+                  <div class="meta-value">${Array.isArray(tc.expectedArtifacts) ? (tc.expectedArtifacts.length > 0 ? tc.expectedArtifacts.join(', ') : 'None') : tc.expectedArtifacts}</div>
                 </div>
               </div>
             </div>
@@ -492,7 +530,15 @@ function renderDetailPanel(tc) {
           <div class="detail-section">
             <div class="detail-section-header">Judge Summary</div>
             <div class="detail-section-body">
-              <div class="comparison-text">${escapeHtml(tc.summary)}</div>
+              <div class="comparison-text">${renderMarkdown(tc.summary)}</div>
+            </div>
+          </div>
+          
+          <!-- Style Analysis (NEW) -->
+          <div class="detail-section">
+            <div class="detail-section-header" style="background: rgba(236, 72, 153, 0.1); color: #ec4899;">Style & Tone Analysis</div>
+            <div class="detail-section-body">
+              ${renderStyleAnalysis(tc)}
             </div>
           </div>
           
@@ -646,12 +692,30 @@ function escapeHtml(str) {
     .replace(/'/g, '&#039;');
 }
 
+// Render Markdown to HTML
+function renderMarkdown(text) {
+  if (!text) return '';
+  try {
+    // Configure marked for safe rendering
+    marked.setOptions({
+      breaks: true,      // Convert \n to <br>
+      gfm: true,         // GitHub Flavored Markdown
+      sanitize: false    // We trust our data
+    });
+    return '<div class="md-content">' + marked.parse(text) + '</div>';
+  } catch (e) {
+    // Fallback to escaped HTML if marked fails
+    return escapeHtml(text);
+  }
+}
+
 // Render my grading commentary for a test case
 function renderMyGrading(tc) {
   const grade = getGrade(tc.overallScore);
   const behaviorMatch = getBehaviorMatch(tc);
   const betterResponse = getBetterResponse(tc);
   const commentary = generateCommentary(tc);
+  const styleGrade = tc.styleGrade || {};
   
   return `
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
@@ -676,6 +740,154 @@ function renderMyGrading(tc) {
       <div style="color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6;">${commentary}</div>
     </div>
   `;
+}
+
+// Render style analysis section for a test case
+function renderStyleAnalysis(tc) {
+  const styleGrade = tc.styleGrade || {};
+  const tone = styleGrade.tone || 3;
+  const conciseness = styleGrade.conciseness || 3;
+  const helpfulness = styleGrade.helpfulness || 3;
+  const styleScore = styleGrade.styleScore || 50;
+  const preferred = styleGrade.preferredResponse || 'similar';
+  const notes = styleGrade.styleNotes || '';
+  
+  const preferredLabel = {
+    'actual': '✓ Clara is Better',
+    'expected': '✗ Expected is Better',
+    'similar': '≈ Stylistically Similar'
+  };
+  
+  const preferredClass = {
+    'actual': 'actual',
+    'expected': 'expected',
+    'similar': 'similar'
+  };
+  
+  return `
+    <div class="style-grade-section">
+      <div class="style-grade-header">
+        <span>🎨</span> Style & Tone Analysis
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+        <!-- Tone -->
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Conversational Warmth</span>
+            <span style="font-family: var(--font-mono); font-weight: 600; color: ${getToneColor(tone)}">${tone}/5</span>
+          </div>
+          <div class="style-meter">
+            <div class="style-meter-bar">
+              <div class="style-meter-fill" style="width: ${tone * 20}%; background: ${getToneColor(tone)};"></div>
+            </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">${getToneLabel(tone)}</div>
+        </div>
+        
+        <!-- Conciseness -->
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Conciseness</span>
+            <span style="font-family: var(--font-mono); font-weight: 600; color: ${getConcisenessColor(conciseness)}">${conciseness}/5</span>
+          </div>
+          <div class="style-meter">
+            <div class="style-meter-bar">
+              <div class="style-meter-fill" style="width: ${conciseness * 20}%; background: ${getConcisenessColor(conciseness)};"></div>
+            </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">${getConcisenessLabel(conciseness)}</div>
+        </div>
+        
+        <!-- Helpfulness -->
+        <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Proactive Helpfulness</span>
+            <span style="font-family: var(--font-mono); font-weight: 600; color: ${getHelpfulnessColor(helpfulness)}">${helpfulness}/5</span>
+          </div>
+          <div class="style-meter">
+            <div class="style-meter-bar">
+              <div class="style-meter-fill" style="width: ${helpfulness * 20}%; background: ${getHelpfulnessColor(helpfulness)};"></div>
+            </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">${getHelpfulnessLabel(helpfulness)}</div>
+        </div>
+      </div>
+      
+      <!-- Overall Style Score & Preferred -->
+      <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+        <div style="padding: 0.75rem 1.25rem; background: var(--bg-card); border-radius: var(--radius-sm); text-align: center;">
+          <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.25rem;">Style Score</div>
+          <div style="font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; color: ${getStyleScoreColor(styleScore)}">${styleScore}</div>
+        </div>
+        <div style="flex: 1;">
+          <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem;">Preferred Response</div>
+          <span class="preferred-badge ${preferredClass[preferred]}">${preferredLabel[preferred]}</span>
+        </div>
+      </div>
+      
+      <!-- Style Notes -->
+      ${notes ? `
+      <div style="padding: 0.75rem; background: var(--bg-card); border-radius: var(--radius-sm);">
+        <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem;">Style Notes</div>
+        <div style="color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6;">${escapeHtml(notes)}</div>
+      </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+// Style helper functions
+function getToneColor(score) {
+  if (score >= 4) return 'var(--color-pass)';
+  if (score >= 3) return 'var(--color-grade-b)';
+  if (score >= 2) return 'var(--color-warning)';
+  return 'var(--color-fail)';
+}
+
+function getToneLabel(score) {
+  if (score >= 5) return 'Very warm and conversational';
+  if (score >= 4) return 'Warm and friendly';
+  if (score >= 3) return 'Neutral tone';
+  if (score >= 2) return 'Somewhat formal';
+  return 'Cold/robotic';
+}
+
+function getConcisenessColor(score) {
+  if (score >= 4) return 'var(--color-pass)';
+  if (score >= 3) return 'var(--color-grade-b)';
+  if (score >= 2) return 'var(--color-warning)';
+  return 'var(--color-fail)';
+}
+
+function getConcisenessLabel(score) {
+  if (score >= 5) return 'Perfectly concise';
+  if (score >= 4) return 'Appropriately detailed';
+  if (score >= 3) return 'Slightly verbose';
+  if (score >= 2) return 'Over-explaining';
+  return 'Extremely verbose';
+}
+
+function getHelpfulnessColor(score) {
+  if (score >= 4) return 'var(--color-pass)';
+  if (score >= 3) return 'var(--color-grade-b)';
+  if (score >= 2) return 'var(--color-warning)';
+  return 'var(--color-fail)';
+}
+
+function getHelpfulnessLabel(score) {
+  if (score >= 5) return 'Excellent proactive assistance';
+  if (score >= 4) return 'Good follow-up options';
+  if (score >= 3) return 'Some helpful suggestions';
+  if (score >= 2) return 'Limited helpfulness';
+  return 'No proactive help';
+}
+
+function getStyleScoreColor(score) {
+  if (score >= 80) return 'var(--color-pass)';
+  if (score >= 60) return 'var(--color-grade-b)';
+  if (score >= 40) return 'var(--color-warning)';
+  return 'var(--color-fail)';
 }
 
 // Determine if behavior matches expected

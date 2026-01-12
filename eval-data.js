@@ -1,8 +1,14 @@
-// Auto-generated evaluation data - 2026-01-12T10:16:18.196Z
-// Source: /Users/mbach/Vibe/clara_eval/data/superagent-eval-2026-01-12T08-49-30-298Z.json
+// Auto-generated evaluation data - 2026-01-12T10:58:22.396Z
+// Sources:
+//   Expected: /Users/mbach/Vibe/clara_eval/data/eval-q-dk.json
+//   Actual: /Users/mbach/Vibe/clara_eval/data/superagent-eval-2026-01-12T08-49-30-298Z.json
+//   Event Context: /Users/mbach/Vibe/clara_eval/data/event-dk.json
 
 const EVAL_DATA = {
   timestamp: "2026-01-12T08:49:30.289Z",
+  generatedAt: "2026-01-12T10:58:22.397Z",
+  
+  // Summary metrics
   totalTests: 166,
   passedTests: 80,
   failedTests: 86,
@@ -10,393 +16,342 @@ const EVAL_DATA = {
   avgScore: 0.6862,
   avgResponseTime: 42302,
   overallGrade: "C",
+  
+  // Style metrics (NEW)
+  avgStyleScore: 53.7,
+  avgTone: 3.36,
+  avgConciseness: 2.09,
+  avgHelpfulness: 2.62,
+  styleGrade: "C",
+  preferredBreakdown: {"actual":51,"expected":34,"similar":81},
+  
+  // Grade distribution
   grades: {"A":13,"B":67,"C":36,"D":42,"F":8},
+  
+  // Section performance
   sectionPerformance: {
   "Lookups - Event Details": {
     "passed": 6,
     "failed": 0,
     "total": 6,
     "passRate": 1,
-    "avgScore": 0.8583333333333334
+    "avgScore": 0.8583333333333334,
+    "avgStyleScore": 46.5
   },
   "Lookups - Schedule": {
     "passed": 5,
     "failed": 1,
     "total": 6,
     "passRate": 0.8333333333333334,
-    "avgScore": 0.8449999999999999
+    "avgScore": 0.8449999999999999,
+    "avgStyleScore": 55.5
   },
   "Lookups - Speakers": {
     "passed": 3,
     "failed": 3,
     "total": 6,
     "passRate": 0.5,
-    "avgScore": 0.7566666666666665
+    "avgScore": 0.7566666666666665,
+    "avgStyleScore": 54.5
   },
   "Lookups - Budget": {
     "passed": 1,
     "failed": 3,
     "total": 4,
     "passRate": 0.25,
-    "avgScore": 0.6699999999999999
+    "avgScore": 0.6699999999999999,
+    "avgStyleScore": 48.5
   },
   "Lookups - Registration": {
     "passed": 4,
     "failed": 1,
     "total": 5,
     "passRate": 0.8,
-    "avgScore": 0.8160000000000001
+    "avgScore": 0.8160000000000001,
+    "avgStyleScore": 46.8
   },
   "Lookups - Milestones": {
     "passed": 2,
     "failed": 2,
     "total": 4,
     "passRate": 0.5,
-    "avgScore": 0.7675
+    "avgScore": 0.7675,
+    "avgStyleScore": 56.5
   },
   "Vague/Exploratory": {
     "passed": 4,
     "failed": 6,
     "total": 10,
     "passRate": 0.4,
-    "avgScore": 0.712
+    "avgScore": 0.712,
+    "avgStyleScore": 48.6
   },
   "Opinions & Advice": {
     "passed": 3,
     "failed": 5,
     "total": 8,
     "passRate": 0.375,
-    "avgScore": 0.6950000000000001
+    "avgScore": 0.6950000000000001,
+    "avgStyleScore": 51.625
   },
   "Direct Execution - Event Details": {
     "passed": 2,
     "failed": 1,
     "total": 3,
     "passRate": 0.6666666666666666,
-    "avgScore": 0.7033333333333335
+    "avgScore": 0.7033333333333335,
+    "avgStyleScore": 46.666666666666664
   },
   "Direct Execution - Schedule": {
     "passed": 1,
     "failed": 5,
     "total": 6,
     "passRate": 0.16666666666666666,
-    "avgScore": 0.55
+    "avgScore": 0.55,
+    "avgStyleScore": 51
   },
   "Direct Execution - Speakers": {
     "passed": 3,
     "failed": 2,
     "total": 5,
     "passRate": 0.6,
-    "avgScore": 0.778
+    "avgScore": 0.778,
+    "avgStyleScore": 49.4
   },
   "Direct Execution - Budget": {
     "passed": 2,
     "failed": 1,
     "total": 3,
     "passRate": 0.6666666666666666,
-    "avgScore": 0.6699999999999999
+    "avgScore": 0.6699999999999999,
+    "avgStyleScore": 46.333333333333336
   },
   "Direct Execution - Website": {
     "passed": 5,
     "failed": 1,
     "total": 6,
     "passRate": 0.8333333333333334,
-    "avgScore": 0.7749999999999999
+    "avgScore": 0.7749999999999999,
+    "avgStyleScore": 42.166666666666664
   },
   "Direct Execution - Registration": {
     "passed": 4,
     "failed": 2,
     "total": 6,
     "passRate": 0.6666666666666666,
-    "avgScore": 0.7533333333333334
+    "avgScore": 0.7533333333333334,
+    "avgStyleScore": 46.666666666666664
   },
   "Direct Execution - Milestones": {
     "passed": 1,
     "failed": 3,
     "total": 4,
     "passRate": 0.25,
-    "avgScore": 0.6825
+    "avgScore": 0.6825,
+    "avgStyleScore": 43.25
   },
   "Propose + Confirm - Website": {
     "passed": 3,
     "failed": 2,
     "total": 5,
     "passRate": 0.6,
-    "avgScore": 0.584
+    "avgScore": 0.584,
+    "avgStyleScore": 54.8
   },
   "Propose + Confirm - Schedule": {
     "passed": 1,
     "failed": 4,
     "total": 5,
     "passRate": 0.2,
-    "avgScore": 0.5239999999999999
+    "avgScore": 0.5239999999999999,
+    "avgStyleScore": 63.8
   },
   "Propose + Confirm - Content": {
     "passed": 3,
     "failed": 2,
     "total": 5,
     "passRate": 0.6,
-    "avgScore": 0.7220000000000001
+    "avgScore": 0.7220000000000001,
+    "avgStyleScore": 61.4
   },
   "Propose + Confirm - Photos": {
     "passed": 0,
     "failed": 3,
     "total": 3,
     "passRate": 0,
-    "avgScore": 0.5433333333333333
+    "avgScore": 0.5433333333333333,
+    "avgStyleScore": 82.33333333333333
   },
   "Propose + Confirm - Structure": {
     "passed": 0,
     "failed": 4,
     "total": 4,
     "passRate": 0,
-    "avgScore": 0.505
+    "avgScore": 0.505,
+    "avgStyleScore": 70
   },
   "Venue - Discovery": {
     "passed": 2,
     "failed": 3,
     "total": 5,
     "passRate": 0.4,
-    "avgScore": 0.608
+    "avgScore": 0.608,
+    "avgStyleScore": 48.2
   },
   "Venue - Comparison": {
     "passed": 3,
     "failed": 5,
     "total": 8,
     "passRate": 0.375,
-    "avgScore": 0.6999999999999998
+    "avgScore": 0.6999999999999998,
+    "avgStyleScore": 55.625
   },
   "Venue - Selection": {
     "passed": 1,
     "failed": 2,
     "total": 3,
     "passRate": 0.3333333333333333,
-    "avgScore": 0.6
+    "avgScore": 0.6,
+    "avgStyleScore": 62.333333333333336
   },
   "Milestones - Basic": {
     "passed": 3,
     "failed": 7,
     "total": 10,
     "passRate": 0.3,
-    "avgScore": 0.518
+    "avgScore": 0.518,
+    "avgStyleScore": 46.7
   },
   "Milestones - Context": {
     "passed": 4,
     "failed": 1,
     "total": 5,
     "passRate": 0.8,
-    "avgScore": 0.7140000000000001
+    "avgScore": 0.7140000000000001,
+    "avgStyleScore": 51.8
   },
   "Event Vision & Export": {
     "passed": 1,
     "failed": 8,
     "total": 9,
     "passRate": 0.1111111111111111,
-    "avgScore": 0.5833333333333334
+    "avgScore": 0.5833333333333334,
+    "avgStyleScore": 53.22222222222222
   },
   "Capability Boundaries": {
     "passed": 8,
     "failed": 2,
     "total": 10,
     "passRate": 0.8,
-    "avgScore": 0.792
+    "avgScore": 0.792,
+    "avgStyleScore": 64.6
   },
   "Edge Cases": {
     "passed": 5,
     "failed": 7,
     "total": 12,
     "passRate": 0.4166666666666667,
-    "avgScore": 0.6891666666666666
+    "avgScore": 0.6891666666666666,
+    "avgStyleScore": 61.583333333333336
   }
 },
-  sectionSummaries: [
+  
+  // Event context reference
+  eventContext: {
+  "eventName": "AGI Summit Riyadh 2026",
+  "dates": "October 15-17, 2026",
+  "venue": "KAFD Conference Center",
+  "attendeeCount": 500,
+  "budget": "Planning baseline for a 3‑day, four‑track, 500‑attendee summit at KAFD in Oct 2026 with ministerial/VIP presence, halal catering, broadcast‑grade AV, Arabic/English interpretation, hotel shuttles, and strong security. Estimates are inclusive of typical vendor fees and 15% KSA VAT where applicable; exchange planning uses the SAR peg at ~3.75 SAR per USD. Key benchmarks used: Riyadh day‑delegate catering commonly SAR 250–400 pp/day; large hall daily rentals often SAR 80k–150k; chauffeur S‑Class and 50‑seater coach rates aligned to Riyadh providers; interpreter booths/headsets and pro teams budgeted for main stage with expansion option. Assumes partnership offsets on venue hire due to strategic alignment with KAFD/partners. High range targets the full US$750k budget ceiling; low range reflects efficiencies and in‑kind support. Recommend locking venue/AV/catering early and maintaining the contingency at 10–12% through show week.",
+  "speakerCount": 0,
+  "trackCount": 4,
+  "faqCount": 21
+},
+  
+  // Multi-turn test definitions
+  multiTurnTests: [
   {
-    "section": "Capability Boundaries",
-    "passed": 8,
-    "failed": 2,
-    "passRate": 0.8
-  },
-  {
-    "section": "Direct Execution - Budget",
-    "passed": 2,
-    "failed": 1,
-    "passRate": 0.6666666666666666
-  },
-  {
-    "section": "Direct Execution - Event Details",
-    "passed": 2,
-    "failed": 1,
-    "passRate": 0.6666666666666666
-  },
-  {
-    "section": "Direct Execution - Milestones",
-    "passed": 1,
-    "failed": 3,
-    "passRate": 0.25
-  },
-  {
-    "section": "Direct Execution - Registration",
-    "passed": 4,
-    "failed": 2,
-    "passRate": 0.6666666666666666
-  },
-  {
-    "section": "Direct Execution - Schedule",
-    "passed": 1,
-    "failed": 5,
-    "passRate": 0.16666666666666666
-  },
-  {
-    "section": "Direct Execution - Speakers",
-    "passed": 3,
-    "failed": 2,
-    "passRate": 0.6
-  },
-  {
-    "section": "Direct Execution - Website",
-    "passed": 5,
-    "failed": 1,
-    "passRate": 0.8333333333333334
-  },
-  {
-    "section": "Edge Cases",
-    "passed": 5,
-    "failed": 7,
-    "passRate": 0.4166666666666667
-  },
-  {
-    "section": "Event Vision & Export",
-    "passed": 1,
-    "failed": 8,
-    "passRate": 0.1111111111111111
-  },
-  {
-    "section": "Lookups - Budget",
-    "passed": 1,
-    "failed": 3,
-    "passRate": 0.25
-  },
-  {
-    "section": "Lookups - Event Details",
-    "passed": 6,
-    "failed": 0,
-    "passRate": 1
-  },
-  {
-    "section": "Lookups - Milestones",
-    "passed": 2,
-    "failed": 2,
-    "passRate": 0.5
-  },
-  {
-    "section": "Lookups - Registration",
-    "passed": 4,
-    "failed": 1,
-    "passRate": 0.8
-  },
-  {
-    "section": "Lookups - Schedule",
-    "passed": 5,
-    "failed": 1,
-    "passRate": 0.8333333333333334
-  },
-  {
-    "section": "Lookups - Speakers",
-    "passed": 3,
-    "failed": 3,
-    "passRate": 0.5
-  },
-  {
-    "section": "Milestones - Basic",
-    "passed": 3,
-    "failed": 7,
-    "passRate": 0.3
-  },
-  {
-    "section": "Milestones - Context",
-    "passed": 4,
-    "failed": 1,
-    "passRate": 0.8
-  },
-  {
-    "section": "Multi-Turn - Budget Discussion",
-    "passed": 0,
-    "failed": 1,
-    "passRate": 0
-  },
-  {
+    "id": "MT-001",
     "section": "Multi-Turn - Schedule Discussion",
-    "passed": 0,
-    "failed": 1,
-    "passRate": 0
+    "description": "Tests schedule discussion leading to a change — Day 1 morning is too packed",
+    "turns": [
+      {
+        "prompt": "I'm worried the schedule is too packed.",
+        "expectedResponse": "Looking at the schedule, Day 1 has the most content with 6+ sessions before the reception. What's feeling too packed — is it the session density, the break length, or something about a specific time block?"
+      },
+      {
+        "prompt": "The morning of Day 1 feels brutal — the opening, then straight into the fireside, then the SDAIA panel, then Demis. No time to breathe.",
+        "expectedResponse": "That makes sense. Day 1 morning currently runs:\n- 9:00 AM — Opening Ceremony (20 min)\n- 9:25 AM — Opening Fireside with Sam Altman (40 min)\n- 10:05 AM — Coffee Break (20 min)\n- 10:25 AM — SDAIA Keynote Panel (45 min)\n- 11:15 AM — Demis Hassabis Keynote (30 min)\n- 12:00 PM — Lunch\n\nA few options:\n1. **Extend breaks** — Make the coffee break 30-45 min instead of 20 min\n2. **Move a session** — Shift the SDAIA panel or Demis keynote to after lunch\n3. **Start later** — Begin at 9:30 AM instead of 9:00 AM\n\nWhich direction feels right?"
+      },
+      {
+        "prompt": "Let's extend the coffee break to 45 minutes.",
+        "expectedResponse": "Good call. Here's the change:\n\n**Coffee break extended:** 10:05-10:50 AM (45 min, up from 20 min)\n\n**New Day 1 morning:**\n- 9:00 AM — Opening Ceremony (20 min)\n- 9:25 AM — Opening Fireside (40 min)\n- 10:05 AM — Coffee Break (45 min) ← extended\n- 10:50 AM — SDAIA Keynote Panel (45 min)\n- 11:40 AM — Demis Hassabis Keynote (30 min)\n- 12:15 PM — Lunch\n\n**Note:** Lunch shifts 15 min later, which cascades to afternoon sessions.\n\n[A] Apply this change\n[B] Modify something before applying\n[C] Cancel — keep as-is"
+      },
+      {
+        "prompt": "A",
+        "expectedResponse": "Done! The Day 1 coffee break is now 45 minutes (10:05-10:50 AM). I've adjusted the downstream sessions accordingly."
+      }
+    ],
+    "artifacts": [
+      "[📅 View Schedule]"
+    ],
+    "type": "multi-turn"
   },
   {
+    "id": "MT-002",
     "section": "Multi-Turn - Venue Selection",
-    "passed": 0,
-    "failed": 1,
-    "passRate": 0
+    "description": "Tests venue discovery, comparison, and selection flow",
+    "turns": [
+      {
+        "prompt": "What venues would work for 500 people in Riyadh?",
+        "expectedResponse": "Let me find some options. A few questions first:\n- What's your venue budget range?\n- Do you need breakout rooms for workshops?\n- Any vibe preference — modern/tech-forward, classic/elegant, or government/formal?"
+      },
+      {
+        "prompt": "Budget is around $60K for venue, need at least 4 breakout rooms, prefer modern and impressive",
+        "expectedResponse": "Based on your requirements — $60K budget, 4+ breakout rooms, modern aesthetic — here are the top options:\n\n1. **KAFD Conference Center** — Purpose-built, Vision 2030 flagship, metro-connected. Strong fit.\n2. **Riyadh Front Exhibition Center** — Large scale, flexible, good for parallel tracks.\n3. **Crowne Plaza Riyadh** — Modern business hotel, good value, solid AV.\n\nNote: At $60K, the Ritz-Carlton and Four Seasons would require negotiation or partnership pricing.\n\nWould you like to see the full comparison?"
+      },
+      {
+        "prompt": "Show me the comparison",
+        "expectedResponse": "Opening the venue comparison with details on capacity, costs, and amenities for each option."
+      },
+      {
+        "prompt": "Let's go with KAFD",
+        "expectedResponse": "Great choice — KAFD Conference Center is now set as your venue.\n\nI've updated:\n- Event record with venue details\n- Schedule with KAFD room assignments\n- Transportation guide with directions\n\nNext steps:\n- Finalize contract terms with KAFD\n- Confirm AV package requirements\n- Coordinate load-in schedule"
+      }
+    ],
+    "artifacts": [
+      "[📍 View Venue Comparison]",
+      "[📍 View Venue]",
+      "[📅 View Schedule]"
+    ],
+    "type": "multi-turn"
   },
   {
-    "section": "Opinions & Advice",
-    "passed": 3,
-    "failed": 5,
-    "passRate": 0.375
-  },
-  {
-    "section": "Propose + Confirm - Content",
-    "passed": 3,
-    "failed": 2,
-    "passRate": 0.6
-  },
-  {
-    "section": "Propose + Confirm - Photos",
-    "passed": 0,
-    "failed": 3,
-    "passRate": 0
-  },
-  {
-    "section": "Propose + Confirm - Schedule",
-    "passed": 1,
-    "failed": 4,
-    "passRate": 0.2
-  },
-  {
-    "section": "Propose + Confirm - Structure",
-    "passed": 0,
-    "failed": 4,
-    "passRate": 0
-  },
-  {
-    "section": "Propose + Confirm - Website",
-    "passed": 3,
-    "failed": 2,
-    "passRate": 0.6
-  },
-  {
-    "section": "Vague/Exploratory",
-    "passed": 4,
-    "failed": 6,
-    "passRate": 0.4
-  },
-  {
-    "section": "Venue - Comparison",
-    "passed": 3,
-    "failed": 5,
-    "passRate": 0.375
-  },
-  {
-    "section": "Venue - Discovery",
-    "passed": 2,
-    "failed": 3,
-    "passRate": 0.4
-  },
-  {
-    "section": "Venue - Selection",
-    "passed": 1,
-    "failed": 2,
-    "passRate": 0.3333333333333333
+    "id": "MT-003",
+    "section": "Multi-Turn - Budget Discussion",
+    "description": "Tests budget discussion leading to prioritized cuts",
+    "turns": [
+      {
+        "prompt": "We need to cut $100K from the budget",
+        "expectedResponse": "That's a significant cut — about 13% of your $750K total. Where would you like to focus? Here's roughly where the money sits:\n\n- Catering: ~$156K (21%)\n- AV/Production: ~$100K (13%)\n- Venue: ~$60K (8%)\n- Transport: ~$29K (4%)\n- Staffing: ~$24K (3%)\n- Photography/Video: ~$26K (3%)\n- Other (security, permits, contingency): ~$355K\n\nWhat's most important to protect?"
+      },
+      {
+        "prompt": "Don't touch catering or venue. What else can we cut?",
+        "expectedResponse": "Protecting catering ($156K) and venue ($60K) leaves other areas for the $100K reduction:\n\n**Options:**\n1. **AV/Production:** Reduce from $100K to $70K — simpler stage design, fewer cameras (-$30K)\n2. **Transport:** Reduce from $29K to $15K — fewer VIP cars, rely more on shuttles (-$14K)\n3. **Photography/Video:** Reduce from $26K to $15K — fewer camera operators, shorter highlight reel (-$11K)\n4. **Contingency:** Reduce from ~10% to ~5% — higher risk but immediate savings (-$35K)\n5. **Staffing:** Reduce from $24K to $18K — fewer ushers, leaner registration (-$6K)\n\nTotal possible: ~$96K. Would you like me to model a specific combination?"
+      },
+      {
+        "prompt": "Let's do AV reduction and cut contingency to 5%",
+        "expectedResponse": "Here's the proposed budget adjustment:\n\n**Changes:**\n- AV/Production: $100K → $70K (-$30K)\n- Contingency: ~10% → ~5% (-$35K)\n\n**Total reduction:** $65K\n\n**Remaining to cut:** $35K if you need the full $100K\n\n**Trade-offs:**\n- AV: Simpler stage, fewer backup systems\n- Contingency: Less buffer for unexpected costs — higher risk\n\n[A] Apply these cuts ($65K savings)\n[B] Add more cuts to reach $100K\n[C] Cancel — keep current budget"
+      }
+    ],
+    "artifacts": [
+      "[💰 View Budget]"
+    ],
+    "type": "multi-turn"
   }
 ],
+  
+  // All test cases
   testCases: [
   {
     "id": "L-004",
@@ -408,6 +363,34 @@ const EVAL_DATA = {
     "overallScore": 0.94,
     "summary": "Clara accurately reports an expected attendance of about 500, consistent with the event’s attendeeCount setting, and her venue-capacity reference is also correct. The answer is clear and direct, with a small amount of additional (but accurate) context. No tools were used, appropriately, for this simple question.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.86",
+          "actualWords": 34,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -475,8 +458,9 @@ const EVAL_DATA = {
       "outTokens": 58,
       "totalTokens": 61897
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -489,6 +473,34 @@ const EVAL_DATA = {
     "overallScore": 0.94,
     "summary": "Clara correctly answered that the total budget is $750,000 USD, matching the event plan and expected response. The reply is clear and concise, with an appropriate optional offer to provide a category breakdown. A minor improvement would be to specify whether this is the all-in baseline/ceiling, but that was not required by the prompt.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.43",
+          "actualWords": 31,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -556,8 +568,9 @@ const EVAL_DATA = {
       "outTokens": 52,
       "totalTokens": 61883
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -570,6 +583,34 @@ const EVAL_DATA = {
     "overallScore": 1,
     "summary": "Clara accurately identifies Day 2 lunch as 12:00–1:30 PM in Asia/Riyadh and correctly labels it as the Networking Lunch & Jumu’ah Prayer Break, consistent with the schedule JSON. The response is concise, clear, and includes the relevant Friday prayer context without adding unsupported details.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 5,
+      "helpfulness": 1,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.00",
+          "actualWords": 19,
+          "expectedWords": 19,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -642,8 +683,9 @@ const EVAL_DATA = {
       "outTokens": 49,
       "totalTokens": 61884
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -656,6 +698,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara correctly states that there are 8 confirmed speakers and lists the right individuals per the event JSON. The response is clear and well formatted, but it includes extra, not-asked-for detail about tentative government panel leads and an invited speaker, and it references organizations rather than the specific tentative individuals listed in the data. Overall, the core answer is accurate with minor focus/alignment issues.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.10",
+          "actualWords": 65,
+          "expectedWords": 31,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -728,8 +798,9 @@ const EVAL_DATA = {
       "outTokens": 130,
       "totalTokens": 61961
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -742,6 +813,34 @@ const EVAL_DATA = {
     "overallScore": 0.89,
     "summary": "Clara accurately answered the question with the correct summit dates (October 15–17, 2026) consistent with the event JSON. She also added correct venue and daily schedule context, though that extra detail is slightly beyond what was required for a dates-only prompt. No unnecessary tools were used, and the response was clear and well-structured.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.78",
+          "actualWords": 34,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -809,8 +908,9 @@ const EVAL_DATA = {
       "outTokens": 82,
       "totalTokens": 61914
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -823,6 +923,34 @@ const EVAL_DATA = {
     "overallScore": 0.84,
     "summary": "Clara correctly identified the venue as KAFD Conference Center in King Abdullah Financial District, Riyadh, Saudi Arabia, consistent with the event data. However, because the JSON does not include a full street address, the response can only be considered complete at a district/city level, and the added Google Maps search link is helpful but not sourced from a specific stored address.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.70",
+          "actualWords": 17,
+          "expectedWords": 10,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -890,8 +1018,9 @@ const EVAL_DATA = {
       "outTokens": 47,
       "totalTokens": 61878
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -904,6 +1033,34 @@ const EVAL_DATA = {
     "overallScore": 0.79,
     "summary": "Clara correctly identifies the event theme as “The Future of AGI,” matching the event data. The response is clear and well-organized, but it’s more detailed than necessary for the user’s narrow question, adding contextual program and branding elements that, while consistent with the plan, are optional.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "8.08",
+          "actualWords": 97,
+          "expectedWords": 12,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -971,8 +1128,9 @@ const EVAL_DATA = {
       "outTokens": 153,
       "totalTokens": 61985
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -985,6 +1143,34 @@ const EVAL_DATA = {
     "overallScore": 0.84,
     "summary": "Clara’s response is accurate against the provided event JSON: there are 33 scheduled agenda items and 23 content sessions depending on what is counted. The answer is clear and appropriately asks for clarification about what the user means by “sessions,” though it doesn’t match the reference expectation (which appears inconsistent with the event data). No tools were used, and tool usage appears appropriate for the task.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 67,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.74",
+          "actualWords": 52,
+          "expectedWords": 19,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -1052,8 +1238,9 @@ const EVAL_DATA = {
       "outTokens": 93,
       "totalTokens": 61927
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1066,6 +1253,34 @@ const EVAL_DATA = {
     "overallScore": 0.44,
     "summary": "Clara’s stated start time of 11:15 AM (Asia/Riyadh) correctly matches the first keynote session in the event schedule. However, the question asked for the “opening keynote,” which is ambiguous given the agenda starts with an Opening Ceremony at 9:00 AM and an Opening Fireside at 9:25 AM; Clara did not clarify or include those opening-session times. The response is clear and concise but incomplete/misaligned with likely user intent.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "0.73",
+          "actualWords": 22,
+          "expectedWords": 30,
+          "notes": "Slightly brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -1138,8 +1353,9 @@ const EVAL_DATA = {
       "outTokens": 53,
       "totalTokens": 61885
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1152,6 +1368,34 @@ const EVAL_DATA = {
     "overallScore": 0.94,
     "summary": "Clara accurately answered that the Welcome Reception ends at 9:00 PM Riyadh time on Thu, Oct 15, 2026, matching the schedule and FAQ data. The response is clear and concise; the added date/timezone is slightly extra but still helpful and not misleading. No unnecessary tool usage occurred.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 5,
+      "helpfulness": 1,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.23",
+          "actualWords": 16,
+          "expectedWords": 13,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -1219,8 +1463,9 @@ const EVAL_DATA = {
       "outTokens": 42,
       "totalTokens": 61874
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1233,6 +1478,34 @@ const EVAL_DATA = {
     "overallScore": 0.96,
     "summary": "Clara’s answer is accurate and closely aligned with the event schedule for Day 3, including correct times, session names, keynote speaker/title, and the 3:00 PM wrap. The response is clearly structured and comprehensive, adding useful workshop-level detail consistent with the four-track format. Minor improvement: include the year (2026) when stating the date for Day 3.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.74",
+          "actualWords": 161,
+          "expectedWords": 43,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -1320,8 +1593,9 @@ const EVAL_DATA = {
       "outTokens": 317,
       "totalTokens": 62150
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1334,6 +1608,34 @@ const EVAL_DATA = {
     "overallScore": 0.89,
     "summary": "Clara accurately identifies all sessions in the Ethics & Safety track and provides correct dates/times and the session lead where specified in the schedule. The response is well-structured and directly answers the question. A minor improvement would be to include the room names (already available in the event data), though she appropriately offered to add them as a follow-up.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.03",
+          "actualWords": 77,
+          "expectedWords": 38,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -1411,8 +1713,9 @@ const EVAL_DATA = {
       "outTokens": 171,
       "totalTokens": 62006
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1425,6 +1728,34 @@ const EVAL_DATA = {
     "overallScore": 0.84,
     "summary": "Clara correctly states that Yann LeCun is delivering the Closing Keynote “Open Innovation Paths to AGI,” including accurate time, date, venue room, and hybrid format per the event schedule. The response is clear and well-structured. A minor improvement would be adding the one-sentence topic framing from the session description to better align with the expected reference answer.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 5,
+      "helpfulness": 2,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.29",
+          "actualWords": 40,
+          "expectedWords": 31,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -1492,8 +1823,9 @@ const EVAL_DATA = {
       "outTokens": 94,
       "totalTokens": 61932
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1506,6 +1838,34 @@ const EVAL_DATA = {
     "overallScore": 0.86,
     "summary": "Clara’s response accurately confirms Sam Altman is marked confirmed and correctly cites his Opening Fireside slot (Oct 15, 2026, 9:25–10:05 AM at KAFD Conference Center — Auditorium). It’s clear and appropriately detailed, with only minor extra commentary beyond the user’s question and slightly informal labeling of the source fields. No tool usage was needed and none was used.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 67,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.41",
+          "actualWords": 53,
+          "expectedWords": 22,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -1578,8 +1938,9 @@ const EVAL_DATA = {
       "outTokens": 100,
       "totalTokens": 61934
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1592,6 +1953,34 @@ const EVAL_DATA = {
     "overallScore": 0.37,
     "summary": "Clara correctly notes that the Day 2 policy breakout “Global AI Governance & Standards” has no moderator listed in the schedule, but she fails to answer the user’s question in the broader event context. The event data includes designated leads for the main-stage policy/government panels (SDAIA/MCIT/MISA), and Clara omits them, making her response incomplete and potentially misleading. No tools were used; inspecting the schedule/people data would likely have produced the correct moderator/lead information.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.45",
+          "actualWords": 68,
+          "expectedWords": 47,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -1664,8 +2053,9 @@ const EVAL_DATA = {
       "outTokens": 109,
       "totalTokens": 61940
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1678,6 +2068,34 @@ const EVAL_DATA = {
     "overallScore": 0.74,
     "summary": "Clara correctly identifies the session title and accurately captures the main theme: the implications of an order-of-magnitude increase in compute for capabilities, access, and sustainability, with correct venue and hybrid framing. The main issue is a schedule mismatch: she reports 1:15–2:00 PM, but the event JSON lists 13:15–14:00 (+03:00). She also adds \"governance\" as a major focus, which is not explicitly stated in the session description (though safety is mentioned in the speaker bio).",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.93",
+          "actualWords": 88,
+          "expectedWords": 30,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -1745,8 +2163,9 @@ const EVAL_DATA = {
       "outTokens": 151,
       "totalTokens": 61983
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1759,6 +2178,34 @@ const EVAL_DATA = {
     "overallScore": 0.73,
     "summary": "Clara’s answer correctly identifies the main Day 1 speakers (Fahd Al‑Rasheed, Sam Altman, Demis Hassabis, Dario Amodei, Ilya Sutskever) and appropriately includes Jensen Huang as invited/TBC per the schedule. The only notable issue is slight imprecision around the SDAIA keynote panel lead—she cites “SDAIA leadership” rather than the schedule’s exact label or the tentative named individual—so overall accuracy is strong but not perfectly precise.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.29",
+          "actualWords": 133,
+          "expectedWords": 31,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -1836,8 +2283,9 @@ const EVAL_DATA = {
       "outTokens": 238,
       "totalTokens": 62074
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1850,6 +2298,34 @@ const EVAL_DATA = {
     "overallScore": 0.69,
     "summary": "Clara’s response matches the event budget data: $137,500 for food and $18,500 for beverages, totaling $156,000 for catering. The main issue is the addition of budget ranges that were not requested and may create ambiguity in a simple ‘what’s our budget’ query. Overall, the core figures are accurate and the answer is well structured, but it could be cleaner by stating only the allocated totals.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 4,
+      "helpfulness": 2,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.50",
+          "actualWords": 33,
+          "expectedWords": 22,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -1917,8 +2393,9 @@ const EVAL_DATA = {
       "outTokens": 104,
       "totalTokens": 61935
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -1931,6 +2408,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara provided correct dollar amounts for Catering—Food ($137,500) and AV & Technical Production ($158,000) from the budget, but incorrectly concluded that catering is the biggest expense. The response is clear and well-formatted, yet it omits the helpful venue partnership/in-kind context found in the budget notes and contains an internal logic inconsistency by labeling the higher AV cost as the runner-up.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.40",
+          "actualWords": 35,
+          "expectedWords": 25,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -1998,8 +2503,9 @@ const EVAL_DATA = {
       "outTokens": 74,
       "totalTokens": 61905
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -2012,6 +2518,34 @@ const EVAL_DATA = {
     "overallScore": 1,
     "summary": "Clara accurately identifies Dr. Yann LeCun as the closing keynote speaker and correctly provides the session title, time (13:15–14:00), date (Sat, Oct 17, 2026), and location (KAFD Conference Center — Auditorium) as reflected in the event schedule JSON. The response is clear, direct, and includes helpful context without unnecessary detail. No tool calls were needed and none were made.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.42",
+          "actualWords": 27,
+          "expectedWords": 19,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -2089,8 +2623,9 @@ const EVAL_DATA = {
       "outTokens": 61,
       "totalTokens": 61895
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -2103,6 +2638,34 @@ const EVAL_DATA = {
     "overallScore": 0.69,
     "summary": "Clara correctly notes there is no explicit speaker-fee/honoraria line item and appropriately highlights that speaker-related support is spread across other categories, including VIP transport budgeted at $29,000. The answer would be stronger if it explicitly framed this as the current ‘speaker-related spend’ view and optionally provided a summed total (or a clearly labeled subtotal) rather than leaving it open-ended, though the clarifying question about honoraria is helpful.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "6.43",
+          "actualWords": 148,
+          "expectedWords": 23,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -2165,8 +2728,9 @@ const EVAL_DATA = {
       "outTokens": 316,
       "totalTokens": 62147
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2179,6 +2743,34 @@ const EVAL_DATA = {
     "overallScore": 0.54,
     "summary": "Clara avoids fabricating registrant data and accurately states that the provided event JSON does not include real-time RSVP submissions. However, the response does not fulfill the user’s request to identify who registered today and lacks actionable guidance to obtain that information (or a tool-based retrieval if supported). The message is clear but incomplete relative to the prompt’s intent.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.46",
+          "actualWords": 58,
+          "expectedWords": 13,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -2236,8 +2828,9 @@ const EVAL_DATA = {
       "outTokens": 250,
       "totalTokens": 62081
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2250,6 +2843,34 @@ const EVAL_DATA = {
     "overallScore": 1,
     "summary": "Clara’s answer is accurate and aligns with the event JSON: the RSVP/registration deadline is September 20, 2026. The added details about the RSVP page title and 23:59 local closing time are also correct and helpful. No tools were used, which is appropriate for this simple lookup.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 27,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "5.40",
+          "actualWords": 27,
+          "expectedWords": 5,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -2317,8 +2938,9 @@ const EVAL_DATA = {
       "outTokens": 54,
       "totalTokens": 61886
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -2331,6 +2953,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara accurately identifies that the event data provided does not include registration/RSVP submission totals, so she avoids fabricating a number. However, the response is only partially aligned to the prompt: it doesn’t offer to pull the latest registration numbers (as expected) and provides only a high-level offer to guide the user without concrete, actionable steps.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Clara's response is warmer and more conversational. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.81",
+          "actualWords": 61,
+          "expectedWords": 16,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -2398,8 +3048,9 @@ const EVAL_DATA = {
       "outTokens": 121,
       "totalTokens": 61952
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2412,6 +3063,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara appropriately explains that the plan does not track actual spend-to-date and avoids inventing a spent figure, which aligns with the available event data. However, the budget totals she reports do not match the amounts in the event JSON, reducing accuracy and usefulness. The response is otherwise clear and proposes a sensible next step for establishing spend tracking.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.96",
+          "actualWords": 99,
+          "expectedWords": 25,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -2484,8 +3163,9 @@ const EVAL_DATA = {
       "outTokens": 640,
       "totalTokens": 62472
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -2498,6 +3178,34 @@ const EVAL_DATA = {
     "overallScore": 0.87,
     "summary": "Clara’s response is accurate: the provided event JSON does not include live RSVP submissions or guest-list totals, so a VIP registration count cannot be derived. She clearly explains the limitation and offers practical next steps to obtain and validate the VIP count. However, she does not explicitly mention the RSVP’s VIP transport question noted in the expected response, and she cannot provide the requested numeric answer due to missing data.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.19",
+          "actualWords": 88,
+          "expectedWords": 21,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -2590,8 +3298,9 @@ const EVAL_DATA = {
       "outTokens": 181,
       "totalTokens": 62014
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2604,6 +3313,34 @@ const EVAL_DATA = {
     "overallScore": 0.94,
     "summary": "Clara’s answer is accurate and grounded in the event timeline: there are no overdue milestones as of 2026-01-11, and the first due milestone is 2026-01-22. The response is clear and succinct. Minor improvement would be to explicitly state she checked all milestones (or list any that might be near-term) to strengthen completeness, but the core question is correctly answered.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "5.10",
+          "actualWords": 51,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -2671,8 +3408,9 @@ const EVAL_DATA = {
       "outTokens": 142,
       "totalTokens": 61975
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2685,6 +3423,34 @@ const EVAL_DATA = {
     "overallScore": 0.89,
     "summary": "Clara’s response is accurate relative to the event JSON: the plan collects company/organization via the RSVP form but contains no submitted attendee data to compute top companies. She provides useful next steps and a relevant clarification about counting confirmed vs pending. The only gap is slight prompt-alignment: the expected response was a simpler offer to pull a breakdown, whereas Clara immediately explains the limitation and requests an export, though that is reasonable given the available data.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "5.50",
+          "actualWords": 110,
+          "expectedWords": 20,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -2762,8 +3528,9 @@ const EVAL_DATA = {
       "outTokens": 203,
       "totalTokens": 62036
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2776,6 +3543,34 @@ const EVAL_DATA = {
     "overallScore": 0.92,
     "summary": "Clara accurately identifies the relevant venue-locking milestone as due January 26, 2026, consistent with the event timeline, and adds the related February 2 follow-up deadline. The response is clear and helpful, though it could be slightly more explicit about whether the 'hold and deposit' date is the same as the contract-signature deadline if the user interprets 'contract due' more narrowly.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.32",
+          "actualWords": 58,
+          "expectedWords": 25,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -2863,8 +3658,9 @@ const EVAL_DATA = {
       "outTokens": 91,
       "totalTokens": 61924
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -2877,6 +3673,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara’s response is clear and plausibly accurate that no Ahmed appears in the visible people lists, but it does not align with the expected behavior of filtering the project plan to show Ahmed’s assigned milestones/tasks. She also did not attempt to search the planning timeline/task assignments, which makes the answer incomplete for the user’s request. Tool usage was minimal; a targeted lookup/search would likely have improved correctness and completeness.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.08",
+          "actualWords": 49,
+          "expectedWords": 12,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -2954,8 +3778,9 @@ const EVAL_DATA = {
       "outTokens": 104,
       "totalTokens": 61936
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -2968,6 +3793,34 @@ const EVAL_DATA = {
     "overallScore": 0.87,
     "summary": "Clara’s response aligns well with the expected next step: she asks targeted clarifying questions to understand what the user wants to change about Day 2. The answer is clear and action-oriented with structured options, though it could be slightly more comprehensive by including explicit session/speaker/track changes and a bit more neutral (less assumptive) framing around adding an evening program.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.47",
+          "actualWords": 76,
+          "expectedWords": 17,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -3040,8 +3893,9 @@ const EVAL_DATA = {
       "outTokens": 153,
       "totalTokens": 61990
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3054,6 +3908,34 @@ const EVAL_DATA = {
     "overallScore": 0.81,
     "summary": "Clara appropriately asked for clarification and avoided making unsupported assumptions, with a clear and professional response. However, her suggested options for “doing something about the speakers” were narrower than ideal and omitted common actions like updating bios, changing session assignments, or reordering the lineup.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 67,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.60",
+          "actualWords": 39,
+          "expectedWords": 15,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -3131,8 +4013,9 @@ const EVAL_DATA = {
       "outTokens": 106,
       "totalTokens": 61939
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3145,6 +4028,34 @@ const EVAL_DATA = {
     "overallScore": 0.71,
     "summary": "Clara’s response is largely consistent with the event JSON on key facts (dates, venue, attendee count, confirmed vs tentative speakers) and provides a useful narrative snapshot with correct immediate next steps. However, it does not deliver milestone completion rates or a clear at-risk assessment, and several status labels are inferred rather than explicitly backed by a project-status schema in the data. Overall it’s clear and actionable, but incomplete relative to the requested/expected “project status” dashboard view.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 5,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "13.94",
+          "actualWords": 223,
+          "expectedWords": 16,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 5,
+          "helpfulCount": 5,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -3237,8 +4148,11 @@ const EVAL_DATA = {
       "outTokens": 410,
       "totalTokens": 62242
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -3251,6 +4165,34 @@ const EVAL_DATA = {
     "overallScore": 0.72,
     "summary": "Clara responds empathetically and offers concrete ways to create breathing room, ending with a useful clarifying question. However, she introduces some schedule-specific claims and suggestions (e.g., dropping a late-afternoon panel) that are not well-supported by the provided schedule JSON, and she doesn’t offer a schedule breakdown or ask which specific block feels too packed as the expected response indicates.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.57",
+          "actualWords": 137,
+          "expectedWords": 30,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -3328,8 +4270,9 @@ const EVAL_DATA = {
       "outTokens": 231,
       "totalTokens": 62061
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3342,6 +4285,34 @@ const EVAL_DATA = {
     "overallScore": 0.63,
     "summary": "Clara’s response is generally helpful and grounded in at least one accurate schedule detail (Day 1 8:00 registration/breakfast and 9:00 main-stage start), offering practical ways to soften mornings. However, it partially misses the expected conversational move: she should first clarify which day’s morning feels brutal and what specifically is causing it, rather than leading with solutions. A few suggestions also conflict with or ignore existing schedule realities (e.g., Day 1 already has a 10:05–10:25 coffee break).",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "12.56",
+          "actualWords": 226,
+          "expectedWords": 18,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -3414,8 +4385,9 @@ const EVAL_DATA = {
       "outTokens": 352,
       "totalTokens": 62183
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -3428,6 +4400,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara provides clear, practical options for what to do with an Ethics track and ends with a helpful clarifying question. However, she diverges from the expected approach by not first asking what specifically concerns the user (topics/speakers/timing/schedule placement), and the answer is somewhat generic rather than explicitly tied to how “Ethics & Safety” already appears in this event’s program and schedule.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "10.00",
+          "actualWords": 160,
+          "expectedWords": 16,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -3510,8 +4510,9 @@ const EVAL_DATA = {
       "outTokens": 299,
       "totalTokens": 62133
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3524,6 +4525,34 @@ const EVAL_DATA = {
     "overallScore": 0.63,
     "summary": "Clara generally aligns with the user’s request by offering help and asking a clarifying question about whether the user wants timing/flow help or content programming. The response is clearly written, but it goes beyond the expected clarifier and includes a few minor schedule inaccuracies/omissions (notably Day 2 late-afternoon sessions and Day 3 post-keynote closing blocks). Tool usage was fine, though checking the schedule would have improved factual precision given the detailed time claims.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "9.00",
+          "actualWords": 117,
+          "expectedWords": 13,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -3591,8 +4620,9 @@ const EVAL_DATA = {
       "outTokens": 295,
       "totalTokens": 62128
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3605,6 +4635,34 @@ const EVAL_DATA = {
     "overallScore": 0.6,
     "summary": "Clara’s response is clear and provides actionable, realistic cost-cutting levers across several event areas. However, it misses the key scoping question of the target reduction and makes at least one likely inaccurate claim (“AV/Production biggest line item”) when compared to the budget data. The response would better match the prompt by first asking where the user wants to cut and the desired savings target, then tailoring recommendations accordingly.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 11,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "14.38",
+          "actualWords": 230,
+          "expectedWords": 16,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -3687,8 +4745,9 @@ const EVAL_DATA = {
       "outTokens": 390,
       "totalTokens": 62221
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3701,6 +4760,34 @@ const EVAL_DATA = {
     "overallScore": 0.68,
     "summary": "Clara provides a clear, actionable recommendation to add more intentional networking time, with plausible places to adjust the existing agenda and a good suggestion for structured networking (topic tables). The main gaps are that she doesn’t explicitly ground the rationale in the event’s audience mix and doesn’t clearly summarize the existing networking inventory (notably the 3-hour Day 1 reception and the explicitly labeled networking meals) before proposing changes.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.65",
+          "actualWords": 175,
+          "expectedWords": 66,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -3753,8 +4840,9 @@ const EVAL_DATA = {
       "outTokens": 297,
       "totalTokens": 62129
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -3767,6 +4855,34 @@ const EVAL_DATA = {
     "overallScore": 0.77,
     "summary": "Clara responded appropriately by asking for clarification and offering concrete directions (format and timing) to guide a workshop-day redesign. The main gap versus the expected response is that she didn’t explicitly ask whether the user wants to change workshop topics. Tool usage was lightweight and caused no unintended changes, though switching to planning mode was unnecessary for a purely clarifying step.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.92",
+          "actualWords": 51,
+          "expectedWords": 13,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -3866,8 +4982,9 @@ const EVAL_DATA = {
       "outTokens": 232,
       "totalTokens": 127667
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -3880,6 +4997,34 @@ const EVAL_DATA = {
     "overallScore": 0.83,
     "summary": "Clara’s response is generally accurate and clearly presented, and it appropriately references the event’s actual break lengths and the 90-minute Friday lunch/Jumu’ah buffer. The main gap is completeness relative to the expected guidance: she underplays that 30 minutes is “workable but tight” for a 500-person, networking-oriented event and doesn’t explicitly recommend a 30–45 minute range for major breaks.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.98",
+          "actualWords": 143,
+          "expectedWords": 48,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -3957,8 +5102,9 @@ const EVAL_DATA = {
       "outTokens": 217,
       "totalTokens": 62046
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -3971,6 +5117,34 @@ const EVAL_DATA = {
     "overallScore": 0.7,
     "summary": "Clara’s response is clear and partially aligned with the schedule (notably the tight 14:00→14:15 transition and the existence of a Friday Jumu’ah lunch buffer), and she appropriately asks the user to clarify which part of the flow feels off. However, she goes beyond the prompt by asserting multiple specific friction points and includes a few unsupported details (e.g., “500-person auditorium,” headset reset needs), which makes the response less faithful to the expected clarifying-first approach.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 9,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "10.53",
+          "actualWords": 200,
+          "expectedWords": 19,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -4048,8 +5222,9 @@ const EVAL_DATA = {
       "outTokens": 751,
       "totalTokens": 62580
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -4062,6 +5237,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara accurately identifies the closing keynote’s scheduled slot (Sat, Oct 17, 2026, 1:15–2:00 PM Asia/Riyadh at KAFD Auditorium) and provides a reasonable rationale for why it’s well-positioned after lunch and before the 3:00 PM wrap. The response is clear and well-formatted, but it could be more complete and decisive by explicitly recommending to keep the current timing and by noting the downside of moving it earlier given workshops/lunch timing.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 3,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.69",
+          "actualWords": 91,
+          "expectedWords": 54,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -4139,8 +5342,9 @@ const EVAL_DATA = {
       "outTokens": 156,
       "totalTokens": 61989
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -4153,6 +5357,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara gives a clear, well-structured assessment that Day 1 is the main risk area and correctly notes Day 2’s extended Jumu’ah buffer. However, she includes a few schedule inaccuracies/omissions (e.g., not acknowledging the existing 17:45–18:00 transition buffer) and doesn’t directly address the tight 15–20 minute breaks and turnover pressure that most strongly supports the “too packed” concern for a 500-person event.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.08",
+          "actualWords": 222,
+          "expectedWords": 72,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -4235,8 +5467,9 @@ const EVAL_DATA = {
       "outTokens": 378,
       "totalTokens": 62210
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -4249,6 +5482,34 @@ const EVAL_DATA = {
     "overallScore": 0.86,
     "summary": "Clara’s answer is accurate against the event plan and closely matches the expected rationale: a 3-day format fits a 500-person, international, four-track summit, and the early Day 3 wrap supports travel. The response is clear and helpful, with good pacing/structure advice, though it’s slightly more verbose than required and includes some generic (not JSON-sourced) planning framing.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 6,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.85",
+          "actualWords": 254,
+          "expectedWords": 66,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -4336,8 +5597,9 @@ const EVAL_DATA = {
       "outTokens": 417,
       "totalTokens": 62250
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -4350,6 +5612,34 @@ const EVAL_DATA = {
     "overallScore": 0.67,
     "summary": "Clara provides a clear, structured strategic answer and appropriately highlights protocol/security tradeoffs, offering practical ways to integrate additional officials. However, she leans toward inviting more officials rather than emphasizing that the event already has strong government representation, and she omits the more specific expected guidance to prefer a Day 2 closed-door policy working session over adding more keynote slots. A few elements (e.g., targeting “10–20” officials) feel speculative rather than grounded in the event plan.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.35",
+          "actualWords": 211,
+          "expectedWords": 63,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -4427,8 +5717,9 @@ const EVAL_DATA = {
       "outTokens": 344,
       "totalTokens": 62178
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -4441,6 +5732,34 @@ const EVAL_DATA = {
     "overallScore": 0.64,
     "summary": "Clara’s response is largely aligned with the event plan (KAFD as primary; RFECC and Hilton as logical contingencies) and is clearly written with a good clarifying question. However, she overstepped by immediately making plan mutations and logging a formal risk when the user only expressed concern, and some fallback details are more specific than what the JSON explicitly supports. Tool use was not appropriate for this lightweight, exploratory user message.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "9.14",
+          "actualWords": 128,
+          "expectedWords": 14,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -4535,8 +5854,9 @@ const EVAL_DATA = {
       "outTokens": 215,
       "totalTokens": 63004
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -4549,6 +5869,34 @@ const EVAL_DATA = {
     "overallScore": 0.56,
     "summary": "Clara provides a clear, actionable set of best practices for designing and moderating panels, which is helpful. However, it only partially answers the user’s question because it omits concrete examples and norms from major AI conferences (e.g., NeurIPS/ICML vs. Web Summit/AI Summit styles) and includes a few unsupported specifics. Overall: strong structure and guidance, but lacking the comparative ‘what other conferences do’ details implied by the prompt and expected response.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 10,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "7.80",
+          "actualWords": 499,
+          "expectedWords": 64,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -4616,8 +5964,9 @@ const EVAL_DATA = {
       "outTokens": 765,
       "totalTokens": 62601
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -4630,6 +5979,34 @@ const EVAL_DATA = {
     "overallScore": 0.81,
     "summary": "Clara successfully implemented the requested tagline update and clearly confirmed the new text. The only notable issue is that she added a /debug object to the event JSON, which is an unnecessary side effect for a simple tagline change, though it doesn’t interfere with the event content.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "2.00",
+          "actualWords": 18,
+          "expectedWords": 9,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -4719,8 +6096,11 @@ const EVAL_DATA = {
       "outTokens": 30,
       "totalTokens": 62293
     },
-    "expectedArtifacts": "`[🌐 View Website]`",
+    "expectedArtifacts": [
+      "[🌐 View Website]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -4733,6 +6113,34 @@ const EVAL_DATA = {
     "overallScore": 0.68,
     "summary": "Clara gives a clear, well-structured qualitative assessment and correctly highlights several major confirmed speakers and the tentative status of Jensen Huang, plus the value of local/government participation. However, she omits key strengths present in the event data (notably Ilya Sutskever/SSI and Mustafa Suleyman) and her “safety depth” watch-out is somewhat misleading given Ilya is leading an alignment session. Overall: strong clarity, but accuracy/completeness around the full lineup is uneven.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.49",
+          "actualWords": 258,
+          "expectedWords": 74,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -4805,8 +6213,9 @@ const EVAL_DATA = {
       "outTokens": 478,
       "totalTokens": 62308
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -4819,6 +6228,34 @@ const EVAL_DATA = {
     "overallScore": 0.45,
     "summary": "Clara’s response is accurate in identifying the relevant sessions and their current times, and the clarification question is understandable given the ambiguity in the schedule naming. However, the user’s requested change was not applied—eventJsonBefore and eventJsonAfter show no schedule modifications—so the response fails on completion. Tool usage was initiated but not followed through to implement the requested update.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.15",
+          "actualWords": 28,
+          "expectedWords": 13,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -4903,8 +6340,11 @@ const EVAL_DATA = {
       "outTokens": 801,
       "totalTokens": 128235
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 4
   },
   {
@@ -4917,6 +6357,34 @@ const EVAL_DATA = {
     "overallScore": 0.85,
     "summary": "Clara correctly updated attendee capacity from 500 to 600, and her confirmation matches the event JSON after the change. However, she also made several additional updates (overview text, tags, multiple budget lines, and a new risk entry) that were not explicitly requested, which could be seen as scope creep even if logically related.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "10.14",
+          "actualWords": 71,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -5006,8 +6474,9 @@ const EVAL_DATA = {
       "outTokens": 102,
       "totalTokens": 63947
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 4
   },
   {
@@ -5020,6 +6489,34 @@ const EVAL_DATA = {
     "overallScore": 0.42,
     "summary": "Clara’s response is well-written but substantively incorrect relative to the event data after the change: she edited the Day 2 MCIT keynote panel entry (09:40–10:25) to contain lunch text rather than updating/adding the noon lunch block. She also omitted the explicit 12:00–1:30 timing and did not clearly acknowledge the replacement of the existing Jumu’ah lunch buffer. Tool usage was appropriate in principle, but the specific patch path was wrong and introduced schedule inconsistency.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.87",
+          "actualWords": 43,
+          "expectedWords": 23,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -5119,8 +6616,11 @@ const EVAL_DATA = {
       "outTokens": 71,
       "totalTokens": 62413
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -5133,6 +6633,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara’s message is clear and matches the user’s intent in phrasing, but it is not accurate: the welcome reception in the schedule remains ending at 9:00 PM, while a different event (a keynote panel) was mistakenly extended to 10:00 PM. Although FAQ, overview, and date segment text were updated to reference a 10:00 PM reception, the core schedule mutation was applied to the wrong item, creating inconsistencies and an unintended program change.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "6.40",
+          "actualWords": 64,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.17,
@@ -5232,8 +6760,11 @@ const EVAL_DATA = {
       "outTokens": 112,
       "totalTokens": 62661
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -5246,6 +6777,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara did add a new coffee break at 3:00 PM on Day 1, but she set it to 15 minutes and, more importantly, introduced a schedule conflict because technical breakout sessions already run from 2:15–3:30 PM. The response is clear and uses tools appropriately, but it fails to acknowledge or resolve the overlap and the new item is appended rather than placed chronologically, reducing schedule correctness and usability.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.77",
+          "actualWords": 49,
+          "expectedWords": 13,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -5345,8 +6904,11 @@ const EVAL_DATA = {
       "outTokens": 90,
       "totalTokens": 62648
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -5359,6 +6921,34 @@ const EVAL_DATA = {
     "overallScore": 0.63,
     "summary": "Clara successfully removed Sam Altman from the main speaker list and updated key guest-facing references in the schedule and overview. However, her response overclaims that he no longer appears anywhere; the updated plan still contains Sam Altman references in other sections (notably timeline tasks and heroImage description). Tool use was generally appropriate, but she made extra, unrequested edits (adding a debug log and replacing the entire tags list) that could be avoided.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 5,
+      "helpfulness": 1,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.28",
+          "actualWords": 37,
+          "expectedWords": 29,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -5453,8 +7043,11 @@ const EVAL_DATA = {
       "outTokens": 49,
       "totalTokens": 62466
     },
-    "expectedArtifacts": "`[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -5467,6 +7060,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara successfully removed a Day 3 workshop (“Workshop: Governance-by-Design”), and her response accurately reflects that specific mutation in the event JSON. However, this does not align with the expected removal of “Workshop: Drafting AI Safety Guidelines,” which remains in the schedule after the change, indicating a mismatch with the reference expectation and/or unresolved ambiguity in the user request. Tool usage was appropriate overall, though it required an extra applyChanges call due to an initial JSON Patch path error.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.50",
+          "actualWords": 21,
+          "expectedWords": 14,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -5570,8 +7191,11 @@ const EVAL_DATA = {
       "outTokens": 49,
       "totalTokens": 62316
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 7
   },
   {
@@ -5584,6 +7208,34 @@ const EVAL_DATA = {
     "overallScore": 0.96,
     "summary": "Clara correctly implemented the requested reordering: Dr. Fei‑Fei Li is now first in the Speakers & VIPs list, and her confirmation matches the updated event JSON. The response is clear and complete. Tool usage was generally appropriate, though the added debug fields constitute minor unnecessary changes.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.67",
+          "actualWords": 20,
+          "expectedWords": 12,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -5678,8 +7330,11 @@ const EVAL_DATA = {
       "outTokens": 32,
       "totalTokens": 62292
     },
-    "expectedArtifacts": "`[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -5692,6 +7347,34 @@ const EVAL_DATA = {
     "overallScore": 0.91,
     "summary": "Clara correctly updated Dario Amodei’s title to “Co-founder & CEO, Anthropic” and clearly confirmed the change. The only notable issue is that the tool operations introduced an extra top-level /debug section, which is not part of the user’s requested change and could be considered an unintended modification.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "2.00",
+          "actualWords": 12,
+          "expectedWords": 6,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.88,
@@ -5791,8 +7474,11 @@ const EVAL_DATA = {
       "outTokens": 27,
       "totalTokens": 62273
     },
-    "expectedArtifacts": "`[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -5805,6 +7491,34 @@ const EVAL_DATA = {
     "overallScore": 0.65,
     "summary": "Clara successfully moved Yann LeCun’s keynote to Day 2 and provided accurate new timing and venue details, with appropriate updates to several guest-facing labels and copy. However, she did not surface the expected note about Day 3 no longer having a closing keynote, and she left an internal inconsistency (the speaker record still points to the old sessionId). Tool usage was mostly appropriate, though it required a failed patch attempt before succeeding.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.84",
+          "actualWords": 88,
+          "expectedWords": 31,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -5898,8 +7612,11 @@ const EVAL_DATA = {
       "outTokens": 162,
       "totalTokens": 64644
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 6
   },
   {
@@ -5912,6 +7629,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara correctly implemented the requested change: the catering budget increased by exactly $25,000, reflected as two new line items in the food and beverages catering categories. The response is clear and accurate, though slightly more detailed than necessary and it introduced an extra /debug field not requested. Overall, the mutation was performed correctly with appropriate tool usage.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "6.00",
+          "actualWords": 42,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -6001,8 +7746,11 @@ const EVAL_DATA = {
       "outTokens": 90,
       "totalTokens": 62503
     },
-    "expectedArtifacts": "`[💰 View Budget]`",
+    "expectedArtifacts": [
+      "[💰 View Budget]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -6015,6 +7763,34 @@ const EVAL_DATA = {
     "overallScore": 0.76,
     "summary": "Clara successfully implemented the requested mutation by adding a $15,000 VIP gifts budget line item under the existing VIP & Speaker Gifts category, and her user-facing confirmation matches the resulting event data. The only concerns are minor: the item label includes “(additional allocation)” and the change operations also added debug metadata and modified category notes beyond the explicit request.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.33",
+          "actualWords": 30,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -6094,8 +7870,11 @@ const EVAL_DATA = {
       "outTokens": 47,
       "totalTokens": 62421
     },
-    "expectedArtifacts": "`[💰 View Budget]`",
+    "expectedArtifacts": [
+      "[💰 View Budget]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -6108,6 +7887,34 @@ const EVAL_DATA = {
     "overallScore": 0.58,
     "summary": "Clara successfully added Dr. Geoffrey Hinton to the Speakers & VIPs list as tentative, and the event JSON reflects this change. However, she did not ask the expected follow-up about which session he should join, and she made extra unrequested edits (overview highlights and tags). Tool usage worked but was heavier than necessary, and the wording about a \"verified\" headshot slightly overclaims what was validated.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.59",
+          "actualWords": 27,
+          "expectedWords": 17,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -6224,8 +8031,11 @@ const EVAL_DATA = {
       "outTokens": 48,
       "totalTokens": 82261
     },
-    "expectedArtifacts": "`[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 7
   },
   {
@@ -6238,6 +8048,34 @@ const EVAL_DATA = {
     "overallScore": 0.81,
     "summary": "Clara correctly applied the requested reordering: the Speakers & VIPs list in the updated event JSON matches the sequence she reported and is consistent with a Day 1→Day 3 chronological approach. The main issues are minor: she added an unrelated /debug field and asked an extra preference question that wasn’t required. Overall, the core mutation is accurate and clearly communicated, with only small unnecessary side effects.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "9.36",
+          "actualWords": 103,
+          "expectedWords": 11,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -6347,8 +8185,11 @@ const EVAL_DATA = {
       "outTokens": 225,
       "totalTokens": 65165
     },
-    "expectedArtifacts": "`[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -6361,6 +8202,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara correctly executed the requested update and confirmed that the website background is now white, consistent with the event JSON after-state. The response is clear and complete, though it includes an optional follow-up about hero overlay styling. Tool usage successfully applied the change, but the mutation was somewhat heavy (adding a full design system and debug log) relative to the simple request.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "6.13",
+          "actualWords": 49,
+          "expectedWords": 8,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -6445,8 +8314,11 @@ const EVAL_DATA = {
       "outTokens": 66,
       "totalTokens": 63978
     },
-    "expectedArtifacts": "`[🌐 View Website]`",
+    "expectedArtifacts": [
+      "[🌐 View Website]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -6459,6 +8331,34 @@ const EVAL_DATA = {
     "overallScore": 0.83,
     "summary": "Clara correctly updated the hero tagline to “The Future of Intelligence Starts Here” and clearly confirmed the change. The main issue is that the mutation introduced an unrelated /debug field, which is an unnecessary side effect even though it doesn’t break the requested update. Tool usage was otherwise appropriate for performing the edit.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.00",
+          "actualWords": 20,
+          "expectedWords": 5,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -6558,8 +8458,11 @@ const EVAL_DATA = {
       "outTokens": 31,
       "totalTokens": 62243
     },
-    "expectedArtifacts": "`[🌐 View Homepage]`",
+    "expectedArtifacts": [
+      "[🌐 View Homepage]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -6572,6 +8475,34 @@ const EVAL_DATA = {
     "overallScore": 0.71,
     "summary": "Clara correctly interpreted the request and updated the plan to include a homepage countdown timer targeting Oct 15, 2026 at 09:00 Asia/Riyadh, adding both a task and an immediate next step without unintended changes. The main gap is that she frames this as a spec captured in the plan rather than confirming an actual homepage implementation, and she doesn’t explicitly match the expected ‘days until Oct 15’ phrasing.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "8.20",
+          "actualWords": 82,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -6666,8 +8597,11 @@ const EVAL_DATA = {
       "outTokens": 142,
       "totalTokens": 63108
     },
-    "expectedArtifacts": "`[🌐 View Homepage]`",
+    "expectedArtifacts": [
+      "[🌐 View Homepage]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -6680,6 +8614,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara successfully removed the early bird banner by setting /overview/welcome/announcement.show to false, which aligns with the user’s request and the expected outcome. The response is clear and confirms the banner won’t display. However, the tool operation also added a new /debug section, which is extra and not requested, making tool usage and change scope slightly suboptimal.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 1,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.78",
+          "actualWords": 25,
+          "expectedWords": 9,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -6774,8 +8736,11 @@ const EVAL_DATA = {
       "outTokens": 32,
       "totalTokens": 62259
     },
-    "expectedArtifacts": "`[🌐 View Homepage]`",
+    "expectedArtifacts": [
+      "[🌐 View Homepage]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -6788,6 +8753,34 @@ const EVAL_DATA = {
     "overallScore": 0.45,
     "summary": "Clara successfully updated the master event date range and moved the schedule and several guest-facing sections to Oct 20–22, 2026. However, she overstated that everything referencing dates was fully aligned: heroImage.eventDescription and multiple attractions date ranges still show Oct 15–17, and an unrelated FAQ entry was accidentally overwritten with weather text. Tool usage was directionally appropriate but produced unintended and inconsistent edits, reducing overall reliability.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "12.50",
+          "actualWords": 125,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -6891,8 +8884,11 @@ const EVAL_DATA = {
       "outTokens": 238,
       "totalTokens": 76797
     },
-    "expectedArtifacts": "`[✨ View Event]`",
+    "expectedArtifacts": [
+      "[✨ View Event]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 4
   },
   {
@@ -6905,6 +8901,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara did execute a $10,000 reduction to a production-related budget line item (AV livestream/recording) in the event JSON, but her written explanation is numerically inaccurate (she cites $50k→$40k instead of the actual $60k→$50k). Tool usage was generally appropriate, though adding a new /debug field was an unnecessary side effect.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "7.00",
+          "actualWords": 49,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -6994,8 +9018,11 @@ const EVAL_DATA = {
       "outTokens": 91,
       "totalTokens": 62351
     },
-    "expectedArtifacts": "`[💰 View Budget]`",
+    "expectedArtifacts": [
+      "[💰 View Budget]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -7008,6 +9035,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara successfully implemented the requested change by updating the dress code FAQ answer in the event JSON and clearly communicated the new guidance. The response is accurate and well-structured, but slightly more verbose than expected and includes an extra /debug addition that wasn’t explicitly requested. Overall, the core request was fulfilled correctly with only minor process/metadata concerns.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.14",
+          "actualWords": 69,
+          "expectedWords": 22,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -7097,8 +9152,11 @@ const EVAL_DATA = {
       "outTokens": 118,
       "totalTokens": 62527
     },
-    "expectedArtifacts": "`[🌐 View FAQ]`",
+    "expectedArtifacts": [
+      "[🌐 View FAQ]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -7111,6 +9169,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara successfully implemented a required phone number field in the RSVP, and the change is reflected in the eventJsonAfter (q_phone required:true, mapped to guest list). The main concern is that she added a new conditional required field (required only when attendance=yes) rather than making an existing phone field required, and she also added an unnecessary /debug change. Overall the response is clear and largely correct, with minor alignment and scope concerns.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.11",
+          "actualWords": 28,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -7200,8 +9286,9 @@ const EVAL_DATA = {
       "outTokens": 46,
       "totalTokens": 62429
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -7214,6 +9301,34 @@ const EVAL_DATA = {
     "overallScore": 0.82,
     "summary": "Clara successfully implemented the requested 500-attendee registration cap and enabled a waitlist, and her user-facing response accurately reflects the resulting RSVP settings. The only notable concerns are minor: she made additional copy updates (reasonable but not explicitly requested) and added an unnecessary /debug section, and the FAQ update operation path suggests a potential indexing mismatch even though the final FAQ content is correct.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.55",
+          "actualWords": 39,
+          "expectedWords": 11,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -7308,8 +9423,9 @@ const EVAL_DATA = {
       "outTokens": 61,
       "totalTokens": 62727
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -7322,6 +9438,34 @@ const EVAL_DATA = {
     "overallScore": 0.76,
     "summary": "Clara correctly updated the RSVP/registration deadline to September 30, 2026 and aligned major guest-facing references (FAQ, overview, RSVP description) plus the relevant timeline task. The user-facing response is clear and largely complete, though it doesn’t explicitly mention the prior Sept 20 deadline as the expected response does. Tool usage achieved the requested mutation, but adding a new /debug field is an unnecessary and potentially problematic side effect.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.73",
+          "actualWords": 52,
+          "expectedWords": 11,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -7411,8 +9555,9 @@ const EVAL_DATA = {
       "outTokens": 91,
       "totalTokens": 62694
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -7425,6 +9570,34 @@ const EVAL_DATA = {
     "overallScore": 0.62,
     "summary": "Clara successfully implemented the requested change: eventJsonAfter shows a new multi-select dietary restrictions question added to the RSVP follow-up questions, and the existing dietary notes question was retained and retitled. Her explanation is mostly accurate and clear, though it goes beyond the minimal expected response and the tool sequence included an initial failed patch before a successful retry.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.11",
+          "actualWords": 78,
+          "expectedWords": 19,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -7528,8 +9701,9 @@ const EVAL_DATA = {
       "outTokens": 125,
       "totalTokens": 63501
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -7542,6 +9716,34 @@ const EVAL_DATA = {
     "overallScore": 0.76,
     "summary": "Clara successfully added SDAIA to the Sponsors section with a logo URL and official site link, and her confirmation aligns with the updated event JSON. However, she introduced an unrequested /debug field and used extra tooling (webSearch/link checks) that wasn’t necessary for the simple request. The response is clear but slightly more verbose than required and includes an additional follow-up question not asked by the user.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.67",
+          "actualWords": 42,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -7655,8 +9857,11 @@ const EVAL_DATA = {
       "outTokens": 90,
       "totalTokens": 66296
     },
-    "expectedArtifacts": "`[🌐 View Sponsors]`",
+    "expectedArtifacts": [
+      "[🌐 View Sponsors]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 4
   },
   {
@@ -7669,6 +9874,34 @@ const EVAL_DATA = {
     "overallScore": 0.73,
     "summary": "Clara correctly updated the timeline by marking the KAFD venue hold/deposit task as completed and removing it from Immediate Next Steps, and her message accurately reflects those changes. Main issues are that the updated item is a hold/deposit milestone rather than an explicitly labeled 'venue contract' milestone, and she introduced an unnecessary /debug section in the event JSON.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 2
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "5.88",
+          "actualWords": 47,
+          "expectedWords": 8,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -7763,8 +9996,11 @@ const EVAL_DATA = {
       "outTokens": 79,
       "totalTokens": 62303
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -7777,6 +10013,34 @@ const EVAL_DATA = {
     "overallScore": 0.83,
     "summary": "Clara successfully executed the requested mutation: registration is marked closed via updated RSVP deadline and consistent guest-facing copy across RSVP, FAQ, and Overview, and her explanation matches the resulting JSON. The main concerns are that she added a nonessential /debug field and that closing registration via deadline alone may not fully prevent submissions depending on platform behavior. Overall, the response is clear and largely accurate with minor implementation caveats.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.30",
+          "actualWords": 33,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -7866,8 +10130,9 @@ const EVAL_DATA = {
       "outTokens": 64,
       "totalTokens": 62519
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -7880,6 +10145,34 @@ const EVAL_DATA = {
     "overallScore": 0.7,
     "summary": "Clara’s response is clear and mostly accurate: the event JSON after-state shows a new speaker headshots task with recommendedOwners set to Sarah and a due date of Mar 8, 2026. The main concern is intent alignment—she created a new task rather than reassigning an existing one, and she didn’t disclose that nuance in her confirmation. Tool usage was generally appropriate, though the added /debug field is an extra side effect not requested by the user.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 2,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.63",
+          "actualWords": 21,
+          "expectedWords": 8,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -7969,8 +10262,11 @@ const EVAL_DATA = {
       "outTokens": 43,
       "totalTokens": 62637
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -7983,6 +10279,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara’s user-facing confirmation is clear and the deadline value was set to October 5, 2026. However, she appears to have updated the wrong item (the sponsorship prospectus task in Phase 2, moving it from Feb 25 to Oct 5) rather than a dedicated “sponsor deck” deadline, and she introduced unintended /debug changes to the event JSON. Tool usage was mostly appropriate for a mutation, but the extra debug edits reduce correctness and cleanliness of the update.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "2.00",
+          "actualWords": 18,
+          "expectedWords": 9,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -8077,8 +10401,11 @@ const EVAL_DATA = {
       "outTokens": 37,
       "totalTokens": 62377
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -8091,6 +10418,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara successfully implemented the requested change: a new timeline task to finalize the catering menu was added with a September 15 due date, and the edit is reflected correctly in eventJsonAfter. The main issue is slight prompt misalignment: she assumed the year as 2026 and provided extra detail plus a follow-up question, whereas the expected response is a short confirmation. Tool usage and the underlying mutation were appropriate and clean.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 1,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "6.70",
+          "actualWords": 67,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -8195,8 +10550,11 @@ const EVAL_DATA = {
       "outTokens": 120,
       "totalTokens": 62687
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -8209,6 +10567,34 @@ const EVAL_DATA = {
     "overallScore": 0.74,
     "summary": "Clara successfully added the requested RSVP follow-up question and mapped it into the guest list; the final event JSON reflects her described question text, conditional display, and column mapping. Minor issues: she added an extra option (“Workshops (hands-on)”) beyond the four-track reference and performed an initial failed patch attempt before succeeding. Overall, the change is implemented correctly and the response is clear, with slight overreach in asking about single- vs multi-select given the schema.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.42",
+          "actualWords": 84,
+          "expectedWords": 19,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -8312,8 +10698,9 @@ const EVAL_DATA = {
       "outTokens": 119,
       "totalTokens": 63048
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -8326,6 +10713,34 @@ const EVAL_DATA = {
     "overallScore": 0.85,
     "summary": "Clara provided a strong, well-structured Vision 2030-inspired web design direction with actionable guidance on visuals, typography, imagery, and interaction patterns, and it fits the KAFD/Riyadh context. However, it misses several concrete reference specifics (e.g., explicit green/gold palette and Islamic geometric motifs) and does not include the expected explicit A/B/C decision options, instead ending with a clarifying question.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Clara's response is warmer and more conversational. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.10",
+          "actualWords": 320,
+          "expectedWords": 78,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -8413,8 +10828,11 @@ const EVAL_DATA = {
       "outTokens": 544,
       "totalTokens": 62380
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Website]`",
+    "expectedArtifacts": [
+      "[🌐 View Website]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -8427,6 +10845,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara’s response is accurate and offers relevant, high-quality font options with helpful guidance on when to use monospace vs sans-serif for an AI/technical feel. The main gap versus the reference is interaction design: she didn’t provide the explicit pick-list (A/B/C/D/E) or offer to preview/apply a chosen font, which would make the response more actionable.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 4,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.62",
+          "actualWords": 151,
+          "expectedWords": 93,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -8484,8 +10930,11 @@ const EVAL_DATA = {
       "outTokens": 277,
       "totalTokens": 62115
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Website]`",
+    "expectedArtifacts": [
+      "[🌐 View Website]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -8498,6 +10947,28 @@ const EVAL_DATA = {
     "overallScore": 0,
     "summary": "Test failed to run",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 1,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 20,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 1,
+          "notes": "No response"
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "notes": "No response"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "notes": "No response"
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0,
@@ -8526,8 +10997,11 @@ const EVAL_DATA = {
       "outTokens": 0,
       "totalTokens": 0
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -8540,6 +11014,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara successfully moved Dario Amodei’s plenary to Day 2 at 09:00–09:45 (Asia/Riyadh), matching the updated event JSON. However, she made additional unrequested schedule changes (broad Day 2 re-timing and extending Day 1 lunch) and claimed it’s the Day 2 opening slot even though an arrival coffee event still precedes it. Tool usage was appropriate for a mutation, but the scope of edits should have been confirmed and summarized more explicitly.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 5,
+      "helpfulness": 3,
+      "styleScore": 73,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.06",
+          "actualWords": 85,
+          "expectedWords": 80,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -8639,8 +11141,11 @@ const EVAL_DATA = {
       "outTokens": 141,
       "totalTokens": 64113
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 6
   },
   {
@@ -8653,6 +11158,34 @@ const EVAL_DATA = {
     "overallScore": 0.48,
     "summary": "Clara successfully updated the event data so that all speaker/VIP bios are reduced to two sentences, matching the user’s constraint. However, her user-facing response failed to include the rewritten bios (or even a preview), so it does not directly satisfy the request from the user’s perspective. Tool usage was generally appropriate, but adding a debug section was an unnecessary side effect.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 2,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "0.74",
+          "actualWords": 59,
+          "expectedWords": 80,
+          "notes": "Slightly brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -8737,8 +11270,11 @@ const EVAL_DATA = {
       "outTokens": 98,
       "totalTokens": 62674
     },
-    "expectedArtifacts": "After confirm: `[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -8751,6 +11287,34 @@ const EVAL_DATA = {
     "overallScore": 0.69,
     "summary": "Clara successfully reduced Day 1 morning density by moving welcome remarks into breakfast, lengthening the coffee break window, adding a pre-lunch buffer, and moving the SDAIA panel to after lunch; these changes are reflected correctly in the updated event JSON. The main gaps are process and clarity: she implemented a specific solution without first offering/confirming options, and her closing question mischaracterizes the revised number/type of pre-lunch sit-down sessions.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 4,
+      "styleScore": 80,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.33",
+          "actualWords": 134,
+          "expectedWords": 101,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -8840,8 +11404,11 @@ const EVAL_DATA = {
       "outTokens": 252,
       "totalTokens": 64528
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 6
   },
   {
@@ -8854,6 +11421,34 @@ const EVAL_DATA = {
     "overallScore": 0.84,
     "summary": "Clara successfully extended the event to a 4-day conference (Oct 15–18, 2026) and added a coherent Day 4 schedule block, updating several dependent sections. However, her claim that all guest-facing copy was updated is only partially true—some prominent fields (e.g., RSVP description and hero image description) still reference the original 3-day dates, leaving inconsistencies. Tool usage and response clarity were strong, and the follow-up question about Day 4 access is helpful.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 5,
+      "helpfulness": 3,
+      "styleScore": 73,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.27",
+          "actualWords": 103,
+          "expectedWords": 81,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -8938,8 +11533,11 @@ const EVAL_DATA = {
       "outTokens": 183,
       "totalTokens": 70126
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 6
   },
   {
@@ -8952,6 +11550,34 @@ const EVAL_DATA = {
     "overallScore": 0.85,
     "summary": "Clara delivered a well-written, persuasive 'Why Attend' section with strong structure and messaging that fits the event’s themes (KAFD, Vision 2030, safety, workshops). However, it misses some of the most compelling event-specific differentiators available in the plan (named headliners and ministerial access) and does not include the expected apply/modify/cancel style options. Overall, the copy is high quality but could be more tailored and aligned to the expected conversion-oriented framing.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 5,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.19",
+          "actualWords": 237,
+          "expectedWords": 108,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 5,
+          "helpfulCount": 5,
+          "hasOptions": true,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -9039,8 +11665,11 @@ const EVAL_DATA = {
       "outTokens": 411,
       "totalTokens": 62243
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Why Attend]`",
+    "expectedArtifacts": [
+      "[🌐 View Why Attend]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -9053,6 +11682,34 @@ const EVAL_DATA = {
     "overallScore": 0.79,
     "summary": "Clara produced a clear, well-structured 'About Saudi Arabia' section that covers most practical needs for international attendees (culture, dress, alcohol/halal norms, getting around, safety, and October weather). However, it underutilizes event-specific context available in the plan (notably KAFD/RUH/Metro Line 4 specifics and Friday/Jumu’ah framing) and omits the apply/modify/cancel decision prompt shown in the expected reference.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.57",
+          "actualWords": 393,
+          "expectedWords": 153,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -9140,8 +11797,11 @@ const EVAL_DATA = {
       "outTokens": 623,
       "totalTokens": 62456
     },
-    "expectedArtifacts": "After confirm: `[🌐 View About]`",
+    "expectedArtifacts": [
+      "[🌐 View About]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -9154,6 +11814,34 @@ const EVAL_DATA = {
     "overallScore": 0.68,
     "summary": "Clara successfully rewrote multiple agenda descriptions into a more executive-friendly tone while preserving schedule timing and venue details, aligning with the user’s core request. However, her chat response is light on concrete deliverables (no before/after examples or a preview list) and doesn’t provide a clear apply/review/cancel confirmation flow; additionally, she added an unrequested debug field and only updated a subset of schedule descriptions without clarifying coverage.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 4,
+      "helpfulness": 3,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.36",
+          "actualWords": 95,
+          "expectedWords": 70,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -9253,8 +11941,11 @@ const EVAL_DATA = {
       "outTokens": 163,
       "totalTokens": 63401
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -9267,6 +11958,34 @@ const EVAL_DATA = {
     "overallScore": 0.56,
     "summary": "Clara correctly avoided fabricating that photos were edited, but she did not fulfill the user’s core request to make all speaker photos black-and-white with backgrounds removed. She offered a partial workaround (adding a headshot spec/checklist), yet did not implement it in the event data or provide the structured apply/review/cancel options implied by the expected response.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 5,
+      "helpfulness": 3,
+      "styleScore": 87,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "0.88",
+          "actualWords": 42,
+          "expectedWords": 48,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -9366,8 +12085,11 @@ const EVAL_DATA = {
       "outTokens": 234,
       "totalTokens": 255308
     },
-    "expectedArtifacts": "After confirm: `[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -9380,6 +12102,34 @@ const EVAL_DATA = {
     "overallScore": 0.57,
     "summary": "Clara’s response is clear but does not fulfill the user’s request to add a gradient background, and it deviates significantly from the expected option-driven flow. No event data was changed, which matches the lack of execution, but the response is incomplete and offers only a limited alternative rather than proposing gradient options or an implementation workaround. Tool usage was acceptable for logging, though it didn’t translate into progress on the requested change.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 5,
+      "helpfulness": 4,
+      "styleScore": 93,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "0.95",
+          "actualWords": 39,
+          "expectedWords": 41,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -9474,8 +12224,11 @@ const EVAL_DATA = {
       "outTokens": 266,
       "totalTokens": 255399
     },
-    "expectedArtifacts": "After confirm: `[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -9488,6 +12241,34 @@ const EVAL_DATA = {
     "overallScore": 0.44,
     "summary": "Clara captured the requested intent by adding an explicit website ordering note and adjusting the CTA link order in the overview summary to put /speakers before /schedule. However, she did not present the current vs new page order or ask for confirmation as expected, and there is no evidence of a true website section reorder being implemented—only guidance text was updated.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 3,
+      "helpfulness": 1,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "0.48",
+          "actualWords": 24,
+          "expectedWords": 50,
+          "notes": "Too brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -9562,8 +12343,11 @@ const EVAL_DATA = {
       "outTokens": 46,
       "totalTokens": 62484
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Website]`",
+    "expectedArtifacts": [
+      "[🌐 View Website]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -9576,6 +12360,34 @@ const EVAL_DATA = {
     "overallScore": 0.81,
     "summary": "Clara successfully produced a more exciting, visionary event description that remains consistent with the event JSON, and the changes were applied correctly in the final state. However, she went slightly beyond the requested scope by also updating the overview summary and adding a debug log, and she did not provide the expected before/after plus explicit approval prompt. Tool usage was generally appropriate, though it included one avoidable failed patch attempt.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 6,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.08",
+          "actualWords": 193,
+          "expectedWords": 93,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -9689,8 +12501,11 @@ const EVAL_DATA = {
       "outTokens": 292,
       "totalTokens": 63948
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Homepage]`",
+    "expectedArtifacts": [
+      "[🌐 View Homepage]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -9703,6 +12518,34 @@ const EVAL_DATA = {
     "overallScore": 0.59,
     "summary": "Clara successfully merged the track structure in the JSON (removing the separate Ethics track and renaming the Policy track to “Ethics & Policy”), and updated several guest-facing references to reflect three tracks. However, she did not actually consolidate overlapping sessions/workshops—multiple items remain scheduled in the same time/room under the same track—so the agenda is not functionally “combined” in the way the expected response described. Tool usage was appropriate, but the changeset was very broad and left some copy inconsistencies (e.g., hero image description still mentions four tracks).",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 5,
+      "helpfulness": 3,
+      "styleScore": 73,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.07",
+          "actualWords": 118,
+          "expectedWords": 110,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -9797,8 +12640,11 @@ const EVAL_DATA = {
       "outTokens": 187,
       "totalTokens": 78416
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 5
   },
   {
@@ -9811,6 +12657,34 @@ const EVAL_DATA = {
     "overallScore": 0.62,
     "summary": "Clara’s response is factually consistent with the applied changes: she added a dedicated /venue page build task and updated the overview navigation to include /venue. However, it does not fulfill the user’s request to actually create/propose the venue page content and structure (as in the expected Hero/Overview/Facilities/Getting There/Map/Nearby Hotels layout), nor does it offer the A/B/C confirmation. Tool usage was appropriate for logging plan changes, though adding a /debug section is unnecessary.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 4,
+      "helpfulness": 2,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "0.76",
+          "actualWords": 69,
+          "expectedWords": 91,
+          "notes": "Slightly brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -9910,8 +12784,11 @@ const EVAL_DATA = {
       "outTokens": 130,
       "totalTokens": 63128
     },
-    "expectedArtifacts": "After confirm: `[📍 View Venue]`",
+    "expectedArtifacts": [
+      "[📍 View Venue]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -9924,6 +12801,34 @@ const EVAL_DATA = {
     "overallScore": 0.45,
     "summary": "Clara correctly implemented the core request by adding Diamond/Gold/Silver sponsor tiers with “TBA” placeholders in the Overview summary and referencing tiers in the Overview description. However, she did not add the Partners section suggested by the expected response and did not provide tier benefit/placement descriptions. Tool usage was mostly appropriate, but she introduced an unnecessary /debug field, which counts as an unintended change.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 3,
+      "styleScore": 80,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "0.94",
+          "actualWords": 59,
+          "expectedWords": 63,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -10013,8 +12918,11 @@ const EVAL_DATA = {
       "outTokens": 99,
       "totalTokens": 62587
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Sponsors]`",
+    "expectedArtifacts": [
+      "[🌐 View Sponsors]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -10027,6 +12935,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara’s venue recommendations are broadly consistent with the event plan (KAFD Conference Center as the primary venue, with RFECC and Hilton as alternatives) and are presented clearly. However, the response does not align with the expected approach for this prompt, which was to ask key clarifying questions (budget, breakout rooms, AV needs, vibe) before proposing specific venues; she only asked one narrowing question about KAFD vs Riyadh.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.27",
+          "actualWords": 188,
+          "expectedWords": 44,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -10114,8 +13050,9 @@ const EVAL_DATA = {
       "outTokens": 379,
       "totalTokens": 62214
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -10128,6 +13065,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara’s response is largely accurate and aligns well with the event’s known parameters (500 attendees, 600-seat auditorium, four tracks, metro proximity, VIP/security considerations). It goes beyond the expected answer with helpful operational watch-outs, but misses two expected elements: offering to check availability and asking whether the user has an existing relationship with the venue. A few feasibility statements (e.g., breakout room partitioning) would be stronger if framed more explicitly as items to confirm.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 5,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.35",
+          "actualWords": 235,
+          "expectedWords": 54,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 5,
+          "helpfulCount": 5,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -10200,8 +13165,9 @@ const EVAL_DATA = {
       "outTokens": 407,
       "totalTokens": 62239
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -10214,6 +13180,34 @@ const EVAL_DATA = {
     "overallScore": 0.51,
     "summary": "Clara correctly interpreted the request and the track breakdown, and she avoided altering schedule timings. However, the response is incomplete versus the expected deliverable (no concrete page structure/URLs or per-page content requirements) and is slightly misleading by claiming the agenda was already split while simultaneously asking the user’s preference on the split. Tool-driven changes mostly add notes and a timeline task, which is helpful, but should have been communicated as planned work rather than completed implementation.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 4,
+      "styleScore": 87,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.24",
+          "actualWords": 107,
+          "expectedWords": 86,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -10308,8 +13302,11 @@ const EVAL_DATA = {
       "outTokens": 154,
       "totalTokens": 63216
     },
-    "expectedArtifacts": "After confirm: `[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -10322,6 +13319,34 @@ const EVAL_DATA = {
     "overallScore": 0.46,
     "summary": "Clara responds in a clear, organized way and appropriately treats KAFD as booked, then suggests sensible next planning steps. However, she does not perform the core expected action of confirming KAFD as the event venue in the record or requesting contract details (capacity, costs, contacts) or offering to use standard specs, making the response incomplete relative to the prompt’s implied need.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.21",
+          "actualWords": 160,
+          "expectedWords": 38,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -10389,8 +13414,9 @@ const EVAL_DATA = {
       "outTokens": 243,
       "totalTokens": 62075
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -10403,6 +13429,34 @@ const EVAL_DATA = {
     "overallScore": 0.55,
     "summary": "Clara provided a clear, scannable shortlist of Riyadh venues and included a useful follow-up question about breakout needs. However, the response diverges from the expected approach by not first collecting key constraints (budget and vibe) and by making some capacity/fit claims without supporting evidence from the provided tool outputs or event data. Tool use was directionally appropriate but somewhat inefficient and didn’t substantively validate the most important requirement (true 500-person capacity/configurations).",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.71",
+          "actualWords": 226,
+          "expectedWords": 48,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -10498,8 +13552,9 @@ const EVAL_DATA = {
       "outTokens": 768,
       "totalTokens": 76581
     },
-    "expectedArtifacts": "`[📍 View Venue Comparison]`",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -10512,6 +13567,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara’s venue recommendations are largely consistent with the event’s venue options (KAFD, RFECC, Hilton Riyadh) and are presented clearly with sensible tradeoffs and selection guidance. The main gap is completeness relative to a broader Riyadh venue landscape and the expected reference—she did not include premium hotel staples like Ritz-Carlton or Four Seasons, and she didn’t ask about venue budget, which would better tailor the recommendation.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.71",
+          "actualWords": 278,
+          "expectedWords": 59,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -10589,8 +13672,11 @@ const EVAL_DATA = {
       "outTokens": 498,
       "totalTokens": 62334
     },
-    "expectedArtifacts": "`[📍 View Venue Comparison]`",
+    "expectedArtifacts": [
+      "[📍 View Venue Comparison]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -10603,6 +13689,34 @@ const EVAL_DATA = {
     "overallScore": 0.46,
     "summary": "Clara provided a clear, polished overview that generally matches the event plan’s note that Four Seasons Riyadh is in Kingdom Centre (Al Olaya) and is about 15–20 minutes from KAFD. However, the response does not deliver the expected venue profile elements (capacity, amenities, photos) and includes several ungrounded qualitative claims not present in the event JSON.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "13.14",
+          "actualWords": 184,
+          "expectedWords": 14,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -10680,8 +13794,11 @@ const EVAL_DATA = {
       "outTokens": 328,
       "totalTokens": 62163
     },
-    "expectedArtifacts": "`[📍 View Venue Profile]`",
+    "expectedArtifacts": [
+      "[📍 View Venue Profile]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -10694,6 +13811,34 @@ const EVAL_DATA = {
     "overallScore": 0.86,
     "summary": "Clara’s venue comparison is accurate and well-presented, matching the event JSON’s venue capabilities and comparison table for KAFD, RFECC, and Hilton Riyadh. The response is clear and directly answers the prompt. Minor improvements would be to include the sustainability row and/or the scored totals from the plan, and to keep subjective labels (e.g., “best”) tied explicitly to the plan’s scoring.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "39.38",
+          "actualWords": 315,
+          "expectedWords": 8,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -10776,8 +13921,11 @@ const EVAL_DATA = {
       "outTokens": 566,
       "totalTokens": 62398
     },
-    "expectedArtifacts": "`[📍 View Venue Comparison]`",
+    "expectedArtifacts": [
+      "[📍 View Venue Comparison]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -10790,6 +13938,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara successfully updated several high-profile speakers’ photoUrl fields to consistent Wikimedia-hosted portrait crops and accurately reported those changes, with tooling evidence supporting the rate-limit issue. However, the response does not fully satisfy the prompt to make *all* speaker photos consistent, and it diverges from the expected approach of offering style options and asking the user to choose a consistent visual direction. Tool use was mostly appropriate but somewhat heavy and could have been more systematic to ensure every speaker profile was addressed.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 4,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 6,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.79",
+          "actualWords": 120,
+          "expectedWords": 67,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -10985,8 +14161,11 @@ const EVAL_DATA = {
       "outTokens": 179,
       "totalTokens": 78523
     },
-    "expectedArtifacts": "After confirm: `[👤 View Speakers]`",
+    "expectedArtifacts": [
+      "[👤 View Speakers]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 4
   },
   {
@@ -10999,6 +14178,34 @@ const EVAL_DATA = {
     "overallScore": 0.73,
     "summary": "Clara’s explanation is largely aligned with the event plan and clearly communicates why KAFD was recommended, correctly referencing the KAFD location requirement, 600-seat auditorium, four-track fit, VIP/security advantages, and metro adjacency. The main gaps are missing explicit mention of the sustainability credential and the venue’s documented connectivity/AV strengths, and the cost tradeoff is described qualitatively without using the specific ROM figures present in the plan. Overall, it’s a strong, readable justification with a few omitted data-backed points.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 11,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.99",
+          "actualWords": 332,
+          "expectedWords": 111,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -11076,8 +14283,9 @@ const EVAL_DATA = {
       "outTokens": 523,
       "totalTokens": 62360
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -11090,6 +14298,34 @@ const EVAL_DATA = {
     "overallScore": 0.59,
     "summary": "Clara’s response is polite and clear, and correctly identifies the Four Seasons Hotel Riyadh. However, it fails to implement (or confirm) the requested removal from the comparison/accommodations list—eventJsonAfter still includes the Four Seasons—so the response is incomplete for a mutation-style request. Tool usage was insufficient because a data update was likely required to satisfy the user’s intent.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.39",
+          "actualWords": 39,
+          "expectedWords": 28,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -11162,8 +14398,11 @@ const EVAL_DATA = {
       "outTokens": 64,
       "totalTokens": 61897
     },
-    "expectedArtifacts": "`[📍 View Venue Comparison]`",
+    "expectedArtifacts": [
+      "[📍 View Venue Comparison]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -11176,6 +14415,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara provides a well-structured list of plausible downsides and good decision-framing, but several venue-specific claims are not supported by the provided event JSON and read as speculative. The response broadly aligns with the expected themes (cost, brand fit, shared-hotel conflicts) yet misses or only implies a couple of expected points like metro access and explicitly premium AV pricing/exclusivity.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 11,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.29",
+          "actualWords": 280,
+          "expectedWords": 85,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -11248,8 +14515,9 @@ const EVAL_DATA = {
       "outTokens": 434,
       "totalTokens": 62275
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -11262,6 +14530,34 @@ const EVAL_DATA = {
     "overallScore": 0.71,
     "summary": "Clara’s response is accurate and well-structured, and it appropriately seeks clarification for the ambiguous word “these.” However, it falls short of the expected direction by not asking what ‘more modern’ specifically means (architecture, tech infrastructure, etc.) and by potentially over-indexing on website-related possibilities (hero images) rather than moving toward modern venue recommendations in Riyadh.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 3,
+      "helpfulness": 2,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.62",
+          "actualWords": 47,
+          "expectedWords": 29,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -11349,8 +14645,9 @@ const EVAL_DATA = {
       "outTokens": 149,
       "totalTokens": 61984
     },
-    "expectedArtifacts": "`[📍 View Venue Comparison]`",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -11363,6 +14660,34 @@ const EVAL_DATA = {
     "overallScore": 0.85,
     "summary": "Clara’s recommendation of KAFD Conference Center is accurate and strongly supported by the event JSON, including capacity, track fit, metro proximity, and RUH distance. The response is clear and includes relevant trade-offs, but it diverges slightly from the reference by not offering Ritz-Carlton as the named second choice and by using a different (though reasonable) next-step prompt.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.08",
+          "actualWords": 158,
+          "expectedWords": 76,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -11440,8 +14765,9 @@ const EVAL_DATA = {
       "outTokens": 275,
       "totalTokens": 62107
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -11454,6 +14780,34 @@ const EVAL_DATA = {
     "overallScore": 0.75,
     "summary": "Clara accurately confirms that KAFD Conference Center is the venue and stays consistent with the event JSON, with a clear and professional reply. However, she does not indicate that any event details or schedule room assignments were updated, which is a gap relative to the expected action-oriented confirmation. Tool usage is fine given no actual change was needed or performed.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.52",
+          "actualWords": 53,
+          "expectedWords": 21,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -11526,8 +14880,11 @@ const EVAL_DATA = {
       "outTokens": 87,
       "totalTokens": 61915
     },
-    "expectedArtifacts": "Dashboard transforms",
+    "expectedArtifacts": [
+      "[📍 View Venue]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -11540,6 +14897,34 @@ const EVAL_DATA = {
     "overallScore": 0.59,
     "summary": "Clara correctly aligns with the event plan by affirming KAFD Conference Center as the primary venue and suggesting practical next steps (hold dates, space assumptions, request tech pack). However, she does not explicitly mark the venue as confirmed in the event record nor offer the expected administrative actions (add venue details, create a contract milestone, send confirmation), and her wording implies the venue was already set. Overall clear and helpful, but slightly misaligned with the requested 'confirmation' workflow.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.63",
+          "actualWords": 100,
+          "expectedWords": 38,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -11612,8 +14997,9 @@ const EVAL_DATA = {
       "outTokens": 192,
       "totalTokens": 62025
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -11626,6 +15012,34 @@ const EVAL_DATA = {
     "overallScore": 0.46,
     "summary": "Clara did not fulfill the user’s request to book/confirm the KAFD Conference Center; instead she stated she cannot book and offered to draft outreach materials. This is incomplete relative to the expected confirmation-and-update response, and she also missed that the event plan already lists KAFD as the venue throughout the JSON. The response is clear and provides helpful next-step guidance, and tool usage was minimal and reasonable given the stated limitation.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 4,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.45",
+          "actualWords": 130,
+          "expectedWords": 53,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -11720,8 +15134,12 @@ const EVAL_DATA = {
       "outTokens": 329,
       "totalTokens": 124117
     },
-    "expectedArtifacts": "Dashboard transforms",
+    "expectedArtifacts": [
+      "[📍 View Venue]",
+      "[📅 View Schedule]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -11734,6 +15152,34 @@ const EVAL_DATA = {
     "overallScore": 0.43,
     "summary": "Clara’s response is well-structured and correctly lists several upcoming tasks from the timeline, but it fails on accuracy/grounding for the core claim: she uses an unsupported ‘today’ date (Jan 12, 2026) and does not anchor the overdue calculation to the event JSON’s timeline.timeframe.today (2026-01-11). The answer also includes unnecessary upcoming deadlines when the user asked only for overdue milestones, and the lack of tool/data inspection contributes to these issues.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "7.30",
+          "actualWords": 73,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.17,
@@ -11821,8 +15267,11 @@ const EVAL_DATA = {
       "outTokens": 189,
       "totalTokens": 62020
     },
-    "expectedArtifacts": "`[📋 View Project Plan]` (filtered)",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -11835,6 +15284,34 @@ const EVAL_DATA = {
     "overallScore": 0.46,
     "summary": "Clara provided a clear, detailed phased plan, but it did not match the user’s intent or the expected behavior for this command: opening the Project Plan in Table view. While many dates and milestones align with the event timeline, the response is overly verbose for an action request and may include unverified additions.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "139.14",
+          "actualWords": 974,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -11902,8 +15379,11 @@ const EVAL_DATA = {
       "outTokens": 1694,
       "totalTokens": 63523
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -11916,6 +15396,34 @@ const EVAL_DATA = {
     "overallScore": 0.6,
     "summary": "Clara’s core factual claim is accurate: the accommodations list already includes “Crowne Plaza Riyadh RDC Hotel & Convention by IHG.” However, the response does not fulfill the expected intent to add it to a venue comparison/list and research/populate details, and it instead adds an unnecessary /debug entry via tools. The answer is clear, but tool use was inefficient and caused an unrelated change to the event JSON.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.29",
+          "actualWords": 39,
+          "expectedWords": 17,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -12000,8 +15508,11 @@ const EVAL_DATA = {
       "outTokens": 64,
       "totalTokens": 62317
     },
-    "expectedArtifacts": "`[📍 View Venue Comparison]`",
+    "expectedArtifacts": [
+      "[📍 View Venue Comparison]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -12014,6 +15525,34 @@ const EVAL_DATA = {
     "overallScore": 0.81,
     "summary": "Clara’s response is consistent with the provided event data: no one named Fatima appears, so she correctly avoids fabricating assignments and requests clarification. However, relative to the prompt’s intent, she did not explicitly “filter the project plan” or reference that tasks are owned by roles rather than named individuals, which makes the answer feel less complete. Tool usage was minimal; acceptable, but a targeted search/filter (if available) would have strengthened confidence.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "5.58",
+          "actualWords": 67,
+          "expectedWords": 12,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -12096,8 +15635,9 @@ const EVAL_DATA = {
       "outTokens": 136,
       "totalTokens": 61967
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -12110,6 +15650,34 @@ const EVAL_DATA = {
     "overallScore": 0.39,
     "summary": "Clara’s response does not align with the user’s request to group by person and does not deliver the expected confirmation or any regrouped output. Instead, it asks an unrelated clarification about grouping speakers/VIPs by role type or confirmation status. No tools were used and no changes were made to the event data, indicating the requested update was not performed.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 2,
+      "helpfulness": 3,
+      "styleScore": 67,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.42",
+          "actualWords": 29,
+          "expectedWords": 12,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -12177,8 +15745,11 @@ const EVAL_DATA = {
       "outTokens": 85,
       "totalTokens": 61914
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -12191,6 +15762,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara successfully updated the plan so the sponsorship booking/outreach milestone (“Reach 50% of sponsorship target booked”) is assigned to Ahmed and clearly confirmed the change. However, the tool operations introduced unrelated changes by adding a /debug section and duplicating decision log entries, which is an unintended side effect and should be avoided.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 2,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.13",
+          "actualWords": 17,
+          "expectedWords": 8,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -12285,8 +15884,11 @@ const EVAL_DATA = {
       "outTokens": 28,
       "totalTokens": 62272
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -12299,6 +15901,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara successfully added the requested speaker travel confirmation task with the correct due date and communicated the update clearly. The main issues are minor: she didn’t mirror the expected exact milestone title/label and introduced an additional /debug field in the event JSON, which is unnecessary for the user’s request but does not affect event functionality.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 27,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 0,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.25",
+          "actualWords": 51,
+          "expectedWords": 12,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -12398,8 +16028,11 @@ const EVAL_DATA = {
       "outTokens": 84,
       "totalTokens": 62686
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -12412,6 +16045,34 @@ const EVAL_DATA = {
     "overallScore": 0.41,
     "summary": "Clara’s response is clear and largely consistent with the underlying timeline data, but it fails to follow the user’s intent: switching to or showing a Gantt view. Instead of the expected brief confirmation, she provided a lengthy textual ‘Gantt-style’ timeline and a caveat about not rendering charts in chat, which makes the response misaligned and overly verbose for the prompt.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "97.00",
+          "actualWords": 388,
+          "expectedWords": 4,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -12479,8 +16140,11 @@ const EVAL_DATA = {
       "outTokens": 759,
       "totalTokens": 62593
     },
-    "expectedArtifacts": "`[📋 View Gantt]`",
+    "expectedArtifacts": [
+      "[📋 View Gantt]"
+    ],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -12493,6 +16157,34 @@ const EVAL_DATA = {
     "overallScore": 0.52,
     "summary": "Clara successfully updated the event data to reflect a more premium, high-contrast visual direction, including a new hero image and tightened overview copy, and her description generally matches the JSON changes. However, she did not deliver the expected homepage restructure (new section layout and CTAs) and applied changes without presenting the explicit A/B/C confirmation flow, leaving the redesign incomplete relative to the prompt’s implied scope.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 4,
+      "helpfulness": 3,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 1
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.30",
+          "actualWords": 107,
+          "expectedWords": 82,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -12635,8 +16327,11 @@ const EVAL_DATA = {
       "outTokens": 198,
       "totalTokens": 65342
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Homepage]`",
+    "expectedArtifacts": [
+      "[🌐 View Homepage]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 6
   },
   {
@@ -12649,6 +16344,34 @@ const EVAL_DATA = {
     "overallScore": 0.37,
     "summary": "Clara’s response is clear and provides useful general guidance about negotiating venue AV restrictions, but it does not perform or confirm the requested planning update. The answer fails to create/record the dependency that “A/V setup” is blocked by “Venue contract,” and there’s no corresponding change reflected in the provided event JSON.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "16.46",
+          "actualWords": 214,
+          "expectedWords": 13,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -12726,8 +16449,11 @@ const EVAL_DATA = {
       "outTokens": 366,
       "totalTokens": 62201
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -12740,6 +16466,34 @@ const EVAL_DATA = {
     "overallScore": 0.55,
     "summary": "Clara’s response is clear and offers sensible scoping options, but it fails to fulfill the user’s core request to export to Excel. She did not generate any Excel/CSV output or initiate an export, making the response incomplete and misaligned with the expected behavior. Tool usage was minimal; if an export capability exists, it should have been used, otherwise Clara should have produced CSV-formatted tables directly.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 1,
+      "helpfulness": 3,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 9,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "12.00",
+          "actualWords": 84,
+          "expectedWords": 7,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -12822,8 +16576,11 @@ const EVAL_DATA = {
       "outTokens": 169,
       "totalTokens": 62000
     },
-    "expectedArtifacts": "`[📄 Download Excel]`",
+    "expectedArtifacts": [
+      "[📄 Download Excel]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -12836,6 +16593,34 @@ const EVAL_DATA = {
     "overallScore": 0.18,
     "summary": "Clara’s response is clear but inaccurate: she updated the wrong timeline task (VIP/speaker invitations) while claiming to complete visa/MOFA coordination. The visa-related coordination items were not marked completed, and removing NS9 from Immediate Next Steps does not satisfy the user’s request. Tool usage was structurally appropriate, but the specific edits were incorrect and introduced an unnecessary debug field.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 2,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 2,
+          "warmCount": 1,
+          "coldCount": 1
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.88",
+          "actualWords": 23,
+          "expectedWords": 8,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0,
@@ -12925,8 +16710,11 @@ const EVAL_DATA = {
       "outTokens": 38,
       "totalTokens": 62215
     },
-    "expectedArtifacts": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -12939,6 +16727,34 @@ const EVAL_DATA = {
     "overallScore": 0.38,
     "summary": "Clara did not complete the requested assignment and instead asked for clarification, which does not align with the expected outcome (assign the catering menu milestone to Sarah and confirm). No changes were made in the event JSON, confirming the action was not carried out. The response is clear but incomplete and operationally ineffective for the intended task.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.50",
+          "actualWords": 28,
+          "expectedWords": 8,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13001,8 +16817,11 @@ const EVAL_DATA = {
       "outTokens": 72,
       "totalTokens": 61901
     },
-    "expectedArtifacts": "Update owner to Sarah",
-    "mode": "`[📋 View Project Plan]`",
+    "expectedArtifacts": [
+      "[📋 View Project Plan]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13015,6 +16834,34 @@ const EVAL_DATA = {
     "overallScore": 0.83,
     "summary": "Clara delivered a polished, well-structured travel arrangements email that correctly incorporates key event details (venue, dates, airport transfer options, and security timing). The main issue is a minor inconsistency between the suggested Saturday departure time and the published Day 3 program end time, plus omission of optional visa guidance that could be helpful for international speakers. Overall, the response is clear, actionable, and largely aligned with the event context.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 15,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "32.42",
+          "actualWords": 389,
+          "expectedWords": 12,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -13092,8 +16939,11 @@ const EVAL_DATA = {
       "outTokens": 661,
       "totalTokens": 62493
     },
-    "expectedArtifacts": "Create email draft as .md file using milestone context",
-    "mode": "`[📄 Speaker_Travel_Email.md]`",
+    "expectedArtifacts": [
+      "[📄 Speaker_Travel_Email.md]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -13106,6 +16956,34 @@ const EVAL_DATA = {
     "overallScore": 0.61,
     "summary": "Clara’s response is clear and grounded in the event’s real parameters (dates, venue, size, and budget reference). However, it fails to fulfill the user’s request to create a board presentation because it provides only a clarifying question and no actual deck content or even a concrete slide outline, falling short of the expected executive-summary presentation deliverable.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 47,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "13.13",
+          "actualWords": 105,
+          "expectedWords": 8,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13163,8 +17041,11 @@ const EVAL_DATA = {
       "outTokens": 198,
       "totalTokens": 62027
     },
-    "expectedArtifacts": "None",
-    "mode": "Chat",
+    "expectedArtifacts": [
+      "[📊 View Presentation]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13177,6 +17058,34 @@ const EVAL_DATA = {
     "overallScore": 0.49,
     "summary": "Clara produced a polished, committee-ready vision statement that is broadly consistent with the event’s positioning and program structure. However, she did not follow the expected direction to provide sharing options (link/email/export), so the response is incomplete relative to the prompt’s intended action. Tool usage was minimal; using or referencing platform sharing mechanisms would have better satisfied the request.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "28.92",
+          "actualWords": 347,
+          "expectedWords": 12,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13244,8 +17153,9 @@ const EVAL_DATA = {
       "outTokens": 570,
       "totalTokens": 62402
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13258,6 +17168,34 @@ const EVAL_DATA = {
     "overallScore": 0.77,
     "summary": "Clara provided a strong, clearly formatted contract clause checklist and correctly added KSA/VIP-specific considerations like halal requirements and Jumu’ah timing, with a helpful follow-up question. The main gap is focus and completeness relative to a venue contract: it doesn’t explicitly include room allocation/exclusivity and catering minimums/exclusivity, and it omits explicit mention of prayer break accommodations and potential SDAIA/MCIT partnership terms.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "5.41",
+          "actualWords": 498,
+          "expectedWords": 92,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -13330,8 +17268,9 @@ const EVAL_DATA = {
       "outTokens": 863,
       "totalTokens": 62700
     },
-    "expectedArtifacts": "Provide guidance on venue contract elements for Saudi Arabia",
-    "mode": "None",
+    "expectedArtifacts": [],
+    "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13344,6 +17283,34 @@ const EVAL_DATA = {
     "overallScore": 0.55,
     "summary": "Clara’s response is clear and does not fabricate event details, but it fails to fulfill the user’s direct request to export the plan to slides and does not match the expected response of initiating a slides export. The feature-request tool call is reasonable for product tracking, yet the assistant should have either generated the slides/export (or at minimum produced a slide-by-slide deck outline immediately) instead of only asking a clarifying question.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 33,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "21.33",
+          "actualWords": 64,
+          "expectedWords": 3,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13428,8 +17395,11 @@ const EVAL_DATA = {
       "outTokens": 269,
       "totalTokens": 124123
     },
-    "expectedArtifacts": "`[📅 View Schedule]`",
+    "expectedArtifacts": [
+      "[📊 View Presentation]"
+    ],
     "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13442,6 +17412,34 @@ const EVAL_DATA = {
     "overallScore": 0.53,
     "summary": "Clara accurately pulled core event facts from the event data and produced a clear, professional email draft. However, she did not fulfill the user’s request to send the event vision, and she omitted the expected ‘password-protected access’/secure delivery approach. Tool usage captured a feature request but did not help complete the user’s task.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 11,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "36.89",
+          "actualWords": 332,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13531,8 +17529,9 @@ const EVAL_DATA = {
       "outTokens": 648,
       "totalTokens": 124442
     },
-    "expectedArtifacts": "None",
-    "mode": "Chat",
+    "expectedArtifacts": [],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13545,6 +17544,34 @@ const EVAL_DATA = {
     "overallScore": 0.79,
     "summary": "Clara produced a well-structured weekly status report that generally aligns with the event plan (dates, venue, scale, RSVP deadline, reception timing, tracks, and key operational assumptions). The main weakness is that several 'this week' completion claims are not verifiable from the JSON (which lacks week-based change tracking) and the report may include broader scope than the user’s unspecified 'these' items. Overall, the response is clear and actionable, with an appropriate clarifying question to finalize the reporting period.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 1
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "75.10",
+          "actualWords": 751,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -13632,8 +17659,11 @@ const EVAL_DATA = {
       "outTokens": 1373,
       "totalTokens": 63208
     },
-    "expectedArtifacts": "Create combined status document",
-    "mode": "`[📄 Weekly_Status_Report.md]`",
+    "expectedArtifacts": [
+      "[📄 Weekly_Status_Report.md]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13646,6 +17676,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara delivered a comprehensive, well-structured draft sponsor prospectus tailored to AGI Summit Riyadh 2026 and largely consistent with the event details (dates, venue, size, tracks, interpretation, halal/alcohol-free). The main issue is minor overreach into assumptions (e.g., VIP/ministerial tone and some marketing claims) that are not strictly evidenced in the event JSON, though she labels key commercial elements like pricing as placeholders. Overall, the response is clear, usable, and complete for the user’s drafting request.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 5,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "107.82",
+          "actualWords": 1186,
+          "expectedWords": 11,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 5,
+          "helpfulCount": 8,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13698,8 +17756,11 @@ const EVAL_DATA = {
       "outTokens": 2092,
       "totalTokens": 63921
     },
-    "expectedArtifacts": "Generate sponsor prospectus document",
-    "mode": "`[📄 AGI_Summit_Sponsor_Deck.md]`",
+    "expectedArtifacts": [
+      "[📄 AGI_Summit_Sponsor_Deck.md]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13712,6 +17773,34 @@ const EVAL_DATA = {
     "overallScore": 0.71,
     "summary": "Clara produced a clear, executive-style draft deck outline that generally satisfies the request to make a presentation for the Crown Prince’s office, and she included a good clarifying question about the intended ‘ask.’ However, she anchored the deck to specific event details (name, dates, venue, organizers, attendance) that were not in the user’s prompt, which introduces potential fabrication risk unless that context was already established.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "70.78",
+          "actualWords": 637,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -13784,8 +17873,11 @@ const EVAL_DATA = {
       "outTokens": 1115,
       "totalTokens": 62950
     },
-    "expectedArtifacts": "None",
-    "mode": "Chat",
+    "expectedArtifacts": [
+      "[📊 View Presentation]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13798,6 +17890,34 @@ const EVAL_DATA = {
     "overallScore": 0.39,
     "summary": "Clara’s response is clear and asks a relevant clarifying question about the new budget, but it does not fulfill the user’s request to update the presentation or reassure that a new version can be generated while preserving the previous one. Tool usage was not excessive, but switching modes did not lead to any actual update or a concrete next-step commitment.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 5,
+      "helpfulness": 4,
+      "styleScore": 93,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Appropriately detailed without over-explaining. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.12",
+          "actualWords": 28,
+          "expectedWords": 25,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -13872,8 +17992,11 @@ const EVAL_DATA = {
       "outTokens": 86,
       "totalTokens": 127522
     },
-    "expectedArtifacts": "None",
-    "mode": "Chat",
+    "expectedArtifacts": [
+      "[📊 View Presentation]"
+    ],
+    "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -13886,6 +18009,34 @@ const EVAL_DATA = {
     "overallScore": 0.46,
     "summary": "Clara’s reply is clear and offers a practical workaround, but it fails to match the expected product guidance: she doesn’t mention that Google Slides export is available now or that PowerPoint export is coming soon. As a result, the response is misaligned with the prompt’s intent and incomplete relative to the expected answer, despite appropriate (non-)use of tools.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 7,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.38",
+          "actualWords": 71,
+          "expectedWords": 21,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -13953,8 +18104,9 @@ const EVAL_DATA = {
       "outTokens": 160,
       "totalTokens": 61993
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -13967,6 +18119,34 @@ const EVAL_DATA = {
     "overallScore": 0.79,
     "summary": "Clara provides a strong, sponsor-oriented deck outline that aligns well with the user’s request and includes key event snapshot details consistent with the event data. The main issue is mild overclaim risk around speaker/ministerial certainty—she should more explicitly distinguish confirmed vs. tentative/invited names to avoid sponsor-facing inaccuracies. Otherwise, the response is clear, actionable, and appropriately asks for inputs needed to draft the full deck.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "30.20",
+          "actualWords": 302,
+          "expectedWords": 10,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 4,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -14049,8 +18229,11 @@ const EVAL_DATA = {
       "outTokens": 574,
       "totalTokens": 62408
     },
-    "expectedArtifacts": "None",
-    "mode": "Chat",
+    "expectedArtifacts": [
+      "[📊 View Presentation]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -14063,6 +18246,34 @@ const EVAL_DATA = {
     "overallScore": 0.67,
     "summary": "Clara appropriately declines the direct flight-booking request and provides practical alternatives (intake form, routing suggestions, tracker, email template) with a helpful clarifying question. However, she does not include two key expected alternatives (creating a milestone to track bookings and updating speaker profiles with visa/travel details), and her specific travel-window recommendations are not fully grounded in the schedule data as presented. Tool usage to log a feature request is optional and somewhat tangential to the user’s immediate ask.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 6,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.78",
+          "actualWords": 155,
+          "expectedWords": 41,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -14152,8 +18363,9 @@ const EVAL_DATA = {
       "outTokens": 363,
       "totalTokens": 124180
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -14166,6 +18378,34 @@ const EVAL_DATA = {
     "overallScore": 0.85,
     "summary": "Clara correctly refuses the payment-processing request and provides practical alternatives for collecting VIP payments via external providers and syncing back into Joy, which meets the intent of the expected response. The answer is clear and includes a good clarifying question, though it’s a bit more platform-specific than required and includes a potentially inaccurate product name (“Joy Carbon”). Tool usage was acceptable but not strictly necessary for resolving the user’s request.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 8,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.08",
+          "actualWords": 123,
+          "expectedWords": 40,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -14255,8 +18495,9 @@ const EVAL_DATA = {
       "outTokens": 308,
       "totalTokens": 124115
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -14269,6 +18510,34 @@ const EVAL_DATA = {
     "overallScore": 0.72,
     "summary": "Clara delivered a solid, press-ready media kit deck outline tailored to the event, with accurate core logistics and strong speaker-lineup coverage. The main gaps are limited “reach”/audience metrics and the inclusion of a few unconfirmed or speculative elements (e.g., tagline and some editorial hooks) without consistently labeling them as proposed or tentative. No tools were used; while acceptable, pulling in explicit asset links and confirmed stats from the event data would improve precision for a true media kit.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 5,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 11,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "31.21",
+          "actualWords": 437,
+          "expectedWords": 14,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 5,
+          "helpfulCount": 7,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.63,
@@ -14366,8 +18635,11 @@ const EVAL_DATA = {
       "outTokens": 784,
       "totalTokens": 62612
     },
-    "expectedArtifacts": "None",
-    "mode": "Chat",
+    "expectedArtifacts": [
+      "[📊 View Presentation]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -14380,6 +18652,34 @@ const EVAL_DATA = {
     "overallScore": 0.76,
     "summary": "Clara correctly acknowledges she cannot send emails directly and offers to draft the message, which aligns with the core expected behavior. However, her alternatives are narrower than expected (missing attendee export and non-Joy template options), and the Joy Messages sending guidance is not fully grounded in a confirmed current capability. Tool use is acceptable but only indirectly beneficial to the user’s immediate request.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 2,
+      "styleScore": 67,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.60",
+          "actualWords": 67,
+          "expectedWords": 42,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -14454,8 +18754,9 @@ const EVAL_DATA = {
       "outTokens": 197,
       "totalTokens": 123986
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -14468,6 +18769,34 @@ const EVAL_DATA = {
     "overallScore": 0.77,
     "summary": "Clara accurately states she can’t sign the contract and offers a reasonable alternative (adding a signing milestone with a checklist), presented clearly. However, the response is less complete than expected because it omits other suggested supports (e.g., drafting a contract summary for legal and explicitly tracking contract status/review milestones). Tool usage is slightly heavy for the simplicity of the request, though it did not cause any unintended data changes.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 5,
+      "helpfulness": 3,
+      "styleScore": 87,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.11",
+          "actualWords": 42,
+          "expectedWords": 38,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -14557,8 +18886,9 @@ const EVAL_DATA = {
       "outTokens": 218,
       "totalTokens": 255285
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -14571,6 +18901,34 @@ const EVAL_DATA = {
     "overallScore": 0.68,
     "summary": "Clara appropriately explained that the current setup is RSVP-based (free) and therefore does not contain ticketing/payment data, and she asked a sensible follow-up question about whether the event should be paid. The main issue is the unsupported specificity of reporting '$0' revenue rather than stating that revenue tracking is not available/recorded, and she could have better matched expectations by offering registration/attendance metrics as alternatives.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.56",
+          "actualWords": 56,
+          "expectedWords": 36,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -14623,8 +18981,9 @@ const EVAL_DATA = {
       "outTokens": 157,
       "totalTokens": 61992
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -14637,6 +18996,34 @@ const EVAL_DATA = {
     "overallScore": 0.87,
     "summary": "Clara accurately communicated that Joy Carbon doesn’t support paid ticket creation/collection and offered a reasonable workaround via a VIP registration category with pricing/payment notes. The response is clear and includes an appropriate follow-up question, but it’s slightly less complete than the reference in enumerating alternative options. Tool usage was mostly fine, though switching into planning mode was likely unnecessary since no changes were applied.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 2,
+      "styleScore": 73,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.00",
+          "actualWords": 43,
+          "expectedWords": 43,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -14736,8 +19123,9 @@ const EVAL_DATA = {
       "outTokens": 303,
       "totalTokens": 255430
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -14750,6 +19138,34 @@ const EVAL_DATA = {
     "overallScore": 0.94,
     "summary": "Clara correctly interprets the user’s “never mind” as a cancellation and confirms that nothing will be changed; the event JSON remains unchanged, matching her statement. The only minor issue is that she adds an unnecessary prompt to clarify which keynote to move, which isn’t needed after the user canceled the request.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 6,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.33",
+          "actualWords": 30,
+          "expectedWords": 9,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -14817,8 +19233,9 @@ const EVAL_DATA = {
       "outTokens": 55,
       "totalTokens": 61895
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -14831,6 +19248,34 @@ const EVAL_DATA = {
     "overallScore": 0.77,
     "summary": "Clara successfully generated and shared a relevant 16:9 hero image with Riyadh skyline and AI-themed overlays, and she asked a good follow-up question to refine the style. However, she deviated from the expected interaction by generating immediately without offering A/B/C confirmation or explicitly including planned text/countdown/CTA overlay requirements in her response. Tool use was appropriate overall, though the initial generation error suggests a minor implementation issue.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 3,
+      "styleScore": 73,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "0.72",
+          "actualWords": 51,
+          "expectedWords": 71,
+          "notes": "Slightly brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -14939,8 +19384,11 @@ const EVAL_DATA = {
       "outTokens": 447,
       "totalTokens": 249011
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Homepage]`",
+    "expectedArtifacts": [
+      "[🌐 View Homepage]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -14953,6 +19401,34 @@ const EVAL_DATA = {
     "overallScore": 0.88,
     "summary": "Clara correctly refuses to apply for visas directly and offers practical alternatives (tracking, invitation letters, eligibility guidance), which aligns well with the expected intent. Minor gaps are that she doesn’t explicitly offer per-speaker visa requirement info packs as a named deliverable and doesn’t directly ask whether to set up visa tracking. Tool usage is appropriate and no unintended event data changes were made.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 2,
+      "styleScore": 40,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "3.58",
+          "actualWords": 143,
+          "expectedWords": 40,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -15042,8 +19518,9 @@ const EVAL_DATA = {
       "outTokens": 354,
       "totalTokens": 124163
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -15056,6 +19533,34 @@ const EVAL_DATA = {
     "overallScore": 0.79,
     "summary": "Clara’s response is accurate and clearly communicates she cannot directly book/contract the Four Seasons room block, while offering a reasonable alternative (adding a dedicated room-block plan/milestone) and asking to proceed. However, it is slightly less complete than the expected reference because it omits offering to draft a room-block request and to track speaker accommodation status. Tool usage is somewhat heavy for a response that did not actually update the event plan.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 2,
+      "styleScore": 73,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "0.93",
+          "actualWords": 40,
+          "expectedWords": 43,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -15145,8 +19650,9 @@ const EVAL_DATA = {
       "outTokens": 201,
       "totalTokens": 255254
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -15159,6 +19665,34 @@ const EVAL_DATA = {
     "overallScore": 0.43,
     "summary": "Clara’s response is clear and reasonable if the user truly meant the current real-world time, but it misses the event-planning intent and the expected answer about the keynote’s scheduled time. The event schedule shows Dr. Demis Hassabis’ keynote is at 11:15 AM on Day 1 (Asia/Riyadh), which Clara did not mention, nor did she confirm whether the user still wants to move it.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 60,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Clara's response is warmer and more conversational. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.05",
+          "actualWords": 45,
+          "expectedWords": 22,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -15231,8 +19765,9 @@ const EVAL_DATA = {
       "outTokens": 151,
       "totalTokens": 61993
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -15245,6 +19780,34 @@ const EVAL_DATA = {
     "overallScore": 0.87,
     "summary": "Clara’s response is accurate and appropriately sets expectations that she can’t directly obtain vendor quotes, while offering practical alternatives (vendor shortlist, RFQ, comparison sheet, and timeline steps). It’s clear and actionable, though it could more explicitly mirror the expected wording by offering to draft an RFP and to compare quotes once the user receives them. Tool use was mostly acceptable, but switching to planning mode was likely unnecessary for this prompt.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 2,
+      "styleScore": 73,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "0.96",
+          "actualWords": 43,
+          "expectedWords": 45,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -15344,8 +19907,9 @@ const EVAL_DATA = {
       "outTokens": 238,
       "totalTokens": 255321
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -15358,6 +19922,34 @@ const EVAL_DATA = {
     "overallScore": 0.78,
     "summary": "Clara successfully executed the requested mutation by adding a 20% early-bird discount mention to the RSVP description, adding an FAQ item, and creating a timeline task to define the early-bird window—these changes match the provided event JSON. The main issue is alignment with the expected behavior: she presented the discount as fully “added” rather than clarifying that pricing isn’t actually modeled/enforceable yet and that this is currently only guest-facing copy plus planning follow-up.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 3,
+      "helpfulness": 3,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 3,
+          "ratio": "1.95",
+          "actualWords": 80,
+          "expectedWords": 41,
+          "notes": "Somewhat verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -15437,8 +20029,9 @@ const EVAL_DATA = {
       "outTokens": 147,
       "totalTokens": 63112
     },
-    "expectedArtifacts": "None",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 3
   },
   {
@@ -15451,6 +20044,34 @@ const EVAL_DATA = {
     "overallScore": 0.67,
     "summary": "Clara provides a generally sensible high-level explanation that moving the opening to 10:00 AM would cascade the rest of the day and potentially force either compression or a later finish, correctly noting the fixed 6:00–9:00 PM reception constraint. However, she misses key specifics from the actual schedule (notably the current breakfast window) and does not provide concrete shifted times for major sessions, which reduces accuracy and completeness compared to what the event data supports.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 4,
+      "styleScore": 87,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 6,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.19",
+          "actualWords": 114,
+          "expectedWords": 96,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.5,
@@ -15545,8 +20166,9 @@ const EVAL_DATA = {
       "outTokens": 341,
       "totalTokens": 127788
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -15559,6 +20181,34 @@ const EVAL_DATA = {
     "overallScore": 0.94,
     "summary": "Clara’s response appropriately requests clarification and offers a clean set of options to define what should be improved, matching the intent of the expected response while being more actionable. It is clear and requires no event-data lookups. Minor opportunity: include a couple more common improvement categories (e.g., comms plan, sponsorship, on-site ops), but overall quality is strong.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 40,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.29",
+          "actualWords": 73,
+          "expectedWords": 17,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 1,
@@ -15626,8 +20276,9 @@ const EVAL_DATA = {
       "outTokens": 153,
       "totalTokens": 61984
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -15640,6 +20291,34 @@ const EVAL_DATA = {
     "overallScore": 0.85,
     "summary": "Clara appropriately handled an ambiguous prompt by asking for clarification and did not make any unintended edits to the event plan. The response is clear and actionable, though it’s a bit more elaborate than the expected minimal clarification and includes option examples that assume possible prior context.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.90",
+          "actualWords": 58,
+          "expectedWords": 20,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -15712,8 +20391,9 @@ const EVAL_DATA = {
       "outTokens": 121,
       "totalTokens": 61951
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -15726,6 +20406,34 @@ const EVAL_DATA = {
     "overallScore": 0.8,
     "summary": "Clara appropriately responded to an ambiguous request by asking a clarifying question and specifying the kind of website updates she can make, keeping the message concise and actionable. The only notable issues are that she slightly over-constrained the options compared to the expected open-ended clarification and unnecessarily switched to planning mode before any concrete edits were requested.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 2,
+      "helpfulness": 2,
+      "styleScore": 53,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 2,
+          "ratio": "2.60",
+          "actualWords": 39,
+          "expectedWords": 15,
+          "notes": "Overly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -15805,8 +20513,9 @@ const EVAL_DATA = {
       "outTokens": 91,
       "totalTokens": 127521
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -15819,6 +20528,34 @@ const EVAL_DATA = {
     "overallScore": 0.76,
     "summary": "Clara’s response largely matches the expected behavior by asking what specifically needs fixing in the schedule, and it avoids making any unsupported edits. The main issue is premature tool usage: switching into planning mode before obtaining actionable details is unnecessary and could be confusing. Overall, the user-facing text is clear and relevant, but the workflow could be tighter by deferring tool/state changes until after clarification.",
     "passedThreshold": true,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 5,
+      "helpfulness": 2,
+      "styleScore": 73,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 5,
+          "ratio": "1.05",
+          "actualWords": 21,
+          "expectedWords": 20,
+          "notes": "Appropriately detailed"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -15898,8 +20635,9 @@ const EVAL_DATA = {
       "outTokens": 61,
       "totalTokens": 127495
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -15912,6 +20650,34 @@ const EVAL_DATA = {
     "overallScore": 0.7,
     "summary": "Clara accurately recognized the requested schedule shift and appropriately asked for the missing time-offset before making changes. However, the response is incomplete because it fails to clarify the scope (all days/sessions vs a subset), which is a key part of the expected behavior. Tool usage was safe (no unintended mutations) but slightly premature given the request was still ambiguous.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 2,
+      "styleScore": 67,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 2,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "0.67",
+          "actualWords": 16,
+          "expectedWords": 24,
+          "notes": "Slightly brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 2,
+          "helpfulCount": 1,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.83,
@@ -16006,8 +20772,9 @@ const EVAL_DATA = {
       "outTokens": 66,
       "totalTokens": 127519
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -16020,6 +20787,34 @@ const EVAL_DATA = {
     "overallScore": 0.61,
     "summary": "Clara’s response is clear and appropriately invites the user to choose a new placement for Demis Hassabis’s keynote, and she correctly did not claim or apply any schedule changes. However, it misses an important factual anchor from the plan—Demis’s keynote is currently scheduled at 11:15 AM on Day 1—and the proposed alternative slots are not validated against the existing schedule, making them somewhat speculative.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 5,
+      "conciseness": 4,
+      "helpfulness": 3,
+      "styleScore": 80,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Appropriately detailed without over-explaining.",
+      "details": {
+        "toneAnalysis": {
+          "score": 5,
+          "warmCount": 3,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "0.74",
+          "actualWords": 23,
+          "expectedWords": 31,
+          "notes": "Slightly brief"
+        },
+        "helpfulnessAnalysis": {
+          "score": 3,
+          "helpfulCount": 2,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.67,
@@ -16109,8 +20904,9 @@ const EVAL_DATA = {
       "outTokens": 66,
       "totalTokens": 127504
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 2
   },
   {
@@ -16123,6 +20919,34 @@ const EVAL_DATA = {
     "overallScore": 0.66,
     "summary": "Clara’s response is clear and does not conflict with the event data, and her mention of visa/MOFA support is consistent with the FAQ. However, she did not adequately clarify the ambiguous request: she assumed the task largely meant visas and did not offer the broader set of options (venue coordination, government participation, cultural considerations) that the expected response calls for.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 4,
+      "helpfulness": 1,
+      "styleScore": 60,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Appropriately detailed without over-explaining. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 4,
+          "ratio": "1.57",
+          "actualWords": 55,
+          "expectedWords": 35,
+          "notes": "Slightly verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "helpfulCount": 0,
+          "hasOptions": false,
+          "hasList": false
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.75,
@@ -16190,8 +21014,9 @@ const EVAL_DATA = {
       "outTokens": 137,
       "totalTokens": 61967
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 1
   },
   {
@@ -16204,6 +21029,34 @@ const EVAL_DATA = {
     "overallScore": 0.5,
     "summary": "Clara provided a detailed and mostly accurate high-level project status that matches many concrete details in the event JSON (dates, venue, cadence, RSVP deadline, cultural requirements). However, she did not follow the expected behavior for an ambiguous prompt: she should have asked what “status” refers to before giving a comprehensive update, and she somewhat overstated overall readiness given multiple key items remain explicitly TBC and several VIPs are tentative.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 3,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 53,
+      "preferredResponse": "similar",
+      "styleNotes": "Both responses are stylistically comparable. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 3,
+          "warmCount": 4,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "10.40",
+          "actualWords": 156,
+          "expectedWords": 15,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.33,
@@ -16276,8 +21129,9 @@ const EVAL_DATA = {
       "outTokens": 303,
       "totalTokens": 62132
     },
-    "expectedArtifacts": "Unknown",
+    "expectedArtifacts": [],
     "mode": "Chat",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   },
   {
@@ -16290,6 +21144,34 @@ const EVAL_DATA = {
     "overallScore": 0.41,
     "summary": "Clara did move the Day 1 opening fireside to a 10:00 AM start and maintained the 6:00 PM reception, but her response is internally inconsistent and omits an important consequence: a new gap between the 9:20 welcome end and the 10:00 fireside start. Tool usage was generally appropriate for a schedule edit, but she made broader edits than requested and added an extraneous /debug field, introducing avoidable risk and reducing alignment with the prompt.",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 4,
+      "conciseness": 1,
+      "helpfulness": 4,
+      "styleScore": 60,
+      "preferredResponse": "actual",
+      "styleNotes": "Clara's actual response is stylistically stronger. Clara's response is warmer and more conversational. Response could be more concise. Clara proactively offers helpful next steps.",
+      "details": {
+        "toneAnalysis": {
+          "score": 4,
+          "warmCount": 5,
+          "coldCount": 0
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "ratio": "4.32",
+          "actualWords": 82,
+          "expectedWords": 19,
+          "notes": "Extremely verbose"
+        },
+        "helpfulnessAnalysis": {
+          "score": 4,
+          "helpfulCount": 3,
+          "hasOptions": false,
+          "hasList": true
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0.25,
@@ -16379,8 +21261,11 @@ const EVAL_DATA = {
       "outTokens": 187,
       "totalTokens": 62919
     },
-    "expectedArtifacts": "Unknown",
-    "mode": "Chat",
+    "expectedArtifacts": [
+      "[📅 View Schedule]"
+    ],
+    "mode": "Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 6
   },
   {
@@ -16393,6 +21278,28 @@ const EVAL_DATA = {
     "overallScore": 0,
     "summary": "Test failed to run",
     "passedThreshold": false,
+    "styleGrade": {
+      "tone": 1,
+      "conciseness": 1,
+      "helpfulness": 1,
+      "styleScore": 20,
+      "preferredResponse": "expected",
+      "styleNotes": "Expected response is stylistically preferred. Expected response has better tone. Response could be more concise. Could offer more follow-up options.",
+      "details": {
+        "toneAnalysis": {
+          "score": 1,
+          "notes": "No response"
+        },
+        "concisenessAnalysis": {
+          "score": 1,
+          "notes": "No response"
+        },
+        "helpfulnessAnalysis": {
+          "score": 1,
+          "notes": "No response"
+        }
+      }
+    },
     "dimensions": {
       "responsePromptAlignment": {
         "score": 0,
@@ -16421,8 +21328,11 @@ const EVAL_DATA = {
       "outTokens": 0,
       "totalTokens": 0
     },
-    "expectedArtifacts": "After confirm: `[🌐 View Website]`",
+    "expectedArtifacts": [
+      "[🌐 View Website]"
+    ],
     "mode": "Chat→Planning",
+    "type": "single-turn",
     "reasoningBlockCount": 0
   }
 ]

@@ -1,0 +1,1572 @@
+[
+  {
+    "id": "L-001",
+    "section": "Lookups - Event Details",
+    "prompt": "How many speakers do we have confirmed?",
+    "expectedResponse": "You have 8 confirmed speakers for the AGI Summit: Dr. Demis Hassabis, Dario Amodei, Dr. Fei-Fei Li, Sam Altman, Mustafa Suleyman, Dr. Yann LeCun, Dr. Ilya Sutskever, and Dr. Aisha Al-Rashid.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-002",
+    "section": "Lookups - Event Details",
+    "prompt": "What are the dates for the summit?",
+    "expectedResponse": "The AGI Summit runs October 15-17, 2026 in Riyadh.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-003",
+    "section": "Lookups - Event Details",
+    "prompt": "What's the venue address?",
+    "expectedResponse": "King Abdullah Financial District Conference Center, KAFD, Riyadh, Saudi Arabia.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-004",
+    "section": "Lookups - Event Details",
+    "prompt": "How many attendees are we expecting?",
+    "expectedResponse": "You're expecting 500 attendees for the summit.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-005",
+    "section": "Lookups - Event Details",
+    "prompt": "What's our total budget?",
+    "expectedResponse": "$750,000 USD all-in for the AGI Summit.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-006",
+    "section": "Lookups - Event Details",
+    "prompt": "What's the theme of the event?",
+    "expectedResponse": "The Future of AGI \u2014 exploring the path to artificial general intelligence.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-010",
+    "section": "Lookups - Schedule",
+    "prompt": "What time does the opening keynote start?",
+    "expectedResponse": "The Opening Ceremony starts at 9:00 AM on Day 1 (October 15), followed by the Opening Fireside at 9:25 AM. Dr. Demis Hassabis delivers the first keynote at 11:15 AM.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-011",
+    "section": "Lookups - Schedule",
+    "prompt": "What time is lunch on Day 2?",
+    "expectedResponse": "Lunch on Day 2 is from 12:00 PM to 1:30 PM, with an extended window for Friday Jumu'ah prayers.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-012",
+    "section": "Lookups - Schedule",
+    "prompt": "How many sessions do we have?",
+    "expectedResponse": "You have 35+ sessions across 3 days, including keynotes, panels, breakout sessions, and workshops, plus opening and closing ceremonies.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-013",
+    "section": "Lookups - Schedule",
+    "prompt": "What's happening on Day 3?",
+    "expectedResponse": "Day 3 (October 17) features morning workshops across all 4 tracks from 9:00-12:15, networking lunch from 12:15-1:15 PM, Dr. Yann LeCun's closing keynote 'Open Innovation Paths to AGI' at 1:15 PM, and the Closing Ceremony at 2:00 PM. Event wraps by 3:00 PM.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-014",
+    "section": "Lookups - Schedule",
+    "prompt": "When does the welcome reception end?",
+    "expectedResponse": "The welcome reception runs from 6:00 PM to 9:00 PM on Day 1.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-015",
+    "section": "Lookups - Schedule",
+    "prompt": "What sessions are in the Ethics track?",
+    "expectedResponse": "The Ethics & Safety track includes: 'Safety Standards & Evaluations for AGI' led by Dr. Aisha Al-Rashid (Day 2, 2:20-3:20 PM), 'Red-Teaming & Incident Response' (Day 2, 3:40-4:40 PM), and workshops on Day 3: 'Red-Team Playbook' and 'Governance-by-Design'.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-020",
+    "section": "Lookups - Speakers",
+    "prompt": "Who's speaking on Day 1?",
+    "expectedResponse": "Day 1 speakers include: H.E. Fahd Al-Rasheed and Sam Altman (Opening Fireside), Dr. Demis Hassabis (Research Frontiers keynote), Dario Amodei (Scaling Compute plenary), and Dr. Ilya Sutskever (Alignment & Interpretability session).",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-021",
+    "section": "Lookups - Speakers",
+    "prompt": "Is Sam Altman confirmed?",
+    "expectedResponse": "Yes, Sam Altman is confirmed for the Opening Fireside 'Future of Intelligence' with H.E. Fahd Al-Rasheed on Day 1 at 9:25 AM.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-022",
+    "section": "Lookups - Speakers",
+    "prompt": "Who's doing the closing keynote?",
+    "expectedResponse": "Dr. Yann LeCun is delivering the closing keynote 'Open Innovation Paths to AGI' on Day 3 at 1:15 PM.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-023",
+    "section": "Lookups - Speakers",
+    "prompt": "What session is Yann LeCun doing?",
+    "expectedResponse": "Dr. Yann LeCun is delivering the Closing Keynote 'Open Innovation Paths to AGI' on Day 3 at 1:15 PM, exploring how openness, competition, and scientific rigor can accelerate safe, capable intelligence.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-024",
+    "section": "Lookups - Speakers",
+    "prompt": "Who's moderating the policy panel?",
+    "expectedResponse": "The Government & Policy track sessions are led by ministerial representatives. H.E. Dr. Abdullah Alghamdi (SDAIA) leads the National AI Strategy panel on Day 1, H.E. Abdullah Al-Swaha (MCIT) leads Digital Economy on Day 2, and H.E. Khalid Al-Falih (MISA) leads Investment & Policy on Day 2.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-025",
+    "section": "Lookups - Speakers",
+    "prompt": "What's Dario Amodei's session about?",
+    "expectedResponse": "Dario Amodei is delivering the plenary 'Scaling Compute for AGI' on Day 1 at 1:15 PM, exploring what the next order-of-magnitude in compute means for model capability, access, and sustainability.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-030",
+    "section": "Lookups - Budget",
+    "prompt": "What's our budget for catering?",
+    "expectedResponse": "Approximately $156,000 is allocated for catering across all 3 days \u2014 $137,500 for food (meals, breaks, reception canap\u00e9s) and $18,500 for beverages.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-031",
+    "section": "Lookups - Budget",
+    "prompt": "How much have we spent so far?",
+    "expectedResponse": "Budget tracking shows allocations across categories. I can show you the detailed breakdown by category \u2014 would you like to see the full budget view?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-032",
+    "section": "Lookups - Budget",
+    "prompt": "What's the biggest expense?",
+    "expectedResponse": "Catering is currently the largest expense at approximately $156,000, followed by AV/Production. The venue cost of $60,000 reflects partnership pricing and in-kind support from KAFD.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-033",
+    "section": "Lookups - Budget",
+    "prompt": "How much are we spending on speakers?",
+    "expectedResponse": "Speaker-related costs are distributed across travel, accommodations, and VIP transport categories. VIP transport alone is budgeted at $29,000 for chauffeur cars and coordinators.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-040",
+    "section": "Lookups - Registration",
+    "prompt": "How many people have registered?",
+    "expectedResponse": "Registration tracking shows current RSVP counts. Would you like me to pull the latest registration numbers?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-041",
+    "section": "Lookups - Registration",
+    "prompt": "Who registered today?",
+    "expectedResponse": "I can show you today's registrations. Let me pull the latest RSVP submissions.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-042",
+    "section": "Lookups - Registration",
+    "prompt": "What's our registration deadline?",
+    "expectedResponse": "RSVP closes September 20, 2026.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-043",
+    "section": "Lookups - Registration",
+    "prompt": "How many VIP registrations do we have?",
+    "expectedResponse": "I can check the current VIP registration count. The RSVP form includes a VIP transport question for guests requiring motorcade coordination.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-044",
+    "section": "Lookups - Registration",
+    "prompt": "What companies are sending the most attendees?",
+    "expectedResponse": "I can pull a breakdown of registrations by company/organization. Would you like to see the top organizations by attendee count?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-050",
+    "section": "Lookups - Milestones",
+    "prompt": "What milestones are overdue?",
+    "expectedResponse": "Let me check the project timeline for any overdue milestones.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-051",
+    "section": "Lookups - Milestones",
+    "prompt": "What's Ahmed working on?",
+    "expectedResponse": "I can filter the project plan to show milestones assigned to Ahmed.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-052",
+    "section": "Lookups - Milestones",
+    "prompt": "When is the venue contract due?",
+    "expectedResponse": "The venue contract and partnership terms with KAFD should be finalized in the early planning phase. Let me check the timeline for the specific deadline.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "L-053",
+    "section": "Lookups - Milestones",
+    "prompt": "Show me the project status",
+    "expectedResponse": "I can show you the overall project status with milestone completion rates and any at-risk items.",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-001",
+    "section": "Vague/Exploratory",
+    "prompt": "I'm thinking about changing things up for Day 2",
+    "expectedResponse": "What specifically are you thinking of changing \u2014 the sessions, the timing, the format, or something else?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-002",
+    "section": "Vague/Exploratory",
+    "prompt": "The schedule feels too packed",
+    "expectedResponse": "What's feeling too packed \u2014 session density, break length, or a specific time block? I can show you the current schedule breakdown to identify where we might add breathing room.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-003",
+    "section": "Vague/Exploratory",
+    "prompt": "Can we do something about the speakers?",
+    "expectedResponse": "What specifically \u2014 add more speakers, change session assignments, update bios, or rearrange the order?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-004",
+    "section": "Vague/Exploratory",
+    "prompt": "The morning sessions feel brutal",
+    "expectedResponse": "Which day's morning? What's feeling brutal \u2014 too many sessions, too early a start, or not enough breaks?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-005",
+    "section": "Vague/Exploratory",
+    "prompt": "I'm not sure about the Ethics track",
+    "expectedResponse": "What's concerning you \u2014 the topics, the speakers, the timing, or the placement in the schedule?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-006",
+    "section": "Vague/Exploratory",
+    "prompt": "We need to cut costs",
+    "expectedResponse": "Where would you like to cut \u2014 venue, catering, production, speakers, swag? What's the target reduction?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-007",
+    "section": "Vague/Exploratory",
+    "prompt": "Can you help with the agenda?",
+    "expectedResponse": "What kind of help \u2014 restructuring, adding sessions, balancing tracks, or timing adjustments?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-008",
+    "section": "Vague/Exploratory",
+    "prompt": "The venue might not work",
+    "expectedResponse": "What's not working \u2014 capacity, location, amenities, or cost? Want me to find alternatives?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-009",
+    "section": "Vague/Exploratory",
+    "prompt": "We should probably rethink the workshop day",
+    "expectedResponse": "Rethink how \u2014 different topics, different format, different timing, more or fewer workshops?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "V-010",
+    "section": "Vague/Exploratory",
+    "prompt": "Something's off about the event flow",
+    "expectedResponse": "Can you tell me more about what feels off? Is it the pacing, the transitions, or the content balance?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-001",
+    "section": "Opinions & Advice",
+    "prompt": "Do you think the schedule is too packed?",
+    "expectedResponse": "Looking at the schedule, Day 1 has the most content \u2014 opening ceremony, fireside, two keynote panels, a plenary, and 6 technical breakout sessions before the reception. The 15-20 minute breaks are tight for a 500-person event with networking goals. Day 2 has a more relaxed feel with the extended Jumu'ah lunch buffer. I'd suggest either extending morning breaks to 30 minutes or consolidating one of the Day 1 afternoon breakout blocks.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-002",
+    "section": "Opinions & Advice",
+    "prompt": "Is 30 minutes enough for breaks?",
+    "expectedResponse": "For a 500-person event with networking goals, 30 minutes is workable but tight. I'd recommend 30-45 minutes for major breaks \u2014 gives time for coffee lines, restroom queues, and meaningful conversations. The current 15-20 minute breaks are quite short; you might lose people still chatting when sessions restart.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-003",
+    "section": "Opinions & Advice",
+    "prompt": "Should we have more networking time?",
+    "expectedResponse": "Given your audience mix \u2014 researchers, executives, investors, and government officials \u2014 networking is often the most valued part. You currently have the Day 1 reception (3 hours) and informal time during lunch breaks. Consider adding structured networking moments like roundtable discussions or a 'speed networking' slot on Day 2. The foyer zones during breaks are good, but dedicated time signals that relationship-building is a priority.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-004",
+    "section": "Opinions & Advice",
+    "prompt": "What do other AI conferences do for speaker panels?",
+    "expectedResponse": "Major AI conferences typically run panels of 3-5 speakers for 45-60 minutes including Q&A. NeurIPS and ICML favor technical talks over panels. Events like AI Summit and Web Summit use more fireside chats (2 people, 20-30 min) for high-profile guests. Your format of ministerial keynote panels plus technical breakouts is similar to the Global AI Summit structure \u2014 appropriate for your government partnership positioning.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-005",
+    "section": "Opinions & Advice",
+    "prompt": "Is 3 days too long for this kind of event?",
+    "expectedResponse": "For 500 attendees with this depth of content and your international audience, 3 days is appropriate. It allows for: Day 1 to set context (keynotes, vision), Day 2 for deep dives (tracks, panels), and Day 3 for practical takeaways (workshops, commitments). Many attendees are traveling internationally \u2014 a 2-day event might not justify the trip. The Day 3 wrap by 3pm is smart for travel flexibility.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-006",
+    "section": "Opinions & Advice",
+    "prompt": "Should we invite more government officials?",
+    "expectedResponse": "You already have strong government representation with SDAIA, MCIT, and MISA ministers (tentative) plus H.E. Fahd Al-Rasheed confirmed. Adding more might shift the balance away from the technical/research focus. Consider whether additional officials would participate meaningfully or just add protocol complexity. If you want broader government engagement, a closed-door policy working session on Day 2 might be more effective than more keynote slots.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-007",
+    "section": "Opinions & Advice",
+    "prompt": "What's the best time for the closing keynote?",
+    "expectedResponse": "The current 1:15 PM slot on Day 3 is well-positioned \u2014 it's after lunch when energy is restored, and wrapping by 2:30-3:00 PM gives attendees time for afternoon flights from RUH. Moving it earlier risks lower attendance as workshops run through noon. Moving it later might conflict with travel. I'd keep the current timing.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "A-008",
+    "section": "Opinions & Advice",
+    "prompt": "Is our speaker lineup strong enough?",
+    "expectedResponse": "Your confirmed lineup is exceptional \u2014 CEOs of DeepMind, Anthropic, OpenAI, Microsoft AI, plus Meta's Chief AI Scientist and the SSI co-founder. You have leaders across the capability, safety, and product spectrum. The Saudi government participation adds policy weight. The one gap might be a major figure from China or the broader Global South \u2014 but that's a strategic choice given audience positioning. Jensen Huang as tentative would be a strong addition if confirmed.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-001",
+    "section": "Direct Execution - Event Details",
+    "prompt": "Change the event tagline to 'Shaping Tomorrow's Intelligence'",
+    "expectedResponse": "Done \u2014 the tagline is now 'Shaping Tomorrow's Intelligence'.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View Website]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-002",
+    "section": "Direct Execution - Event Details",
+    "prompt": "Update the attendee capacity to 600",
+    "expectedResponse": "Done \u2014 capacity updated to 600 attendees.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-003",
+    "section": "Direct Execution - Event Details",
+    "prompt": "Change the event dates to October 20-22",
+    "expectedResponse": "Done \u2014 the AGI Summit now runs October 20-22, 2026.",
+    "mode": "Planning",
+    "artifacts": ["[\u2728 View Event]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-010",
+    "section": "Direct Execution - Schedule",
+    "prompt": "Move the opening keynote to 10am",
+    "expectedResponse": "Done \u2014 the opening keynote now starts at 10:00 AM on Day 1.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-011",
+    "section": "Direct Execution - Schedule",
+    "prompt": "Cancel the workshop on AI Governance",
+    "expectedResponse": "Done \u2014 the 'Drafting AI Safety Guidelines' workshop has been removed from Day 3.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-012",
+    "section": "Direct Execution - Schedule",
+    "prompt": "Add a networking lunch on Day 2 at noon",
+    "expectedResponse": "Done \u2014 added a networking lunch from 12:00 PM to 1:30 PM on Day 2. Note: This replaces the existing Jumu'ah lunch buffer.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-013",
+    "section": "Direct Execution - Schedule",
+    "prompt": "Extend the welcome reception to 10pm",
+    "expectedResponse": "Done \u2014 the welcome reception now runs until 10:00 PM.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-014",
+    "section": "Direct Execution - Schedule",
+    "prompt": "Add a coffee break at 3pm on Day 1",
+    "expectedResponse": "Done \u2014 added a 30-minute coffee break at 3:00 PM on Day 1.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-015",
+    "section": "Direct Execution - Schedule",
+    "prompt": "Move Yann LeCun's keynote to Day 2",
+    "expectedResponse": "Done \u2014 'Open Innovation Paths to AGI' closing keynote moved to Day 2. Note: Day 3 no longer has a closing keynote \u2014 would you like to assign a different speaker?",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-020",
+    "section": "Direct Execution - Speakers",
+    "prompt": "Add a speaker: Dr. Geoffrey Hinton, Professor Emeritus, University of Toronto",
+    "expectedResponse": "Done \u2014 Dr. Geoffrey Hinton added to the speaker lineup. What session should he be part of?",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-021",
+    "section": "Direct Execution - Speakers",
+    "prompt": "Remove Sam Altman from the speaker list",
+    "expectedResponse": "Done \u2014 Sam Altman has been removed from the speaker lineup. Note: This leaves H.E. Fahd Al-Rasheed without a fireside partner \u2014 would you like to assign someone else?",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-022",
+    "section": "Direct Execution - Speakers",
+    "prompt": "Update Dario Amodei's title to Co-founder & CEO, Anthropic",
+    "expectedResponse": "Done \u2014 updated Dario Amodei's title.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-023",
+    "section": "Direct Execution - Speakers",
+    "prompt": "Move Dr. Fei-Fei Li to the top of the speaker list",
+    "expectedResponse": "Done \u2014 Dr. Fei-Fei Li is now first in the speaker lineup.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-024",
+    "section": "Direct Execution - Speakers",
+    "prompt": "Reorder speakers by session time",
+    "expectedResponse": "Done \u2014 speakers are now ordered chronologically by their session times.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-030",
+    "section": "Direct Execution - Budget",
+    "prompt": "Add $25,000 to the catering budget",
+    "expectedResponse": "Done \u2014 catering budget increased by $25,000.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcb0 View Budget]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-031",
+    "section": "Direct Execution - Budget",
+    "prompt": "Create a new budget line for VIP gifts at $15,000",
+    "expectedResponse": "Done \u2014 added 'VIP Gifts' line item for $15,000.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcb0 View Budget]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-032",
+    "section": "Direct Execution - Budget",
+    "prompt": "Reduce the production budget by $10,000",
+    "expectedResponse": "Done \u2014 production budget reduced by $10,000.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcb0 View Budget]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-040",
+    "section": "Direct Execution - Website",
+    "prompt": "Update the website background to white",
+    "expectedResponse": "Done \u2014 the site background is now white.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View Website]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-041",
+    "section": "Direct Execution - Website",
+    "prompt": "Change the hero tagline to 'The Future of Intelligence Starts Here'",
+    "expectedResponse": "Done \u2014 hero tagline updated.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View Homepage]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-042",
+    "section": "Direct Execution - Website",
+    "prompt": "Add a countdown timer to the homepage",
+    "expectedResponse": "Done \u2014 countdown timer added showing days until October 15.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View Homepage]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-043",
+    "section": "Direct Execution - Website",
+    "prompt": "Remove the early bird registration banner",
+    "expectedResponse": "Done \u2014 early bird banner removed from the homepage.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View Homepage]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-044",
+    "section": "Direct Execution - Website",
+    "prompt": "Update the FAQ with information about the dress code",
+    "expectedResponse": "Done \u2014 added dress code information to the FAQ: 'Business Smart, Riyadh-appropriate: polished business wear with modest cuts; national dress is welcome.'",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View FAQ]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-045",
+    "section": "Direct Execution - Website",
+    "prompt": "Add the SDAIA logo to the sponsors section",
+    "expectedResponse": "Done \u2014 SDAIA logo added to the sponsors section.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83c\udf10 View Sponsors]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-050",
+    "section": "Direct Execution - Registration",
+    "prompt": "Add a dietary restrictions field to registration",
+    "expectedResponse": "Done \u2014 added dietary restrictions field to the registration form. Note: The RSVP already includes a dietary notes question.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-051",
+    "section": "Direct Execution - Registration",
+    "prompt": "Make the phone number field required",
+    "expectedResponse": "Done \u2014 phone number is now a required field.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-052",
+    "section": "Direct Execution - Registration",
+    "prompt": "Set the registration deadline to September 30",
+    "expectedResponse": "Done \u2014 registration closes September 30, 2026 (extended from September 20).",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-053",
+    "section": "Direct Execution - Registration",
+    "prompt": "Cap registration at 500 attendees",
+    "expectedResponse": "Done \u2014 registration capped at 500. Waitlist will activate after that.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-054",
+    "section": "Direct Execution - Registration",
+    "prompt": "Close registration",
+    "expectedResponse": "Done \u2014 registration is now closed for the AGI Summit.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-055",
+    "section": "Direct Execution - Registration",
+    "prompt": "Add a field asking which tracks attendees are most interested in",
+    "expectedResponse": "Done \u2014 added track preference field with options: Technical AI, Ethics & Safety, Business & Investment, Government & Policy.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-060",
+    "section": "Direct Execution - Milestones",
+    "prompt": "Mark the venue contract as done",
+    "expectedResponse": "Done \u2014 venue contract milestone marked as complete.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-061",
+    "section": "Direct Execution - Milestones",
+    "prompt": "Assign the speaker headshots task to Sarah",
+    "expectedResponse": "Done \u2014 speaker headshots task assigned to Sarah.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-062",
+    "section": "Direct Execution - Milestones",
+    "prompt": "Push the sponsor deck deadline to October 5",
+    "expectedResponse": "Done \u2014 sponsor deck deadline updated to October 5.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "E-063",
+    "section": "Direct Execution - Milestones",
+    "prompt": "Add a task to finalize catering menu by September 15",
+    "expectedResponse": "Done \u2014 created milestone 'Finalize catering menu' due September 15.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-001",
+    "section": "Propose + Confirm - Schedule",
+    "prompt": "Extend the conference to 4 days",
+    "expectedResponse": "Here's how we could extend to 4 days:\n\n**Option A: Add Day 0 (Oct 14)**\n- VIP arrivals and early registration\n- Welcome dinner for speakers/sponsors\n\n**Option B: Add Day 4 (Oct 18)**\n- Extended workshops or unconference sessions\n- City tours or cultural programming\n\n**Implications:**\n- Additional venue costs (~$20,000/day)\n- Extended hotel blocks needed\n- Speaker availability to confirm\n\n[A] Apply Day 0 addition\n[B] Apply Day 4 addition\n[C] Modify the proposal\n[D] Cancel \u2014 keep 3 days",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-002",
+    "section": "Propose + Confirm - Schedule",
+    "prompt": "The morning of Day 1 feels too packed \u2014 three sessions before lunch is brutal",
+    "expectedResponse": "You're right \u2014 Day 1 morning currently runs:\n- 9:00 AM \u2014 Opening Ceremony (20 min)\n- 9:25 AM \u2014 Opening Fireside with Sam Altman (40 min)\n- 10:05 AM \u2014 Coffee Break (20 min)\n- 10:25 AM \u2014 SDAIA Keynote Panel (45 min)\n- 11:15 AM \u2014 Demis Hassabis Keynote (30 min)\n- 12:00 PM \u2014 Lunch\n\n**Options:**\n[A] **Extend breaks** \u2014 Make coffee break 30 min, start SDAIA panel at 10:35 AM\n[B] **Move a session** \u2014 Shift Demis Hassabis keynote to after lunch\n[C] **Start later** \u2014 Begin at 9:30 AM, compress opening ceremony\n\nWhich direction feels right?",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-003",
+    "section": "Propose + Confirm - Schedule",
+    "prompt": "Reorganize the schedule to feel less packed",
+    "expectedResponse": "Here's a restructure proposal to reduce density:\n\n**Changes:**\n1. Extend all breaks from 15-20 min to 30 min\n2. Add 10-min buffers between sessions for speaker transitions\n3. Move one technical breakout block from Day 1 to Day 2 morning\n4. Create a dedicated 30-min 'open networking' slot each afternoon\n\n**Impact:**\n- ~45 min additional time needed per day\n- May need to shorten some sessions by 5-10 min\n- Day 3 schedule is already relaxed \u2014 no changes needed\n\n[A] Apply these changes\n[B] Modify the proposal\n[C] Cancel \u2014 keep current schedule",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-004",
+    "section": "Propose + Confirm - Schedule",
+    "prompt": "Move the Dario Amodei session to the opening slot on Day 2",
+    "expectedResponse": "Here's the proposed change:\n\n**Moving:** 'Scaling Compute for AGI' from Day 1 at 1:15 PM \u2192 Day 2 at 9:00 AM\n\n**Cascading effects:**\n- Dr. Fei-Fei Li's 'Human-Centered AGI' keynote moves from 9:00 AM to 9:45 AM on Day 2\n- Day 1 afternoon plenary slot becomes available \u2014 could add a panel or extend lunch\n- Dario's schedule needs confirmation for Day 2 morning availability\n\n[A] Apply this change\n[B] Modify something before applying\n[C] Cancel \u2014 keep as-is",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-005",
+    "section": "Propose + Confirm - Schedule",
+    "prompt": "Combine the Ethics and Policy tracks into one",
+    "expectedResponse": "Here's how to merge Ethics & Safety with Government & Policy:\n\n**New combined track: 'AI Governance & Safety'**\n\n**Day 2 sessions would consolidate:**\n- 'Safety Standards & Evaluations' + 'Global AI Governance' \u2192 one 90-min session\n- 'Red-Teaming & Incident Response' + 'Data Sovereignty' \u2192 one 90-min session\n\n**Day 3 workshops merge:**\n- 'Red-Team Playbook' + 'Drafting AI Safety Guidelines' \u2192 one extended workshop\n- 'Governance-by-Design' + 'Cross-Border Data' \u2192 one extended workshop\n\n**Impact:**\n- Frees up one breakout room (cost savings ~$5,000)\n- Reduces parallel programming complexity\n- May feel rushed for deep policy discussions\n\n[A] Apply this merge\n[B] Modify the proposal\n[C] Cancel \u2014 keep separate tracks",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-010",
+    "section": "Propose + Confirm - Website",
+    "prompt": "Make the website feel more premium and futuristic",
+    "expectedResponse": "Here's a premium futuristic design direction:\n\n**Visual approach:**\n- Dark background (#0a0a0f) with subtle gradient accents\n- Electric blue/cyan highlights for AI theme\n- Geometric patterns inspired by neural networks\n- Bold sans-serif typography (Space Grotesk or similar)\n- Animated hero with subtle particle effects\n\n**Layout updates:**\n- Full-bleed hero with video background option\n- Speaker photos with gradient overlays\n- Interactive schedule with hover animations\n\n[A] Apply this design direction\n[B] Modify the approach\n[C] Cancel \u2014 keep current design",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Website]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-011",
+    "section": "Propose + Confirm - Website",
+    "prompt": "Redesign the homepage to be more impactful",
+    "expectedResponse": "Here's a homepage restructure for maximum impact:\n\n**New layout:**\n1. **Hero:** Full-screen with countdown, tagline 'The Future of AGI', and CTA\n2. **Why Attend:** 3 compelling value propositions with icons\n3. **Speaker showcase:** Horizontal scroll of headshots with names/titles\n4. **Schedule preview:** Visual timeline of 3 days\n5. **Venue highlight:** KAFD imagery + Vision 2030 connection\n6. **Partners & Sponsors:** Logo bar\n7. **RSVP CTA:** Fixed footer bar\n\n[A] Apply this redesign\n[B] Modify specific sections\n[C] Cancel \u2014 keep current layout",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Homepage]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-012",
+    "section": "Propose + Confirm - Website",
+    "prompt": "The site should feel like something from Saudi Arabia's Vision 2030",
+    "expectedResponse": "Here's a Vision 2030-aligned design direction:\n\n**Visual language:**\n- Saudi national colors: green (#165d31) and gold accents\n- Geometric patterns inspired by Islamic architecture\n- Modern minimalism with traditional flourishes\n- KAFD skyline imagery prominently featured\n- Arabic/English bilingual headers\n\n**Content alignment:**\n- Messaging ties to national AI strategy and SDAIA partnership\n- 'Riyadh: Capital of Intelligence' narrative\n- Emphasis on global-local connection\n\n[A] Apply Vision 2030 design\n[B] Modify the approach\n[C] Cancel \u2014 keep current design",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Website]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-013",
+    "section": "Propose + Confirm - Website",
+    "prompt": "Create a hero image that shows Riyadh's skyline with AI elements",
+    "expectedResponse": "I can generate a hero image concept:\n\n**Concept:**\n- KAFD skyline at dusk with warm golden hour lighting\n- Abstract neural network overlay connecting buildings\n- Subtle data visualization elements (nodes, connections)\n- 'AGI Summit Riyadh 2026' text overlay\n- Space for countdown timer and CTA button\n\nWould you like me to generate this image and show you a preview?\n\n[A] Generate and apply\n[B] Modify the concept first\n[C] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Homepage]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-014",
+    "section": "Propose + Confirm - Website",
+    "prompt": "Use a more technical font that feels like AI",
+    "expectedResponse": "Here are font options with a technical/AI feel:\n\n**Option A: Space Grotesk**\n- Modern geometric sans-serif\n- Clean, technical feel with personality\n\n**Option B: JetBrains Mono**\n- Monospace coding font\n- Very technical, developer-focused\n\n**Option C: IBM Plex Sans**\n- Corporate-tech hybrid\n- Professional with innovation feel\n\n**Option D: Inter**\n- Highly legible, modern\n- Neutral but sophisticated\n\nI'll show you a preview of each applied to the site. Which would you like to see?\n\n[A] Apply Space Grotesk\n[B] Apply JetBrains Mono\n[C] Apply IBM Plex Sans\n[D] Apply Inter\n[E] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Website]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-020",
+    "section": "Propose + Confirm - Content",
+    "prompt": "Rewrite all the speaker bios to be shorter \u2014 2 sentences max",
+    "expectedResponse": "Here are condensed 2-sentence bios:\n\n**Demis Hassabis**\nBefore: [Full bio...]\nAfter: Co-founder and CEO of Google DeepMind, leading the lab behind AlphaGo and AlphaFold. Nobel laureate and pioneer in AI for scientific discovery.\n\n**Dario Amodei**\nBefore: [Full bio...]\nAfter: Co-founder and CEO of Anthropic, creators of Claude. Former VP of Research at OpenAI and leading voice on AI safety.\n\n[...preview of all 8 speakers...]\n\n[A] Apply all shortened bios\n[B] Review and edit individually\n[C] Cancel \u2014 keep current bios",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-021",
+    "section": "Propose + Confirm - Content",
+    "prompt": "Make the event description more exciting and visionary",
+    "expectedResponse": "Here's a more visionary event description:\n\n**Before:**\n[Current description...]\n\n**After:**\nAGI Summit Riyadh 2026 brings together the architects of artificial general intelligence at a pivotal moment in history. For three days in October, Riyadh becomes the global epicenter of AI \u2014 where breakthrough research meets bold policy, and visionary founders shape the intelligence that will define our future. Join 500 leaders from the world's most influential AI labs, governments, and investment firms as we chart the path to beneficial AGI.\n\n[A] Apply new description\n[B] Modify the copy\n[C] Cancel \u2014 keep current",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Homepage]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-022",
+    "section": "Propose + Confirm - Content",
+    "prompt": "The agenda descriptions are too technical \u2014 simplify them for executives",
+    "expectedResponse": "Here are executive-friendly session descriptions:\n\n**Before:** 'Mechanistic interpretability, RL from human/AI feedback, and safety mitigations.'\n**After:** 'How AI labs are building systems we can understand and trust.'\n\n**Before:** 'Empirical scaling behavior, data curation, and optimization across training regimes.'\n**After:** 'The science of building more capable AI systems \u2014 what works and what's next.'\n\n[...preview of key sessions...]\n\n[A] Apply simplified descriptions\n[B] Review individually\n[C] Cancel \u2014 keep technical descriptions",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-023",
+    "section": "Propose + Confirm - Content",
+    "prompt": "Write a more compelling 'Why Attend' section",
+    "expectedResponse": "Here's a compelling 'Why Attend' section:\n\n**Shape the Future of Intelligence**\nBe in the room where decisions about AGI are made. This isn't a conference about AI \u2014 it's where the leaders building it converge to align on what comes next.\n\n**Unmatched Access**\nIntimate sessions with the CEOs of DeepMind, Anthropic, OpenAI, and Microsoft AI. Direct dialogue with ministers shaping national AI strategy. Connections that don't happen anywhere else.\n\n**Riyadh at the Center**\nExperience why Saudi Arabia is emerging as a global AI hub \u2014 from KAFD's Vision 2030 showcase to partnerships that are reshaping the compute landscape.\n\n[A] Apply this content\n[B] Modify the copy\n[C] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Why Attend]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-024",
+    "section": "Propose + Confirm - Content",
+    "prompt": "Create an 'About Saudi Arabia' section for international attendees",
+    "expectedResponse": "Here's an 'About Saudi Arabia' section for international visitors:\n\n**Welcome to Riyadh**\n\n**The City:** Riyadh is Saudi Arabia's capital and a rapidly transforming metropolis at the heart of Vision 2030. The King Abdullah Financial District (KAFD) \u2014 our venue \u2014 represents the new Saudi Arabia: modern, connected, and open for business.\n\n**Getting Here:** King Khalid International Airport (RUH) serves major global routes. Many nationalities qualify for eVisa or visa-on-arrival.\n\n**What to Know:**\n- Weather: October brings pleasant 30-35\u00b0C days, cooler evenings\n- Dress: Business professional with modest cuts; national dress welcome\n- Culture: Saudi hospitality is legendary \u2014 expect warmth and generosity\n- Dining: World-class restaurants; all event catering is halal and alcohol-free\n- Prayer: Friday includes extended time for Jumu'ah; prayer rooms on-site\n\n**Getting Around:** Riyadh Metro Line 4 connects RUH airport to KAFD in 35 minutes. Uber and Careem operate citywide.\n\n[A] Apply this section\n[B] Modify the content\n[C] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View About]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-030",
+    "section": "Propose + Confirm - Photos",
+    "prompt": "Make all speaker photos black and white with backgrounds removed",
+    "expectedResponse": "I'll process all 8 confirmed speaker photos:\n\n**Processing:**\n- Remove backgrounds \u2192 transparent or gradient fill\n- Convert to black and white\n- Consistent sizing and framing\n\n**Preview grid showing before/after for each speaker...**\n\n[A] Apply to all speakers\n[B] Review individually\n[C] Cancel \u2014 keep original photos",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-031",
+    "section": "Propose + Confirm - Photos",
+    "prompt": "Make all speaker photos look consistent",
+    "expectedResponse": "Here are options for consistent speaker photos:\n\n**Option A: Professional B&W**\n- Black and white conversion\n- Backgrounds removed, gradient fill\n- Consistent lighting adjustment\n\n**Option B: Color-corrected**\n- Matched color temperature and exposure\n- Backgrounds removed, brand-colored fill\n- Professional retouching\n\n**Option C: Unified backgrounds**\n- Keep original colors\n- Replace all backgrounds with KAFD/branded backdrop\n\n**Preview grid showing each option...**\n\nWhich style would you like?",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-032",
+    "section": "Propose + Confirm - Photos",
+    "prompt": "Add a gradient background to Demis Hassabis's photo",
+    "expectedResponse": "I'll add a gradient background to Dr. Hassabis's photo:\n\n**Options:**\n- Blue-to-purple tech gradient\n- Gold-to-green Vision 2030 gradient\n- Dark-to-light professional gradient\n\n**Preview showing each option...**\n\n[A] Apply blue-purple gradient\n[B] Apply gold-green gradient\n[C] Apply dark-light gradient\n[D] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udc64 View Speakers]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-040",
+    "section": "Propose + Confirm - Structure",
+    "prompt": "Move the speakers section above the agenda on the website",
+    "expectedResponse": "Here's the proposed page reorder:\n\n**Current order:**\n1. Hero\n2. About\n3. Agenda\n4. Speakers\n5. Venue\n6. RSVP\n\n**New order:**\n1. Hero\n2. About\n3. **Speakers** \u2190 moved up\n4. Agenda\n5. Venue\n6. RSVP\n\n[A] Apply this reorder\n[B] Modify the order differently\n[C] Cancel \u2014 keep current",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Website]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-041",
+    "section": "Propose + Confirm - Structure",
+    "prompt": "Create a dedicated page for the venue",
+    "expectedResponse": "Here's a venue page structure:\n\n**KAFD Conference Center**\n\n1. **Hero:** Full-width KAFD exterior image\n2. **Overview:** Purpose-built for world-class events, LEED Platinum certified\n3. **Facilities:**\n   - 600-seat auditorium\n   - 4 configurable breakout rooms\n   - Prefunction halls for networking\n   - VIP green rooms\n   - Prayer facilities\n4. **Getting There:**\n   - KAFD Metro Station (300m)\n   - 32km from RUH airport (35 min by metro)\n   - Parking available with security screening\n5. **Map:** Embedded Google Maps\n6. **Nearby Hotels:** Links to accommodation page\n\n[A] Create this venue page\n[B] Modify the structure\n[C] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udccd View Venue]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-042",
+    "section": "Propose + Confirm - Structure",
+    "prompt": "Add a sponsors section with Diamond, Gold, and Silver tiers",
+    "expectedResponse": "I'll create a tiered sponsors section:\n\n**Diamond Sponsors** (prominent placement, logo + description)\n- [Placeholder slots]\n\n**Gold Sponsors** (medium placement, logo only)\n- [Placeholder slots]\n\n**Silver Sponsors** (smaller grid, logo only)\n- [Placeholder slots]\n\n**Partners** (organizational partners like SDAIA, MCIT, MISA)\n\nDo you have specific sponsors to add to each tier?\n\n[A] Create structure with placeholders\n[B] Add specific sponsors first\n[C] Cancel",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83c\udf10 View Sponsors]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "P-043",
+    "section": "Propose + Confirm - Structure",
+    "prompt": "Split the agenda into separate pages for each track",
+    "expectedResponse": "Here's the track-based agenda structure:\n\n**Main Schedule page:** Overview with all tracks\n\n**Individual track pages:**\n1. **/agenda/main** \u2014 Keynotes, plenaries, ceremonies\n2. **/agenda/technical** \u2014 Technical AI sessions\n3. **/agenda/ethics** \u2014 Ethics & Safety sessions\n4. **/agenda/business** \u2014 Business & Investment sessions\n5. **/agenda/policy** \u2014 Government & Policy sessions\n\nEach page would show:\n- Track description\n- Full session list with times\n- Speaker photos for each session\n- Filter/search within track\n\n[A] Create separate track pages\n[B] Modify the structure\n[C] Cancel \u2014 keep unified agenda",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-001",
+    "section": "Venue - Discovery",
+    "prompt": "I need a venue for the summit",
+    "expectedResponse": "A few questions to help find the right venue:\n\n- Any venues already in mind?\n- What's your venue budget?\n- How many breakout rooms do you need?\n- Any specific AV or production requirements?\n- Preference on vibe \u2014 modern/tech-forward, classic/elegant, or government/formal?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-002",
+    "section": "Venue - Discovery",
+    "prompt": "We're thinking about KAFD Conference Center",
+    "expectedResponse": "KAFD Conference Center is an excellent choice \u2014 it's purpose-built for events like this with a 600-seat auditorium, modern facilities, and direct metro access. It's also in the heart of Riyadh's Vision 2030 showcase district. Would you like me to look into availability and alternatives, or do you already have a relationship with them?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-003",
+    "section": "Venue - Discovery",
+    "prompt": "Find me venue options in Riyadh for 500 people",
+    "expectedResponse": "To find the best options, I need a few details:\n\n- What's your venue budget range?\n- Do you need breakout rooms for parallel sessions?\n- Any vibe preference \u2014 modern/tech-forward, classic/elegant, or government/formal?\n\nI'll then put together a comparison of top venues for 500 attendees in Riyadh.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-004",
+    "section": "Venue - Discovery",
+    "prompt": "What venues would work for a major AI conference in Riyadh?",
+    "expectedResponse": "For a major AI conference in Riyadh with 500 attendees, top options include:\n\n1. **KAFD Conference Center** \u2014 Modern, tech-forward, metro-connected\n2. **Ritz-Carlton Riyadh** \u2014 Premium, established, excellent F&B\n3. **Four Seasons Riyadh** \u2014 Elegant, VIP-friendly\n4. **Riyadh Front Exhibition Center** \u2014 Large scale, flexible\n\nWhat's most important \u2014 location, prestige, or cost efficiency? And what's your venue budget?",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccd View Venue Comparison]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-005",
+    "section": "Venue - Discovery",
+    "prompt": "We already have KAFD booked",
+    "expectedResponse": "Great \u2014 KAFD is confirmed. I'll set it as your venue. Can you share the contract details so I can add capacity, costs, and contact info to the event record? Or should I use the standard KAFD specs?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-010",
+    "section": "Venue - Comparison",
+    "prompt": "Show me the venue comparison",
+    "expectedResponse": "Here's the venue comparison for AGI Summit Riyadh:",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccd View Venue Comparison]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-011",
+    "section": "Venue - Comparison",
+    "prompt": "Tell me more about the Four Seasons Riyadh",
+    "expectedResponse": "Opening the Four Seasons Riyadh venue profile with details on capacity, amenities, and photos.",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccd View Venue Profile]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-012",
+    "section": "Venue - Comparison",
+    "prompt": "Why did you recommend KAFD Conference Center?",
+    "expectedResponse": "KAFD Conference Center stands out for several reasons:\n\n**Pros:**\n- Purpose-built conference facility (not a hotel ballroom)\n- 600-seat auditorium with 4 configurable breakout rooms\n- LEED Platinum certified, aligns with sustainability messaging\n- Direct metro access (KAFD Station, 300m walk)\n- Vision 2030 flagship location \u2014 strong optics for government partnership\n- Modern AV infrastructure\n- Secured perimeters for VIP/ministerial flows\n\n**Cons:**\n- Furthest from RUH airport (~32km, 35-45 min)\n- Less intimate than hotel venues\n- F&B is outsourced (less flexibility than hotel catering)\n- Highest estimated rental (~$60K with partnership pricing)\n\nFor a government-partnered AI summit positioning Riyadh as an innovation hub, KAFD is the most aligned choice.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-013",
+    "section": "Venue - Comparison",
+    "prompt": "What are the downsides of the Ritz-Carlton?",
+    "expectedResponse": "The Ritz-Carlton Riyadh has some considerations:\n\n**Potential downsides:**\n- Higher F&B minimums and per-person costs\n- Smaller breakout room capacity compared to KAFD\n- Less 'innovation hub' positioning \u2014 more traditional luxury\n- Busy with other events (weddings, corporate) \u2014 potential conflicts\n- No direct metro access\n- Premium pricing on AV and production add-ons\n\n**When it makes sense:**\n- If VIP comfort and hospitality are the top priority\n- If you need integrated accommodation for speakers\n- If budget flexibility allows for premium positioning",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-014",
+    "section": "Venue - Comparison",
+    "prompt": "I'm not interested in the Four Seasons",
+    "expectedResponse": "Got it \u2014 I've removed the Four Seasons from your comparison. Would you like me to suggest a replacement venue, or are you good with the remaining options?",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccd View Venue Comparison]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-015",
+    "section": "Venue - Comparison",
+    "prompt": "Find me something more modern than these",
+    "expectedResponse": "Looking for more modern/cutting-edge venues in Riyadh. What specific qualities are you looking for \u2014 architectural innovation, tech infrastructure, or something else? Any other requirements I should factor in?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-016",
+    "section": "Venue - Comparison",
+    "prompt": "Which venue do you recommend?",
+    "expectedResponse": "For AGI Summit Riyadh, I recommend **KAFD Conference Center**.\n\n**Why:**\n- Best alignment with Vision 2030 and government partnership positioning\n- Purpose-built for conferences (not adapted hotel space)\n- Strong infrastructure for parallel tracks and VIP flows\n- Metro-connected, which matters for 500 attendees\n\n**Trade-off:** It's the priciest option and less intimate than hotel venues.\n\n**Alternative:** If hospitality and speaker comfort are priorities, Ritz-Carlton would be my second choice.\n\nWould you like to proceed with KAFD?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-017",
+    "section": "Venue - Comparison",
+    "prompt": "Add the Crowne Plaza Riyadh to the list",
+    "expectedResponse": "Adding Crowne Plaza Riyadh to your venue comparison. I'll research their conference facilities and populate the details.",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccd View Venue Comparison]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-040",
+    "section": "Venue - Selection",
+    "prompt": "I want to go with KAFD",
+    "expectedResponse": "Great choice. I'll set KAFD Conference Center as your confirmed venue.\n\nWould you like me to:\n- Add venue details to the event record?\n- Create a venue contract milestone?\n- Send a confirmation to the KAFD team?",
+    "mode": "Chat\u2192Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-041",
+    "section": "Venue - Selection",
+    "prompt": "Let's book the KAFD Conference Center",
+    "expectedResponse": "Done \u2014 KAFD Conference Center is now confirmed as your venue for AGI Summit Riyadh 2026.\n\nI've updated:\n- Event record with venue details\n- Schedule with KAFD room assignments\n- Transportation guide with KAFD directions\n\nNext steps:\n- Finalize contract terms\n- Confirm AV package\n- Coordinate with KAFD on load-in schedule",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccd View Venue]", "[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "R-042",
+    "section": "Venue - Selection",
+    "prompt": "KAFD is our venue",
+    "expectedResponse": "Confirmed \u2014 KAFD Conference Center is set as your venue. I've updated the event details and schedule with KAFD room assignments.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccd View Venue]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-001",
+    "section": "Milestones - Basic",
+    "prompt": "Show me the project plan",
+    "expectedResponse": "Opening the Project Plan in Table view.",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-002",
+    "section": "Milestones - Basic",
+    "prompt": "What milestones are overdue?",
+    "expectedResponse": "Let me check for overdue milestones in the project timeline.",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-003",
+    "section": "Milestones - Basic",
+    "prompt": "Add a task to confirm all speaker travel by September 20",
+    "expectedResponse": "Done \u2014 created milestone 'Confirm all speaker travel' due September 20, 2026.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-004",
+    "section": "Milestones - Basic",
+    "prompt": "Assign the sponsor outreach task to Ahmed",
+    "expectedResponse": "Done \u2014 sponsor outreach task assigned to Ahmed.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-005",
+    "section": "Milestones - Basic",
+    "prompt": "What's Fatima working on?",
+    "expectedResponse": "Let me filter the project plan to show milestones assigned to Fatima.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-006",
+    "section": "Milestones - Basic",
+    "prompt": "Mark the visa coordination as done",
+    "expectedResponse": "Done \u2014 visa coordination milestone marked as complete.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-007",
+    "section": "Milestones - Basic",
+    "prompt": "Show me the Gantt view",
+    "expectedResponse": "Switching to Gantt view.",
+    "mode": "Chat",
+    "artifacts": ["[\ud83d\udccb View Gantt]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-008",
+    "section": "Milestones - Basic",
+    "prompt": "Group by person",
+    "expectedResponse": "Done \u2014 project plan now grouped by assigned person instead of phase.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-009",
+    "section": "Milestones - Basic",
+    "prompt": "The A/V setup is blocked by venue contract",
+    "expectedResponse": "Done \u2014 created dependency: 'A/V setup' is now blocked by 'Venue contract' completion.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-010",
+    "section": "Milestones - Basic",
+    "prompt": "Export this to Excel",
+    "expectedResponse": "Generating Excel export of the project plan.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc4 Download Excel]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "M-020",
+    "section": "Milestones - Context",
+    "prompt": "Draft an email to the speakers about travel arrangements",
+    "expectedResponse": "I'll create a travel arrangements email for speakers using the milestone context.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc4 Speaker_Travel_Email.md]"],
+    "contextNote": "Triggered from \u2728 on 'Finalize speaker travel' milestone",
+    "type": "single-turn"
+  },
+  {
+    "id": "M-021",
+    "section": "Milestones - Context",
+    "prompt": "What should be included in this contract?",
+    "expectedResponse": "For a venue contract in Saudi Arabia for a major international conference, key elements include:\n\n**Essential terms:**\n- Rental fees and payment schedule\n- Room allocation and exclusive-use periods\n- Load-in/load-out windows\n- AV package specifications and costs\n- Catering minimums and exclusivity clauses\n- Security and protocol requirements\n- Cancellation and force majeure terms\n- Insurance requirements\n- Liability and indemnification\n\n**Saudi-specific considerations:**\n- Prayer break accommodations\n- Halal catering certification\n- Government/VIP motorcade access provisions\n- SDAIA/MCIT partnership terms if applicable\n\nWould you like me to draft a contract checklist?",
+    "mode": "Chat",
+    "artifacts": [],
+    "contextNote": "Triggered from \u2728 on 'Venue contract' milestone",
+    "type": "single-turn"
+  },
+  {
+    "id": "M-022",
+    "section": "Milestones - Context",
+    "prompt": "Create a draft sponsor prospectus",
+    "expectedResponse": "I'll generate a sponsor prospectus document for AGI Summit Riyadh 2026.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc4 AGI_Summit_Sponsor_Deck.md]"],
+    "contextNote": "Triggered from \u2728 on 'Sponsor deck' milestone",
+    "type": "single-turn"
+  },
+  {
+    "id": "M-023",
+    "section": "Milestones - Context",
+    "prompt": "Assign this to Sarah",
+    "expectedResponse": "Done \u2014 catering menu milestone assigned to Sarah.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udccb View Project Plan]"],
+    "contextNote": "Triggered from \u2728 on 'Catering menu' milestone",
+    "type": "single-turn"
+  },
+  {
+    "id": "M-024",
+    "section": "Milestones - Context",
+    "prompt": "Bundle these into a weekly status report",
+    "expectedResponse": "I'll create a combined status report for the selected milestones.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc4 Weekly_Status_Report.md]"],
+    "contextNote": "Triggered from \u2728 on multiple milestones",
+    "type": "single-turn"
+  },
+  {
+    "id": "X-001",
+    "section": "Event Vision & Export",
+    "prompt": "Share the event vision with the steering committee",
+    "expectedResponse": "Opening share options \u2014 you can share via link, email, or export.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-002",
+    "section": "Event Vision & Export",
+    "prompt": "Send the event vision to minister@sdaia.gov.sa",
+    "expectedResponse": "Sending the event vision to minister@sdaia.gov.sa with password-protected access.",
+    "mode": "Planning",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-003",
+    "section": "Event Vision & Export",
+    "prompt": "Create a presentation for the board",
+    "expectedResponse": "Generating an executive summary presentation for the board.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcca View Presentation]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-004",
+    "section": "Event Vision & Export",
+    "prompt": "Export this to slides",
+    "expectedResponse": "Generating slides export.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcca View Presentation]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-005",
+    "section": "Event Vision & Export",
+    "prompt": "Make a deck for the Crown Prince's office",
+    "expectedResponse": "Generating a VIP-formatted presentation for the Crown Prince's office.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcca View Presentation]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-006",
+    "section": "Event Vision & Export",
+    "prompt": "I need a deck to send to potential sponsors",
+    "expectedResponse": "Generating a sponsor-focused presentation highlighting reach, audience, and partnership opportunities.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcca View Presentation]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-007",
+    "section": "Event Vision & Export",
+    "prompt": "Create a media kit presentation",
+    "expectedResponse": "Generating a media kit presentation with emphasis on speaker lineup, reach, and visual assets.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcca View Presentation]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-008",
+    "section": "Event Vision & Export",
+    "prompt": "The budget changed, update the presentation",
+    "expectedResponse": "I can generate a new version of the presentation with updated budget figures. The previous version will be preserved. Would you like me to proceed?",
+    "mode": "Chat\u2192Planning",
+    "artifacts": ["[\ud83d\udcca View Presentation]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-009",
+    "section": "Event Vision & Export",
+    "prompt": "Can I get a PowerPoint?",
+    "expectedResponse": "Google Slides export is available now. PowerPoint export is coming soon. Would you like me to generate the Google Slides version?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-001",
+    "section": "Capability Boundaries",
+    "prompt": "Book flights for all the speakers",
+    "expectedResponse": "I can't book flights directly, but I can:\n- Draft a flight request email for your travel coordinator\n- Create a milestone to track speaker travel bookings\n- Add visa and travel details to speaker profiles\n\nWould any of these help?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-002",
+    "section": "Capability Boundaries",
+    "prompt": "Process the VIP registration payments",
+    "expectedResponse": "I can't process payments, but I can:\n- Set up your registration form to collect attendee information\n- Help you integrate with a payment provider\n- Track registration status and VIP confirmations\n\nWould you like help with any of these?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-003",
+    "section": "Capability Boundaries",
+    "prompt": "Sign the venue contract with KAFD",
+    "expectedResponse": "I can't sign contracts, but I can:\n- Draft a contract summary for your legal team\n- Create a contract review milestone with key terms\n- Track contract status in the project plan\n\nWould any of these help?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-004",
+    "section": "Capability Boundaries",
+    "prompt": "Send invitation emails to all the registered attendees",
+    "expectedResponse": "I can't send emails directly yet, but I can:\n- Draft the invitation copy\n- Export your attendee list for your email tool\n- Create email templates you can use in your email platform\n\nWould you like me to draft the invitation?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-005",
+    "section": "Capability Boundaries",
+    "prompt": "Create a VIP ticket at 5000 SAR",
+    "expectedResponse": "Ticketing and pricing aren't supported yet. I can help you:\n- Create a VIP registration track to collect attendee information\n- Set up different registration categories (VIP, General, etc.)\n- Track VIP registrations separately\n\nWould you like to create a VIP registration category?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-006",
+    "section": "Capability Boundaries",
+    "prompt": "Add an early bird discount of 20%",
+    "expectedResponse": "Pricing and discounts aren't available yet. I can help you:\n- Create different registration deadlines (early bird, standard, late)\n- Track early vs. late registrations\n- Set up messaging about registration windows\n\nWould you like to set up registration deadline tracking?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-007",
+    "section": "Capability Boundaries",
+    "prompt": "How much revenue have we made from ticket sales?",
+    "expectedResponse": "I don't support payment processing or revenue tracking yet. I can show you:\n- Registration counts by category\n- Attendee data and company breakdown\n- Registration trends over time\n\nWould you like to see registration metrics?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-008",
+    "section": "Capability Boundaries",
+    "prompt": "Arrange hotel blocks at the Four Seasons for speakers",
+    "expectedResponse": "I can't book hotels directly, but I can:\n- Add hotel coordination to your project milestones\n- Draft a room block request you can send to the hotel\n- Track speaker accommodation status\n\nWould you like me to create a hotel coordination milestone?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-009",
+    "section": "Capability Boundaries",
+    "prompt": "Get quotes from AV vendors in Riyadh",
+    "expectedResponse": "I can't reach out to vendors directly yet, but I can:\n- Create an RFP document for AV services\n- Add vendor outreach to your project milestones\n- Help you compare quotes once you receive them\n\nWould you like me to draft an AV RFP?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "B-010",
+    "section": "Capability Boundaries",
+    "prompt": "Apply for visas for international speakers",
+    "expectedResponse": "I can't handle visa applications, but I can:\n- Create a visa tracking milestone\n- Draft invitation letters for visa applications\n- Create information packages for each speaker with visa requirements\n\nWould you like me to set up visa tracking?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-001-edge",
+    "section": "Edge Cases",
+    "prompt": "Can you move the keynote? Actually wait, what time is it now?",
+    "expectedResponse": "The opening keynote (Dr. Demis Hassabis) is currently scheduled for 11:15 AM on Day 1. Would you still like to move it?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-002-edge",
+    "section": "Edge Cases",
+    "prompt": "Move the keynote. No wait, never mind.",
+    "expectedResponse": "No problem \u2014 keeping the keynote where it is.",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-003-edge",
+    "section": "Edge Cases",
+    "prompt": "What would happen if we moved the opening to 10am?",
+    "expectedResponse": "If we moved the opening ceremony to 10:00 AM (from 9:00 AM):\n\n**Impacts:**\n- Registration breakfast extends by an hour (8:00-10:00 AM)\n- Opening Fireside shifts to 10:25 AM\n- All morning sessions push back by ~1 hour\n- Lunch might need to move to 1:00 PM\n- Afternoon sessions compress, or reception starts later\n- Attendees with early flights on Day 1 have more flexibility\n\n**Considerations:**\n- Some speakers may have morning meetings scheduled around 9 AM\n- VIP arrivals/motorcades currently planned for 8:30-9:00 AM\n\nWould you like me to model the full cascading changes?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-004-edge",
+    "section": "Edge Cases",
+    "prompt": "Let's definitely move the opening keynote to 10am",
+    "expectedResponse": "Done \u2014 the opening ceremony now starts at 10:00 AM on Day 1. I've adjusted the subsequent sessions accordingly.",
+    "mode": "Planning",
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-005-edge",
+    "section": "Edge Cases",
+    "prompt": "I guess we could move Demis's keynote?",
+    "expectedResponse": "Sounds like you're considering it. Dr. Hassabis is currently at 11:15 AM on Day 1. Where were you thinking of moving it \u2014 a different time slot or a different day?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-006-edge",
+    "section": "Edge Cases",
+    "prompt": "Just move everything earlier",
+    "expectedResponse": "I can help with that \u2014 which sessions do you want to move earlier? All days or just one? And by how much time?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-007-edge",
+    "section": "Edge Cases",
+    "prompt": "Fix the schedule",
+    "expectedResponse": "I'd be happy to help \u2014 what specifically needs fixing? Is it timing, session order, track balance, or something else?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-008-edge",
+    "section": "Edge Cases",
+    "prompt": "Update the website",
+    "expectedResponse": "Sure \u2014 what specifically would you like to update? Content, design, structure, or something else?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-009-edge",
+    "section": "Edge Cases",
+    "prompt": "Make it better",
+    "expectedResponse": "I'd love to help improve things \u2014 what specifically? The schedule, website, speakers, budget, or something else?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-010-edge",
+    "section": "Edge Cases",
+    "prompt": "Do the thing we talked about",
+    "expectedResponse": "I want to make sure I get this right \u2014 can you remind me which specific change you're referring to?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-011-edge",
+    "section": "Edge Cases",
+    "prompt": "What's the status?",
+    "expectedResponse": "Status of what specifically \u2014 the overall project plan, registrations, speaker confirmations, or something else?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "X-012-edge",
+    "section": "Edge Cases",
+    "prompt": "Handle the Saudi stuff",
+    "expectedResponse": "Can you clarify what you mean by 'Saudi stuff'? Are you referring to:\n- Venue coordination with KAFD?\n- Government/ministerial participation?\n- Visa and travel logistics?\n- Cultural considerations (prayer times, catering)?\n- Something else?",
+    "mode": "Chat",
+    "artifacts": [],
+    "type": "single-turn"
+  },
+  {
+    "id": "MT-001",
+    "section": "Multi-Turn - Schedule Discussion",
+    "description": "Tests schedule discussion leading to a change \u2014 Day 1 morning is too packed",
+    "turns": [
+      {
+        "prompt": "I'm worried the schedule is too packed.",
+        "expectedResponse": "Looking at the schedule, Day 1 has the most content with 6+ sessions before the reception. What's feeling too packed \u2014 is it the session density, the break length, or something about a specific time block?"
+      },
+      {
+        "prompt": "The morning of Day 1 feels brutal \u2014 the opening, then straight into the fireside, then the SDAIA panel, then Demis. No time to breathe.",
+        "expectedResponse": "That makes sense. Day 1 morning currently runs:\n- 9:00 AM \u2014 Opening Ceremony (20 min)\n- 9:25 AM \u2014 Opening Fireside with Sam Altman (40 min)\n- 10:05 AM \u2014 Coffee Break (20 min)\n- 10:25 AM \u2014 SDAIA Keynote Panel (45 min)\n- 11:15 AM \u2014 Demis Hassabis Keynote (30 min)\n- 12:00 PM \u2014 Lunch\n\nA few options:\n1. **Extend breaks** \u2014 Make the coffee break 30-45 min instead of 20 min\n2. **Move a session** \u2014 Shift the SDAIA panel or Demis keynote to after lunch\n3. **Start later** \u2014 Begin at 9:30 AM instead of 9:00 AM\n\nWhich direction feels right?"
+      },
+      {
+        "prompt": "Let's extend the coffee break to 45 minutes.",
+        "expectedResponse": "Good call. Here's the change:\n\n**Coffee break extended:** 10:05-10:50 AM (45 min, up from 20 min)\n\n**New Day 1 morning:**\n- 9:00 AM \u2014 Opening Ceremony (20 min)\n- 9:25 AM \u2014 Opening Fireside (40 min)\n- 10:05 AM \u2014 Coffee Break (45 min) \u2190 extended\n- 10:50 AM \u2014 SDAIA Keynote Panel (45 min)\n- 11:40 AM \u2014 Demis Hassabis Keynote (30 min)\n- 12:15 PM \u2014 Lunch\n\n**Note:** Lunch shifts 15 min later, which cascades to afternoon sessions.\n\n[A] Apply this change\n[B] Modify something before applying\n[C] Cancel \u2014 keep as-is"
+      },
+      {
+        "prompt": "A",
+        "expectedResponse": "Done! The Day 1 coffee break is now 45 minutes (10:05-10:50 AM). I've adjusted the downstream sessions accordingly."
+      }
+    ],
+    "artifacts": ["[\ud83d\udcc5 View Schedule]"],
+    "type": "multi-turn"
+  },
+  {
+    "id": "MT-002",
+    "section": "Multi-Turn - Venue Selection",
+    "description": "Tests venue discovery, comparison, and selection flow",
+    "turns": [
+      {
+        "prompt": "What venues would work for 500 people in Riyadh?",
+        "expectedResponse": "Let me find some options. A few questions first:\n- What's your venue budget range?\n- Do you need breakout rooms for workshops?\n- Any vibe preference \u2014 modern/tech-forward, classic/elegant, or government/formal?"
+      },
+      {
+        "prompt": "Budget is around $60K for venue, need at least 4 breakout rooms, prefer modern and impressive",
+        "expectedResponse": "Based on your requirements \u2014 $60K budget, 4+ breakout rooms, modern aesthetic \u2014 here are the top options:\n\n1. **KAFD Conference Center** \u2014 Purpose-built, Vision 2030 flagship, metro-connected. Strong fit.\n2. **Riyadh Front Exhibition Center** \u2014 Large scale, flexible, good for parallel tracks.\n3. **Crowne Plaza Riyadh** \u2014 Modern business hotel, good value, solid AV.\n\nNote: At $60K, the Ritz-Carlton and Four Seasons would require negotiation or partnership pricing.\n\nWould you like to see the full comparison?"
+      },
+      {
+        "prompt": "Show me the comparison",
+        "expectedResponse": "Opening the venue comparison with details on capacity, costs, and amenities for each option."
+      },
+      {
+        "prompt": "Let's go with KAFD",
+        "expectedResponse": "Great choice \u2014 KAFD Conference Center is now set as your venue.\n\nI've updated:\n- Event record with venue details\n- Schedule with KAFD room assignments\n- Transportation guide with directions\n\nNext steps:\n- Finalize contract terms with KAFD\n- Confirm AV package requirements\n- Coordinate load-in schedule"
+      }
+    ],
+    "artifacts": ["[\ud83d\udccd View Venue Comparison]", "[\ud83d\udccd View Venue]", "[\ud83d\udcc5 View Schedule]"],
+    "type": "multi-turn"
+  },
+  {
+    "id": "MT-003",
+    "section": "Multi-Turn - Budget Discussion",
+    "description": "Tests budget discussion leading to prioritized cuts",
+    "turns": [
+      {
+        "prompt": "We need to cut $100K from the budget",
+        "expectedResponse": "That's a significant cut \u2014 about 13% of your $750K total. Where would you like to focus? Here's roughly where the money sits:\n\n- Catering: ~$156K (21%)\n- AV/Production: ~$100K (13%)\n- Venue: ~$60K (8%)\n- Transport: ~$29K (4%)\n- Staffing: ~$24K (3%)\n- Photography/Video: ~$26K (3%)\n- Other (security, permits, contingency): ~$355K\n\nWhat's most important to protect?"
+      },
+      {
+        "prompt": "Don't touch catering or venue. What else can we cut?",
+        "expectedResponse": "Protecting catering ($156K) and venue ($60K) leaves other areas for the $100K reduction:\n\n**Options:**\n1. **AV/Production:** Reduce from $100K to $70K \u2014 simpler stage design, fewer cameras (-$30K)\n2. **Transport:** Reduce from $29K to $15K \u2014 fewer VIP cars, rely more on shuttles (-$14K)\n3. **Photography/Video:** Reduce from $26K to $15K \u2014 fewer camera operators, shorter highlight reel (-$11K)\n4. **Contingency:** Reduce from ~10% to ~5% \u2014 higher risk but immediate savings (-$35K)\n5. **Staffing:** Reduce from $24K to $18K \u2014 fewer ushers, leaner registration (-$6K)\n\nTotal possible: ~$96K. Would you like me to model a specific combination?"
+      },
+      {
+        "prompt": "Let's do AV reduction and cut contingency to 5%",
+        "expectedResponse": "Here's the proposed budget adjustment:\n\n**Changes:**\n- AV/Production: $100K \u2192 $70K (-$30K)\n- Contingency: ~10% \u2192 ~5% (-$35K)\n\n**Total reduction:** $65K\n\n**Remaining to cut:** $35K if you need the full $100K\n\n**Trade-offs:**\n- AV: Simpler stage, fewer backup systems\n- Contingency: Less buffer for unexpected costs \u2014 higher risk\n\n[A] Apply these cuts ($65K savings)\n[B] Add more cuts to reach $100K\n[C] Cancel \u2014 keep current budget"
+      }
+    ],
+    "artifacts": ["[\ud83d\udcb0 View Budget]"],
+    "type": "multi-turn"
+  }
+]

@@ -447,6 +447,181 @@
         .grade-d { background: var(--color-grade-d); color: #000; }
         .grade-f { background: var(--color-grade-f); color: #fff; }
 
+        /* Style Grade Styles */
+        .style-grade-section {
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(168, 85, 247, 0.1));
+            border: 1px solid rgba(236, 72, 153, 0.3);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+        }
+
+        .style-grade-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+            color: #ec4899;
+            margin-bottom: 1rem;
+        }
+
+        .style-meter {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .style-meter-bar {
+            flex: 1;
+            height: 8px;
+            background: var(--bg-elevated);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .style-meter-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .style-meter-label {
+            font-family: var(--font-mono);
+            font-size: 0.875rem;
+            font-weight: 500;
+            min-width: 40px;
+            text-align: right;
+        }
+
+        .preferred-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.375rem 0.75rem;
+            border-radius: 999px;
+            text-transform: uppercase;
+        }
+
+        .preferred-badge.actual {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--color-pass);
+        }
+
+        .preferred-badge.expected {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--color-fail);
+        }
+
+        .preferred-badge.similar {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--color-warning);
+        }
+
+        /* Markdown Content Styles */
+        .md-content {
+            font-size: 0.875rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+
+        .md-content h1, .md-content h2, .md-content h3, .md-content h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .md-content h1 { font-size: 1.25rem; }
+        .md-content h2 { font-size: 1.125rem; }
+        .md-content h3 { font-size: 1rem; }
+        .md-content h4 { font-size: 0.875rem; }
+
+        .md-content p {
+            margin-bottom: 0.75rem;
+        }
+
+        .md-content ul, .md-content ol {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .md-content li {
+            margin-bottom: 0.25rem;
+        }
+
+        .md-content code {
+            font-family: var(--font-mono);
+            font-size: 0.8125rem;
+            background: var(--bg-elevated);
+            padding: 0.125rem 0.375rem;
+            border-radius: var(--radius-sm);
+            color: var(--accent-blue);
+        }
+
+        .md-content pre {
+            background: var(--bg-elevated);
+            padding: 1rem;
+            border-radius: var(--radius-sm);
+            overflow-x: auto;
+            margin: 0.75rem 0;
+        }
+
+        .md-content pre code {
+            background: none;
+            padding: 0;
+            color: var(--text-primary);
+        }
+
+        .md-content blockquote {
+            border-left: 3px solid var(--accent-purple);
+            padding-left: 1rem;
+            margin: 0.75rem 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .md-content strong {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .md-content em {
+            font-style: italic;
+        }
+
+        .md-content a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .md-content a:hover {
+            text-decoration: underline;
+        }
+
+        .md-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.75rem 0;
+        }
+
+        .md-content th, .md-content td {
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        .md-content th {
+            background: var(--bg-elevated);
+            font-weight: 600;
+        }
+
+        .md-content hr {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 1rem 0;
+        }
+
         /* Detail Panel */
         .detail-panel {
             background: var(--bg-secondary);
@@ -965,6 +1140,7 @@
 
     <script src="eval-data.js"></script>
     <script src="recommendations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
