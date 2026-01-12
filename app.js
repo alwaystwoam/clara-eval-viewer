@@ -581,19 +581,37 @@ function renderDetailPanel(tc) {
             </div>
             ${recommendation.systemPromptFix ? `
             <div class="recommendation-block">
-              <div class="recommendation-label">System Prompt Fix</div>
+              <div class="recommendation-header-row">
+                <div class="recommendation-label">System Prompt Fix</div>
+                <button class="copy-btn" onclick="copyToClipboard(this, \`${escapeForJs(recommendation.systemPromptFix)}\`)" title="Copy to clipboard">
+                  <span class="copy-icon">📋</span>
+                  <span class="copy-label">Copy</span>
+                </button>
+              </div>
               <div class="recommendation-text">${escapeHtml(recommendation.systemPromptFix)}</div>
             </div>
             ` : ''}
             ${recommendation.contextFix ? `
             <div class="recommendation-block">
-              <div class="recommendation-label">Context Engineering Fix</div>
+              <div class="recommendation-header-row">
+                <div class="recommendation-label">Context Engineering Fix</div>
+                <button class="copy-btn" onclick="copyToClipboard(this, \`${escapeForJs(recommendation.contextFix)}\`)" title="Copy to clipboard">
+                  <span class="copy-icon">📋</span>
+                  <span class="copy-label">Copy</span>
+                </button>
+              </div>
               <div class="recommendation-text">${escapeHtml(recommendation.contextFix)}</div>
             </div>
             ` : ''}
             ${recommendation.specificFix ? `
             <div class="recommendation-block">
-              <div class="recommendation-label">Specific Fix for This Test</div>
+              <div class="recommendation-header-row">
+                <div class="recommendation-label">Specific Fix for This Test</div>
+                <button class="copy-btn" onclick="copyToClipboard(this, \`${escapeForJs(recommendation.specificFix)}\`)" title="Copy to clipboard">
+                  <span class="copy-icon">📋</span>
+                  <span class="copy-label">Copy</span>
+                </button>
+              </div>
               <div class="recommendation-text">${escapeHtml(recommendation.specificFix)}</div>
             </div>
             ` : ''}
@@ -713,6 +731,37 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+// Escape string for use in JavaScript template literals
+function escapeForJs(str) {
+  if (!str) return '';
+  return str
+    .replace(/\\/g, '\\\\')
+    .replace(/`/g, '\\`')
+    .replace(/\$/g, '\\$');
+}
+
+// Copy text to clipboard and show feedback
+function copyToClipboard(btn, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    const icon = btn.querySelector('.copy-icon');
+    const label = btn.querySelector('.copy-label');
+    const originalIcon = icon.textContent;
+    const originalLabel = label.textContent;
+    
+    icon.textContent = '✓';
+    label.textContent = 'Copied!';
+    btn.classList.add('copied');
+    
+    setTimeout(() => {
+      icon.textContent = originalIcon;
+      label.textContent = originalLabel;
+      btn.classList.remove('copied');
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy:', err);
+  });
 }
 
 // Render Markdown to HTML
