@@ -399,8 +399,8 @@ function renderTestTable() {
         <td><span class="test-section">${tc.section}</span></td>
         <td><span class="test-prompt" title="${escapeHtml(tc.prompt)}">${escapeHtml(tc.prompt)}</span></td>
         <td>
-          <span class="test-status ${tc.passed ? 'pass' : 'fail'}">
-            ${tc.passed ? '✓ Pass' : '✗ Fail'}
+          <span class="test-status ${tc.passed ? 'pass' : 'fail'}" title="${tc.passed ? 'Passed' : 'Failed'}">
+            ${tc.passed ? '✓' : '✗'}
           </span>
         </td>
         <td><span class="test-score" style="color: ${getScoreColor(tc.overallScore)}">${(tc.overallScore * 100).toFixed(0)}%</span></td>
