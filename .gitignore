@@ -1,6 +1,3 @@
-# Raw evaluation data (large files, not needed for deployment)
-data/
-
 # Processing script (only needed to regenerate eval-data.js)
 process-eval-data.js
 
