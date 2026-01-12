@@ -1,0 +1,21 @@
+# Raw evaluation data (large files, not needed for deployment)
+data/
+
+# Processing script (only needed to regenerate eval-data.js)
+process-eval-data.js
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node (if you ever add dependencies)
+node_modules/
+
+# Screenshots from testing
+*.png
