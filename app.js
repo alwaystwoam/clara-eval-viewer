@@ -424,8 +424,19 @@ function renderTestTable() {
 
 // Toggle row expansion
 function toggleRow(id) {
-  expandedRow = expandedRow === id ? null : id;
+  const wasExpanded = expandedRow === id;
+  expandedRow = wasExpanded ? null : id;
   renderTestTable();
+  
+  // Scroll to the row if we just expanded it
+  if (!wasExpanded && expandedRow) {
+    setTimeout(() => {
+      const row = document.querySelector(`tr[data-id="${id}"]`);
+      if (row) {
+        row.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 50); // Small delay to let DOM update
+  }
 }
 
 // Render detail panel for expanded row
