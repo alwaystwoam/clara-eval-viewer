@@ -14,13 +14,16 @@ let raterCurrentIndex = 0;
 let raterVotes = {}; // { testId: 'A' | 'B' }
 let raterRandomSeeds = {}; // { testId: boolean } - true means expected is on left (A)
 let raterRevealed = {}; // { testId: boolean }
+let raterNotes = {}; // { testId: "note text" }
+let raterNotesExpanded = {}; // { testId: boolean } - UI state for note visibility
 let showScorecard = false;
 
 // LocalStorage keys
 const STORAGE_KEYS = {
   votes: 'claraEvalRater_votes',
   currentIndex: 'claraEvalRater_currentIndex',
-  randomSeeds: 'claraEvalRater_randomSeeds'
+  randomSeeds: 'claraEvalRater_randomSeeds',
+  notes: 'claraEvalRater_notes'
 };
 
 // Initialize app
@@ -1131,10 +1134,12 @@ function loadRaterState() {
     const savedVotes = localStorage.getItem(STORAGE_KEYS.votes);
     const savedIndex = localStorage.getItem(STORAGE_KEYS.currentIndex);
     const savedSeeds = localStorage.getItem(STORAGE_KEYS.randomSeeds);
+    const savedNotes = localStorage.getItem(STORAGE_KEYS.notes);
     
     if (savedVotes) raterVotes = JSON.parse(savedVotes);
     if (savedIndex) raterCurrentIndex = parseInt(savedIndex, 10);
     if (savedSeeds) raterRandomSeeds = JSON.parse(savedSeeds);
+    if (savedNotes) raterNotes = JSON.parse(savedNotes);
   } catch (e) {
     console.error('Failed to load rater state:', e);
   }
@@ -1148,6 +1153,7 @@ function saveRaterState() {
     localStorage.setItem(STORAGE_KEYS.votes, JSON.stringify(raterVotes));
     localStorage.setItem(STORAGE_KEYS.currentIndex, raterCurrentIndex.toString());
     localStorage.setItem(STORAGE_KEYS.randomSeeds, JSON.stringify(raterRandomSeeds));
+    localStorage.setItem(STORAGE_KEYS.notes, JSON.stringify(raterNotes));
   } catch (e) {
     console.error('Failed to save rater state:', e);
   }
@@ -1308,6 +1314,9 @@ function renderRaterCard() {
   const expectedOnLeft = raterRandomSeeds[tc.id];
   const isRevealed = raterRevealed[tc.id] || false;
   const currentVote = raterVotes[tc.id];
+  const currentNote = raterNotes[tc.id] || '';
+  const isNotesExpanded = raterNotesExpanded[tc.id] || false;
+  const hasNote = currentNote.trim().length > 0;
   
   // Determine which response is A and which is B
   const responseA = expectedOnLeft ? tc.expectedResponse : tc.actualResponse;
@@ -1326,6 +1335,7 @@ function renderRaterCard() {
           <span class="rater-card-id">${tc.id}</span>
           <span class="rater-card-section">${tc.section}</span>
           ${currentVote ? `<span style="color: var(--color-pass); font-size: 0.875rem;">✓ Voted</span>` : ''}
+          ${hasNote ? `<span style="color: var(--accent-purple); font-size: 0.875rem;">📝 Note</span>` : ''}
         </div>
         <div class="rater-card-prompt">${escapeHtml(tc.prompt)}</div>
       </div>
@@ -1373,6 +1383,10 @@ function renderRaterCard() {
               <span>ℹ️</span>
               <span>View Details</span>
             </button>
+            <button class="rater-note-btn ${hasNote ? 'has-note' : ''}" onclick="toggleNotes('${tc.id}')">
+              <span>📝</span>
+              <span>${isNotesExpanded ? 'Hide Note' : (hasNote ? 'Edit Note' : 'Add Note')}</span>
+            </button>
           </div>
           <div class="rater-nav">
             <button class="rater-nav-btn" onclick="navigateRater(-1)" ${raterCurrentIndex === 0 ? 'disabled' : ''}>
@@ -1382,6 +1396,20 @@ function renderRaterCard() {
               Next →
             </button>
           </div>
+        </div>
+        
+        <!-- Notes Section (Collapsible) -->
+        <div class="rater-notes-section ${isNotesExpanded ? 'expanded' : ''}" id="notes-section-${tc.id}">
+          <div class="rater-notes-header">
+            <span>📝 Your Notes</span>
+            <span class="rater-notes-hint">Why do you prefer this response? How could it be improved?</span>
+          </div>
+          <textarea 
+            class="rater-notes-input" 
+            id="note-input-${tc.id}"
+            placeholder="Write your reasoning here... (e.g., 'Expected response is more concise' or 'Clara should ask for clarification before executing')"
+            oninput="saveNote('${tc.id}', this.value)"
+          >${escapeHtml(currentNote)}</textarea>
         </div>
       </div>
     </div>
@@ -1434,6 +1462,32 @@ function toggleReveal(testId) {
 }
 
 /**
+ * Toggle notes section visibility
+ */
+function toggleNotes(testId) {
+  raterNotesExpanded[testId] = !raterNotesExpanded[testId];
+  renderRaterCard();
+  
+  // Focus the textarea if expanding
+  if (raterNotesExpanded[testId]) {
+    requestAnimationFrame(() => {
+      const textarea = document.getElementById(`note-input-${testId}`);
+      if (textarea) {
+        textarea.focus();
+      }
+    });
+  }
+}
+
+/**
+ * Save a note for a test case
+ */
+function saveNote(testId, noteText) {
+  raterNotes[testId] = noteText;
+  saveRaterState();
+}
+
+/**
  * Toggle scorecard view
  */
 function toggleScorecard() {
@@ -1445,13 +1499,15 @@ function toggleScorecard() {
  * Reset all rater data
  */
 function resetRater() {
-  if (!confirm('Are you sure you want to reset all your votes? This cannot be undone.')) {
+  if (!confirm('Are you sure you want to reset all your votes and notes? This cannot be undone.')) {
     return;
   }
   
   raterVotes = {};
+  raterNotes = {};
   raterCurrentIndex = 0;
   raterRevealed = {};
+  raterNotesExpanded = {};
   showScorecard = false;
   saveRaterState();
   updateHeaderStats();
@@ -1533,15 +1589,27 @@ function renderScorecard() {
         <div class="scorecard-list" style="margin-top: 1rem;">
           ${expectedPreferredTests.map(tc => {
             const rec = getRecommendation(tc);
+            const note = raterNotes[tc.id] || '';
             return `
               <div class="scorecard-list-item">
                 <div class="scorecard-list-id">${tc.id}</div>
                 <div class="scorecard-list-content">
                   <div class="scorecard-list-prompt">${escapeHtml(tc.prompt)}</div>
+                  ${note ? `
+                  <div class="scorecard-list-note">
+                    <span class="scorecard-note-icon">📝</span>
+                    <span class="scorecard-note-text">${escapeHtml(note)}</span>
+                  </div>
+                  ` : ''}
                   <div class="scorecard-list-actions">
                     <button class="scorecard-copy-btn" onclick="openInfoModal('${tc.id}')">
                       ℹ️ Details
                     </button>
+                    ${note ? `
+                    <button class="scorecard-copy-btn" onclick="copyNoteToClipboard(this, '${tc.id}')">
+                      📝 Copy Note
+                    </button>
+                    ` : ''}
                     ${rec && rec.systemPromptFix ? `
                     <button class="scorecard-copy-btn" onclick="copyRecommendation(this, '${tc.id}', 'system')">
                       📋 System Prompt Fix
@@ -1599,6 +1667,24 @@ function copyRecommendation(btn, testId, type) {
 }
 
 /**
+ * Copy a note to clipboard
+ */
+function copyNoteToClipboard(btn, testId) {
+  const note = raterNotes[testId];
+  if (!note) return;
+  
+  navigator.clipboard.writeText(note).then(() => {
+    btn.classList.add('copied');
+    const originalText = btn.textContent;
+    btn.textContent = '✓ Copied!';
+    setTimeout(() => {
+      btn.textContent = originalText;
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+/**
  * Copy all recommendations for expected-preferred tests
  */
 function copyAllRecommendations() {
@@ -1618,19 +1704,29 @@ function copyAllRecommendations() {
   
   const allRecs = expectedPreferredTests.map(tc => {
     const rec = getRecommendation(tc);
-    if (!rec) return null;
+    const note = raterNotes[tc.id] || '';
     
     let text = `=== ${tc.id}: ${tc.prompt} ===\n\n`;
-    if (rec.systemPromptFix) {
-      text += `SYSTEM PROMPT FIX:\n${rec.systemPromptFix}\n\n`;
+    
+    // Include user note first (most important for system prompt updates)
+    if (note) {
+      text += `EVALUATOR NOTE:\n${note}\n\n`;
     }
-    if (rec.contextFix) {
-      text += `CONTEXT FIX:\n${rec.contextFix}\n\n`;
+    
+    if (rec) {
+      if (rec.systemPromptFix) {
+        text += `SYSTEM PROMPT FIX:\n${rec.systemPromptFix}\n\n`;
+      }
+      if (rec.contextFix) {
+        text += `CONTEXT FIX:\n${rec.contextFix}\n\n`;
+      }
+      if (rec.specificFix) {
+        text += `SPECIFIC FIX:\n${rec.specificFix}\n\n`;
+      }
     }
-    if (rec.specificFix) {
-      text += `SPECIFIC FIX:\n${rec.specificFix}\n\n`;
-    }
-    return text;
+    
+    // Always include if there's a note, even without recommendations
+    return (note || rec) ? text : null;
   }).filter(Boolean).join('\n---\n\n');
   
   if (allRecs) {
