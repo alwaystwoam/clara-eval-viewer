@@ -18,6 +18,10 @@ let raterNotes = {}; // { testId: "note text" }
 let raterNotesExpanded = {}; // { testId: boolean } - UI state for note visibility
 let showScorecard = false;
 
+// Imported results state (for viewing other team members' ratings)
+let importedResults = null; // { meta, summary, votes, testsNeedingImprovement }
+let isViewingImported = false;
+
 // LocalStorage keys
 const STORAGE_KEYS = {
   votes: 'claraEvalRater_votes',
@@ -1520,6 +1524,12 @@ function resetRater() {
 function renderScorecard() {
   const container = document.getElementById('rater-scorecard');
   
+  // Check if viewing imported results
+  if (isViewingImported && importedResults) {
+    renderImportedScorecard(container);
+    return;
+  }
+  
   // Calculate stats
   const totalTests = EVAL_DATA.testCases.length;
   const votedCount = Object.keys(raterVotes).length;
@@ -1584,6 +1594,10 @@ function renderScorecard() {
           <button class="scorecard-export-btn" onclick="exportResultsJSON()">
             <span>💾</span> Export JSON
           </button>
+          <button class="scorecard-export-btn import" onclick="document.getElementById('import-json-input').click()">
+            <span>📥</span> Import Results
+          </button>
+          <input type="file" id="import-json-input" accept=".json" style="display: none;" onchange="importResultsJSON(this)">
         </div>
       </div>
       
@@ -1990,6 +2004,170 @@ function exportResultsJSON() {
       btn.classList.remove('success');
     }, 2000);
   }
+}
+
+/**
+ * Import results from a JSON file
+ */
+function importResultsJSON(input) {
+  const file = input.files[0];
+  if (!file) return;
+  
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      
+      // Validate the imported data has required fields
+      if (!data.meta || !data.summary || !data.votes) {
+        alert('Invalid file format. Please select a valid Clara Eval results JSON file.');
+        return;
+      }
+      
+      // Store imported results and switch to viewing mode
+      importedResults = data;
+      isViewingImported = true;
+      showScorecard = true;
+      
+      renderScorecard();
+    } catch (err) {
+      alert('Failed to parse JSON file: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+  
+  // Reset the input so the same file can be selected again
+  input.value = '';
+}
+
+/**
+ * Exit imported results view and return to own results
+ */
+function exitImportedView() {
+  importedResults = null;
+  isViewingImported = false;
+  renderScorecard();
+}
+
+/**
+ * Render scorecard for imported results (read-only mode)
+ */
+function renderImportedScorecard(container) {
+  const data = importedResults;
+  const meta = data.meta;
+  const summary = data.summary;
+  const votes = data.votes || [];
+  const testsNeedingImprovement = data.testsNeedingImprovement || [];
+  
+  const exportDate = meta.exportedAt ? new Date(meta.exportedAt).toLocaleDateString('en-US', {
+    weekday: 'short', year: 'numeric', month: 'short', day: 'numeric',
+    hour: '2-digit', minute: '2-digit'
+  }) : 'Unknown date';
+  
+  container.innerHTML = `
+    <div class="scorecard imported-view">
+      <!-- Imported Results Banner -->
+      <div class="imported-banner">
+        <div class="imported-banner-content">
+          <span class="imported-banner-icon">👁️</span>
+          <div class="imported-banner-text">
+            <strong>Viewing ${escapeHtml(meta.reviewer || 'Unknown')}'s Results</strong>
+            <span>Exported ${exportDate}</span>
+          </div>
+        </div>
+        <button class="imported-exit-btn" onclick="exitImportedView()">
+          ✕ Exit View
+        </button>
+      </div>
+      
+      <div class="scorecard-header">
+        <div class="scorecard-title">🗳️ ${escapeHtml(meta.reviewer || 'Unknown')}'s Voting Results</div>
+        <div class="scorecard-subtitle">${summary.votedCount} of ${summary.totalTests} tests rated</div>
+      </div>
+      
+      <div class="scorecard-stats">
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--text-primary);">${summary.votedCount}</div>
+          <div class="scorecard-stat-label">Total Votes</div>
+        </div>
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--color-fail);">${summary.expectedPreferred}</div>
+          <div class="scorecard-stat-label">Expected Better (${summary.expectedPercentage}%)</div>
+        </div>
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--color-pass);">${summary.actualPreferred}</div>
+          <div class="scorecard-stat-label">Clara Better (${summary.actualPercentage}%)</div>
+        </div>
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--text-muted);">${summary.totalTests - summary.votedCount}</div>
+          <div class="scorecard-stat-label">Not Rated</div>
+        </div>
+      </div>
+      
+      ${testsNeedingImprovement.length > 0 ? `
+      <div class="scorecard-section">
+        <div class="scorecard-section-title">
+          <span style="color: var(--color-fail);">⚠️</span>
+          Tests Where Expected Was Better (${testsNeedingImprovement.length})
+        </div>
+        
+        <div class="scorecard-list" style="margin-top: 1rem;">
+          ${testsNeedingImprovement.map(test => `
+            <div class="scorecard-list-item">
+              <div class="scorecard-list-id">${escapeHtml(test.testId)}</div>
+              <div class="scorecard-list-content">
+                <div class="scorecard-list-section">${escapeHtml(test.section || '')}</div>
+                <div class="scorecard-list-prompt">${escapeHtml(test.prompt)}</div>
+                ${test.note ? `
+                <div class="scorecard-list-note">
+                  <span class="scorecard-note-icon">📝</span>
+                  <span class="scorecard-note-text">${escapeHtml(test.note)}</span>
+                </div>
+                ` : ''}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      ` : `
+      <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
+        ${summary.votedCount === 0 ? 'No votes were cast in this export.' : 'This reviewer preferred Clara\'s responses for all tests they rated.'}
+      </div>
+      `}
+      
+      ${votes.filter(v => v.preferred === 'actual').length > 0 ? `
+      <div class="scorecard-section" style="margin-top: 1.5rem;">
+        <div class="scorecard-section-title">
+          <span style="color: var(--color-pass);">✅</span>
+          Tests Where Clara Was Better (${votes.filter(v => v.preferred === 'actual').length})
+        </div>
+        
+        <div class="scorecard-list" style="margin-top: 1rem;">
+          ${votes.filter(v => v.preferred === 'actual').map(test => `
+            <div class="scorecard-list-item compact">
+              <div class="scorecard-list-id">${escapeHtml(test.testId)}</div>
+              <div class="scorecard-list-content">
+                <div class="scorecard-list-prompt">${escapeHtml(test.prompt)}</div>
+                ${test.note ? `
+                <div class="scorecard-list-note">
+                  <span class="scorecard-note-icon">📝</span>
+                  <span class="scorecard-note-text">${escapeHtml(test.note)}</span>
+                </div>
+                ` : ''}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      ` : ''}
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <button class="rater-btn primary" onclick="exitImportedView()">
+          ← Back to My Results
+        </button>
+      </div>
+    </div>
+  `;
 }
 
 /**

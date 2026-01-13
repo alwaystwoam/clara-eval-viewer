@@ -1857,6 +1857,87 @@
             color: var(--color-pass);
         }
 
+        .scorecard-export-btn.import {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15));
+            border-color: var(--accent-purple);
+        }
+
+        .scorecard-export-btn.import:hover {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.25), rgba(59, 130, 246, 0.25));
+        }
+
+        /* Imported Results Banner */
+        .imported-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.875rem 1rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, rgba(251, 191, 36, 0.15), rgba(245, 158, 11, 0.1));
+            border: 1px solid rgba(251, 191, 36, 0.4);
+            border-radius: var(--radius-md);
+            gap: 1rem;
+        }
+
+        .imported-banner-content {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .imported-banner-icon {
+            font-size: 1.25rem;
+        }
+
+        .imported-banner-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.125rem;
+        }
+
+        .imported-banner-text strong {
+            color: var(--text-primary);
+            font-size: 0.9375rem;
+        }
+
+        .imported-banner-text span {
+            color: var(--text-muted);
+            font-size: 0.8125rem;
+        }
+
+        .imported-exit-btn {
+            padding: 0.5rem 1rem;
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            border-radius: var(--radius-sm);
+            color: #ef4444;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+
+        .imported-exit-btn:hover {
+            background: rgba(239, 68, 68, 0.25);
+            border-color: rgba(239, 68, 68, 0.6);
+        }
+
+        .scorecard.imported-view .scorecard-header {
+            opacity: 0.9;
+        }
+
+        .scorecard-list-item.compact {
+            padding: 0.75rem 1rem;
+        }
+
+        .scorecard-list-section {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0.25rem;
+        }
+
         /* Navigation Buttons */
         .rater-nav {
             display: flex;
