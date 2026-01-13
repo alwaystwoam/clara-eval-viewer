@@ -1572,6 +1572,21 @@ function renderScorecard() {
         </div>
       </div>
       
+      <div class="scorecard-export-section">
+        <div class="scorecard-export-title">Share Results</div>
+        <div class="scorecard-export-buttons">
+          <button class="scorecard-export-btn" onclick="exportResultsMarkdown()">
+            <span>📄</span> Export Markdown
+          </button>
+          <button class="scorecard-export-btn" onclick="copyResultsToClipboard()">
+            <span>📋</span> Copy to Clipboard
+          </button>
+          <button class="scorecard-export-btn" onclick="exportResultsJSON()">
+            <span>💾</span> Export JSON
+          </button>
+        </div>
+      </div>
+      
       ${expectedPreferredTests.length > 0 ? `
       <div class="scorecard-section">
         <div class="scorecard-section-title">
@@ -1735,6 +1750,245 @@ function copyAllRecommendations() {
     });
   } else {
     alert('No recommendations available for the selected tests.');
+  }
+}
+
+/**
+ * Get voting results data for export
+ */
+function getExportData() {
+  const totalTests = EVAL_DATA.testCases.length;
+  const votedCount = Object.keys(raterVotes).length;
+  let expectedPreferred = 0;
+  let actualPreferred = 0;
+  
+  const expectedPreferredTests = [];
+  const actualPreferredTests = [];
+  
+  Object.entries(raterVotes).forEach(([testId, vote]) => {
+    const tc = EVAL_DATA.testCases.find(t => t.id === testId);
+    if (!tc) return;
+    
+    const expectedOnLeft = raterRandomSeeds[testId];
+    const choseExpected = (expectedOnLeft && vote === 'A') || (!expectedOnLeft && vote === 'B');
+    
+    if (choseExpected) {
+      expectedPreferred++;
+      expectedPreferredTests.push(tc);
+    } else {
+      actualPreferred++;
+      actualPreferredTests.push(tc);
+    }
+  });
+  
+  return {
+    totalTests,
+    votedCount,
+    expectedPreferred,
+    actualPreferred,
+    expectedPct: votedCount > 0 ? ((expectedPreferred / votedCount) * 100).toFixed(1) : 0,
+    actualPct: votedCount > 0 ? ((actualPreferred / votedCount) * 100).toFixed(1) : 0,
+    expectedPreferredTests,
+    actualPreferredTests,
+    votes: raterVotes,
+    notes: raterNotes,
+    timestamp: new Date().toISOString()
+  };
+}
+
+/**
+ * Export results as Markdown file
+ */
+function exportResultsMarkdown() {
+  const data = getExportData();
+  const reviewerName = prompt('Enter your name (optional):') || 'Anonymous';
+  const date = new Date().toLocaleDateString('en-US', { 
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+    hour: '2-digit', minute: '2-digit'
+  });
+  
+  let md = `# Clara Eval Rating Results\n\n`;
+  md += `**Reviewer:** ${reviewerName}  \n`;
+  md += `**Date:** ${date}  \n`;
+  md += `**Event:** ${EVAL_DATA.eventName || 'Clara AI Evaluation'}  \n\n`;
+  
+  md += `---\n\n`;
+  md += `## Summary\n\n`;
+  md += `| Metric | Value |\n`;
+  md += `|--------|-------|\n`;
+  md += `| Total Tests Rated | ${data.votedCount} of ${data.totalTests} |\n`;
+  md += `| Expected Better | ${data.expectedPreferred} (${data.expectedPct}%) |\n`;
+  md += `| Clara Better | ${data.actualPreferred} (${data.actualPct}%) |\n\n`;
+  
+  if (data.expectedPreferredTests.length > 0) {
+    md += `---\n\n`;
+    md += `## Tests Where Expected Was Better\n\n`;
+    md += `These tests indicate areas where Clara's responses need improvement.\n\n`;
+    
+    data.expectedPreferredTests.forEach(tc => {
+      const note = data.notes[tc.id] || '';
+      md += `### ${tc.id}: ${tc.section}\n\n`;
+      md += `**Prompt:** ${tc.prompt}\n\n`;
+      if (note) {
+        md += `**Evaluator Note:**\n> ${note.replace(/\n/g, '\n> ')}\n\n`;
+      }
+      md += `---\n\n`;
+    });
+  }
+  
+  if (data.actualPreferredTests.length > 0) {
+    md += `## Tests Where Clara Was Better\n\n`;
+    md += `Clara performed well on these tests.\n\n`;
+    
+    data.actualPreferredTests.forEach(tc => {
+      const note = data.notes[tc.id] || '';
+      md += `- **${tc.id}:** ${tc.prompt}`;
+      if (note) {
+        md += `\n  - *Note:* ${note}`;
+      }
+      md += `\n`;
+    });
+    md += `\n`;
+  }
+  
+  // Download file
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `clara-eval-results-${reviewerName.replace(/\s+/g, '-').toLowerCase()}-${new Date().toISOString().split('T')[0]}.md`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  
+  // Visual feedback
+  const btn = event.target.closest('.scorecard-export-btn');
+  if (btn) {
+    btn.classList.add('success');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span>✓</span> Downloaded!';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.classList.remove('success');
+    }, 2000);
+  }
+}
+
+/**
+ * Copy results to clipboard as formatted text
+ */
+function copyResultsToClipboard() {
+  const data = getExportData();
+  const date = new Date().toLocaleDateString('en-US', { 
+    month: 'short', day: 'numeric', year: 'numeric'
+  });
+  
+  let text = `📊 Clara Eval Results (${date})\n`;
+  text += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
+  text += `📈 Summary:\n`;
+  text += `• Rated: ${data.votedCount}/${data.totalTests} tests\n`;
+  text += `• Expected Better: ${data.expectedPreferred} (${data.expectedPct}%)\n`;
+  text += `• Clara Better: ${data.actualPreferred} (${data.actualPct}%)\n\n`;
+  
+  if (data.expectedPreferredTests.length > 0) {
+    text += `⚠️ Tests Needing Improvement:\n`;
+    text += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
+    
+    data.expectedPreferredTests.forEach(tc => {
+      const note = data.notes[tc.id] || '';
+      text += `\n${tc.id}: ${tc.prompt}\n`;
+      if (note) {
+        text += `📝 ${note}\n`;
+      }
+    });
+  }
+  
+  if (data.actualPreferredTests.length > 0) {
+    text += `\n✅ Clara Performed Well:\n`;
+    text += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
+    data.actualPreferredTests.forEach(tc => {
+      text += `• ${tc.id}: ${tc.prompt}\n`;
+    });
+  }
+  
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.target.closest('.scorecard-export-btn');
+    if (btn) {
+      btn.classList.add('success');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '<span>✓</span> Copied!';
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.classList.remove('success');
+      }, 2000);
+    }
+  });
+}
+
+/**
+ * Export results as JSON file
+ */
+function exportResultsJSON() {
+  const data = getExportData();
+  const reviewerName = prompt('Enter your name (optional):') || 'anonymous';
+  
+  const exportObj = {
+    meta: {
+      reviewer: reviewerName,
+      exportedAt: data.timestamp,
+      eventName: EVAL_DATA.eventName || 'Clara AI Evaluation',
+      version: '1.0'
+    },
+    summary: {
+      totalTests: data.totalTests,
+      votedCount: data.votedCount,
+      expectedPreferred: data.expectedPreferred,
+      actualPreferred: data.actualPreferred,
+      expectedPercentage: parseFloat(data.expectedPct),
+      actualPercentage: parseFloat(data.actualPct)
+    },
+    votes: Object.entries(data.votes).map(([testId, vote]) => {
+      const tc = EVAL_DATA.testCases.find(t => t.id === testId);
+      const expectedOnLeft = raterRandomSeeds[testId];
+      const choseExpected = (expectedOnLeft && vote === 'A') || (!expectedOnLeft && vote === 'B');
+      return {
+        testId,
+        section: tc?.section || '',
+        prompt: tc?.prompt || '',
+        preferred: choseExpected ? 'expected' : 'actual',
+        note: data.notes[testId] || null
+      };
+    }),
+    testsNeedingImprovement: data.expectedPreferredTests.map(tc => ({
+      testId: tc.id,
+      section: tc.section,
+      prompt: tc.prompt,
+      note: data.notes[tc.id] || null
+    }))
+  };
+  
+  const json = JSON.stringify(exportObj, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `clara-eval-results-${reviewerName.replace(/\s+/g, '-').toLowerCase()}-${new Date().toISOString().split('T')[0]}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  
+  // Visual feedback
+  const btn = event.target.closest('.scorecard-export-btn');
+  if (btn) {
+    btn.classList.add('success');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span>✓</span> Downloaded!';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.classList.remove('success');
+    }, 2000);
   }
 }
 
