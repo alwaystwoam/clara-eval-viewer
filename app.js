@@ -2,11 +2,26 @@
  * Clara AI Eval Viewer - Main Application
  */
 
-// State
+// State - Viewer Mode
 let filteredTestCases = [];
 let sortColumn = 'id';
 let sortDirection = 'asc';
 let expandedRow = null;
+
+// State - Rater Mode
+let currentMode = 'viewer'; // 'viewer' or 'rater'
+let raterCurrentIndex = 0;
+let raterVotes = {}; // { testId: 'A' | 'B' }
+let raterRandomSeeds = {}; // { testId: boolean } - true means expected is on left (A)
+let raterRevealed = {}; // { testId: boolean }
+let showScorecard = false;
+
+// LocalStorage keys
+const STORAGE_KEYS = {
+  votes: 'claraEvalRater_votes',
+  currentIndex: 'claraEvalRater_currentIndex',
+  randomSeeds: 'claraEvalRater_randomSeeds'
+};
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,7 +32,13 @@ function initApp() {
   // Set initial filtered data
   filteredTestCases = [...EVAL_DATA.testCases];
   
-  // Render all components
+  // Load rater state from localStorage
+  loadRaterState();
+  
+  // Initialize random seeds for all test cases
+  initializeRandomSeeds();
+  
+  // Render all components for viewer mode
   renderHeader();
   renderSummaryCards();
   renderAssessmentPanel();
@@ -25,7 +46,7 @@ function initApp() {
   renderFilters();
   renderTestTable();
   
-  // Show hidden elements
+  // Show hidden elements (viewer mode is default)
   document.getElementById('assessment-panel').style.display = 'block';
   document.getElementById('section-breakdown').style.display = 'block';
   document.getElementById('filters').style.display = 'flex';
@@ -33,16 +54,17 @@ function initApp() {
   
   // Set up event listeners
   setupEventListeners();
+  
+  // Check URL params for mode
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('mode') === 'rater') {
+    setMode('rater');
+  }
 }
 
 // Render header with overall grade
 function renderHeader() {
-  const gradeEl = document.getElementById('header-grade');
-  const passRateEl = document.getElementById('header-pass-rate');
-  
-  gradeEl.textContent = EVAL_DATA.overallGrade;
-  gradeEl.className = 'grade-badge ' + getGradeColorClass(EVAL_DATA.overallGrade);
-  passRateEl.textContent = (EVAL_DATA.passRate * 100).toFixed(1) + '%';
+  updateHeaderStats();
 }
 
 // Render summary cards
@@ -1096,4 +1118,647 @@ function generateCommentary(tc) {
   }
   
   return comments.join(' ') || 'No specific issues identified.';
+}
+
+
+// ==================== RATER MODE FUNCTIONS ====================
+
+/**
+ * Load rater state from localStorage
+ */
+function loadRaterState() {
+  try {
+    const savedVotes = localStorage.getItem(STORAGE_KEYS.votes);
+    const savedIndex = localStorage.getItem(STORAGE_KEYS.currentIndex);
+    const savedSeeds = localStorage.getItem(STORAGE_KEYS.randomSeeds);
+    
+    if (savedVotes) raterVotes = JSON.parse(savedVotes);
+    if (savedIndex) raterCurrentIndex = parseInt(savedIndex, 10);
+    if (savedSeeds) raterRandomSeeds = JSON.parse(savedSeeds);
+  } catch (e) {
+    console.error('Failed to load rater state:', e);
+  }
+}
+
+/**
+ * Save rater state to localStorage
+ */
+function saveRaterState() {
+  try {
+    localStorage.setItem(STORAGE_KEYS.votes, JSON.stringify(raterVotes));
+    localStorage.setItem(STORAGE_KEYS.currentIndex, raterCurrentIndex.toString());
+    localStorage.setItem(STORAGE_KEYS.randomSeeds, JSON.stringify(raterRandomSeeds));
+  } catch (e) {
+    console.error('Failed to save rater state:', e);
+  }
+}
+
+/**
+ * Initialize random seeds for deterministic A/B positioning
+ */
+function initializeRandomSeeds() {
+  EVAL_DATA.testCases.forEach(tc => {
+    if (!(tc.id in raterRandomSeeds)) {
+      // Use a simple hash of the ID to determine position
+      // This ensures the same ID always gets the same randomization
+      const hash = tc.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+      raterRandomSeeds[tc.id] = hash % 2 === 0; // true = expected on left (A)
+    }
+  });
+  saveRaterState();
+}
+
+/**
+ * Set the current mode (viewer or rater)
+ */
+function setMode(mode) {
+  currentMode = mode;
+  
+  // Update toggle buttons
+  document.getElementById('mode-viewer').classList.toggle('active', mode === 'viewer');
+  document.getElementById('mode-rater').classList.toggle('active', mode === 'rater');
+  
+  // Update URL without reload
+  const url = new URL(window.location);
+  if (mode === 'rater') {
+    url.searchParams.set('mode', 'rater');
+  } else {
+    url.searchParams.delete('mode');
+  }
+  window.history.replaceState({}, '', url);
+  
+  // Show/hide appropriate containers
+  const viewerElements = ['summary-grid', 'assessment-panel', 'section-breakdown', 'filters', 'test-table-container'];
+  const raterElements = ['rater-container'];
+  
+  viewerElements.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = mode === 'viewer' ? (id === 'filters' ? 'flex' : 'block') : 'none';
+  });
+  
+  raterElements.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = mode === 'rater' ? 'block' : 'none';
+  });
+  
+  // Update header stats based on mode
+  updateHeaderStats();
+  
+  // Render rater if in rater mode
+  if (mode === 'rater') {
+    renderRater();
+  }
+}
+
+/**
+ * Update header stats based on current mode
+ */
+function updateHeaderStats() {
+  const container = document.getElementById('header-stats');
+  
+  if (currentMode === 'viewer') {
+    container.innerHTML = `
+      <div>
+        <div class="grade-label">Overall Grade</div>
+        <div id="header-grade" class="grade-badge ${getGradeColorClass(EVAL_DATA.overallGrade)}">${EVAL_DATA.overallGrade}</div>
+      </div>
+      <div>
+        <div class="grade-label">Pass Rate</div>
+        <div style="font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;">${(EVAL_DATA.passRate * 100).toFixed(1)}%</div>
+      </div>
+    `;
+  } else {
+    const votedCount = Object.keys(raterVotes).length;
+    const totalCount = EVAL_DATA.testCases.length;
+    container.innerHTML = `
+      <div>
+        <div class="grade-label">Rated</div>
+        <div style="font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;">${votedCount}/${totalCount}</div>
+      </div>
+      <div>
+        <div class="grade-label">Progress</div>
+        <div style="font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;">${((votedCount / totalCount) * 100).toFixed(0)}%</div>
+      </div>
+    `;
+  }
+}
+
+/**
+ * Render the rater view
+ */
+function renderRater() {
+  if (showScorecard) {
+    renderScorecard();
+    document.getElementById('rater-card-container').style.display = 'none';
+    document.getElementById('rater-scorecard').style.display = 'block';
+  } else {
+    renderRaterProgress();
+    renderRaterCard();
+    document.getElementById('rater-card-container').style.display = 'block';
+    document.getElementById('rater-scorecard').style.display = 'none';
+  }
+}
+
+/**
+ * Render the progress bar
+ */
+function renderRaterProgress() {
+  const container = document.getElementById('rater-progress');
+  const votedCount = Object.keys(raterVotes).length;
+  const totalCount = EVAL_DATA.testCases.length;
+  const progress = (votedCount / totalCount) * 100;
+  
+  container.innerHTML = `
+    <div class="rater-progress-info">
+      <span class="rater-progress-label">Test</span>
+      <span class="rater-progress-count">${raterCurrentIndex + 1} of ${totalCount}</span>
+    </div>
+    <div class="rater-progress-bar-container">
+      <div class="rater-progress-bar">
+        <div class="rater-progress-bar-fill" style="width: ${progress}%"></div>
+      </div>
+    </div>
+    <div class="rater-progress-info">
+      <span class="rater-progress-label">Rated</span>
+      <span class="rater-progress-count">${votedCount}</span>
+    </div>
+    <div class="rater-progress-actions">
+      <button class="rater-btn" onclick="toggleScorecard()">
+        📊 View Results
+      </button>
+      <button class="rater-btn" onclick="resetRater()" title="Reset all votes">
+        🔄 Reset
+      </button>
+    </div>
+  `;
+}
+
+/**
+ * Render the current test card
+ */
+function renderRaterCard() {
+  const container = document.getElementById('rater-card-container');
+  const tc = EVAL_DATA.testCases[raterCurrentIndex];
+  
+  if (!tc) {
+    container.innerHTML = '<div class="empty-state">No test cases available</div>';
+    return;
+  }
+  
+  const expectedOnLeft = raterRandomSeeds[tc.id];
+  const isRevealed = raterRevealed[tc.id] || false;
+  const currentVote = raterVotes[tc.id];
+  
+  // Determine which response is A and which is B
+  const responseA = expectedOnLeft ? tc.expectedResponse : tc.actualResponse;
+  const responseB = expectedOnLeft ? tc.actualResponse : tc.expectedResponse;
+  const labelA = expectedOnLeft ? 'Expected' : 'Actual (Clara)';
+  const labelB = expectedOnLeft ? 'Actual (Clara)' : 'Expected';
+  
+  // Determine selection state
+  const aSelected = currentVote === 'A';
+  const bSelected = currentVote === 'B';
+  
+  container.innerHTML = `
+    <div class="rater-card">
+      <div class="rater-card-header">
+        <div class="rater-card-meta">
+          <span class="rater-card-id">${tc.id}</span>
+          <span class="rater-card-section">${tc.section}</span>
+          ${currentVote ? `<span style="color: var(--color-pass); font-size: 0.875rem;">✓ Voted</span>` : ''}
+        </div>
+        <div class="rater-card-prompt">${escapeHtml(tc.prompt)}</div>
+      </div>
+      
+      <div class="rater-card-body">
+        <div class="rater-responses">
+          <!-- Response A -->
+          <div class="rater-response ${aSelected ? 'selected' : ''} ${isRevealed ? 'revealed' : ''}" id="response-a">
+            <div class="rater-response-header">
+              <span class="rater-response-label">Response A</span>
+              <span class="rater-response-reveal">${labelA}</span>
+            </div>
+            <div class="rater-response-body">
+              <div class="rater-response-text">${renderMarkdown(responseA)}</div>
+            </div>
+            <button class="rater-vote-btn" onclick="castVote('A')">
+              <span class="rater-vote-icon">${aSelected ? '✓' : '👍'}</span>
+              <span>${aSelected ? 'Selected' : 'Prefer This'}</span>
+            </button>
+          </div>
+          
+          <!-- Response B -->
+          <div class="rater-response ${bSelected ? 'selected' : ''} ${isRevealed ? 'revealed' : ''}" id="response-b">
+            <div class="rater-response-header">
+              <span class="rater-response-label">Response B</span>
+              <span class="rater-response-reveal">${labelB}</span>
+            </div>
+            <div class="rater-response-body">
+              <div class="rater-response-text">${renderMarkdown(responseB)}</div>
+            </div>
+            <button class="rater-vote-btn" onclick="castVote('B')">
+              <span class="rater-vote-icon">${bSelected ? '✓' : '👍'}</span>
+              <span>${bSelected ? 'Selected' : 'Prefer This'}</span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Actions Bar -->
+        <div class="rater-actions" style="margin-top: 1.5rem;">
+          <div class="rater-actions-left">
+            <button class="rater-reveal-btn ${isRevealed ? 'revealed' : ''}" onclick="toggleReveal('${tc.id}')">
+              ${isRevealed ? '🔓 Labels Revealed' : '🔒 Reveal Labels'}
+            </button>
+            <button class="rater-info-btn" onclick="openInfoModal('${tc.id}')">
+              <span>ℹ️</span>
+              <span>View Details</span>
+            </button>
+          </div>
+          <div class="rater-nav">
+            <button class="rater-nav-btn" onclick="navigateRater(-1)" ${raterCurrentIndex === 0 ? 'disabled' : ''}>
+              ← Previous
+            </button>
+            <button class="rater-nav-btn next" onclick="navigateRater(1)" ${raterCurrentIndex >= EVAL_DATA.testCases.length - 1 ? 'disabled' : ''}>
+              Next →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Cast a vote for the current test
+ */
+function castVote(choice) {
+  const tc = EVAL_DATA.testCases[raterCurrentIndex];
+  if (!tc) return;
+  
+  raterVotes[tc.id] = choice;
+  saveRaterState();
+  updateHeaderStats();
+  renderRaterProgress();
+  renderRaterCard();
+  
+  // Auto-advance after voting (with small delay for visual feedback)
+  setTimeout(() => {
+    if (raterCurrentIndex < EVAL_DATA.testCases.length - 1) {
+      navigateRater(1);
+    } else {
+      // Show scorecard when complete
+      showScorecard = true;
+      renderRater();
+    }
+  }, 300);
+}
+
+/**
+ * Navigate to previous/next test
+ */
+function navigateRater(direction) {
+  const newIndex = raterCurrentIndex + direction;
+  if (newIndex >= 0 && newIndex < EVAL_DATA.testCases.length) {
+    raterCurrentIndex = newIndex;
+    saveRaterState();
+    renderRater();
+  }
+}
+
+/**
+ * Toggle reveal of which response is expected vs actual
+ */
+function toggleReveal(testId) {
+  raterRevealed[testId] = !raterRevealed[testId];
+  renderRaterCard();
+}
+
+/**
+ * Toggle scorecard view
+ */
+function toggleScorecard() {
+  showScorecard = !showScorecard;
+  renderRater();
+}
+
+/**
+ * Reset all rater data
+ */
+function resetRater() {
+  if (!confirm('Are you sure you want to reset all your votes? This cannot be undone.')) {
+    return;
+  }
+  
+  raterVotes = {};
+  raterCurrentIndex = 0;
+  raterRevealed = {};
+  showScorecard = false;
+  saveRaterState();
+  updateHeaderStats();
+  renderRater();
+}
+
+/**
+ * Render the scorecard
+ */
+function renderScorecard() {
+  const container = document.getElementById('rater-scorecard');
+  
+  // Calculate stats
+  const totalTests = EVAL_DATA.testCases.length;
+  const votedCount = Object.keys(raterVotes).length;
+  let expectedPreferred = 0;
+  let actualPreferred = 0;
+  
+  const expectedPreferredTests = [];
+  
+  Object.entries(raterVotes).forEach(([testId, vote]) => {
+    const tc = EVAL_DATA.testCases.find(t => t.id === testId);
+    if (!tc) return;
+    
+    const expectedOnLeft = raterRandomSeeds[testId];
+    const choseExpected = (expectedOnLeft && vote === 'A') || (!expectedOnLeft && vote === 'B');
+    
+    if (choseExpected) {
+      expectedPreferred++;
+      expectedPreferredTests.push(tc);
+    } else {
+      actualPreferred++;
+    }
+  });
+  
+  const expectedPct = votedCount > 0 ? ((expectedPreferred / votedCount) * 100).toFixed(1) : 0;
+  const actualPct = votedCount > 0 ? ((actualPreferred / votedCount) * 100).toFixed(1) : 0;
+  
+  container.innerHTML = `
+    <div class="scorecard">
+      <div class="scorecard-header">
+        <div class="scorecard-title">🗳️ Voting Results</div>
+        <div class="scorecard-subtitle">${votedCount} of ${totalTests} tests rated</div>
+      </div>
+      
+      <div class="scorecard-stats">
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--text-primary);">${votedCount}</div>
+          <div class="scorecard-stat-label">Total Votes</div>
+        </div>
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--color-fail);">${expectedPreferred}</div>
+          <div class="scorecard-stat-label">Expected Better (${expectedPct}%)</div>
+        </div>
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--color-pass);">${actualPreferred}</div>
+          <div class="scorecard-stat-label">Clara Better (${actualPct}%)</div>
+        </div>
+        <div class="scorecard-stat">
+          <div class="scorecard-stat-value" style="color: var(--text-muted);">${totalTests - votedCount}</div>
+          <div class="scorecard-stat-label">Remaining</div>
+        </div>
+      </div>
+      
+      ${expectedPreferredTests.length > 0 ? `
+      <div class="scorecard-section">
+        <div class="scorecard-section-title">
+          <span style="color: var(--color-fail);">⚠️</span>
+          Tests Where Expected Was Better (${expectedPreferredTests.length})
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1rem;">
+          These tests show where Clara's responses fell short. Use the recommendations below to improve the system prompt.
+        </p>
+        
+        <button class="rater-btn primary scorecard-copy-all" onclick="copyAllRecommendations()">
+          📋 Copy All Recommendations
+        </button>
+        
+        <div class="scorecard-list" style="margin-top: 1rem;">
+          ${expectedPreferredTests.map(tc => {
+            const rec = getRecommendation(tc);
+            return `
+              <div class="scorecard-list-item">
+                <div class="scorecard-list-id">${tc.id}</div>
+                <div class="scorecard-list-content">
+                  <div class="scorecard-list-prompt">${escapeHtml(tc.prompt)}</div>
+                  <div class="scorecard-list-actions">
+                    <button class="scorecard-copy-btn" onclick="openInfoModal('${tc.id}')">
+                      ℹ️ Details
+                    </button>
+                    ${rec && rec.systemPromptFix ? `
+                    <button class="scorecard-copy-btn" onclick="copyRecommendation(this, '${tc.id}', 'system')">
+                      📋 System Prompt Fix
+                    </button>
+                    ` : ''}
+                    ${rec && rec.contextFix ? `
+                    <button class="scorecard-copy-btn" onclick="copyRecommendation(this, '${tc.id}', 'context')">
+                      📋 Context Fix
+                    </button>
+                    ` : ''}
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+      ` : `
+      <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
+        ${votedCount === 0 ? 'No votes cast yet. Start rating tests to see results!' : 'Great news! You preferred Clara\'s responses for all tests you rated.'}
+      </div>
+      `}
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <button class="rater-btn primary" onclick="toggleScorecard()">
+          ← Back to Rating
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Copy a specific recommendation
+ */
+function copyRecommendation(btn, testId, type) {
+  const tc = EVAL_DATA.testCases.find(t => t.id === testId);
+  if (!tc) return;
+  
+  const rec = getRecommendation(tc);
+  if (!rec) return;
+  
+  const text = type === 'system' ? rec.systemPromptFix : rec.contextFix;
+  if (!text) return;
+  
+  navigator.clipboard.writeText(text).then(() => {
+    btn.classList.add('copied');
+    const originalText = btn.textContent;
+    btn.textContent = '✓ Copied!';
+    setTimeout(() => {
+      btn.textContent = originalText;
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+/**
+ * Copy all recommendations for expected-preferred tests
+ */
+function copyAllRecommendations() {
+  const expectedPreferredTests = [];
+  
+  Object.entries(raterVotes).forEach(([testId, vote]) => {
+    const tc = EVAL_DATA.testCases.find(t => t.id === testId);
+    if (!tc) return;
+    
+    const expectedOnLeft = raterRandomSeeds[testId];
+    const choseExpected = (expectedOnLeft && vote === 'A') || (!expectedOnLeft && vote === 'B');
+    
+    if (choseExpected) {
+      expectedPreferredTests.push(tc);
+    }
+  });
+  
+  const allRecs = expectedPreferredTests.map(tc => {
+    const rec = getRecommendation(tc);
+    if (!rec) return null;
+    
+    let text = `=== ${tc.id}: ${tc.prompt} ===\n\n`;
+    if (rec.systemPromptFix) {
+      text += `SYSTEM PROMPT FIX:\n${rec.systemPromptFix}\n\n`;
+    }
+    if (rec.contextFix) {
+      text += `CONTEXT FIX:\n${rec.contextFix}\n\n`;
+    }
+    if (rec.specificFix) {
+      text += `SPECIFIC FIX:\n${rec.specificFix}\n\n`;
+    }
+    return text;
+  }).filter(Boolean).join('\n---\n\n');
+  
+  if (allRecs) {
+    navigator.clipboard.writeText(allRecs).then(() => {
+      alert(`Copied ${expectedPreferredTests.length} recommendations to clipboard!`);
+    });
+  } else {
+    alert('No recommendations available for the selected tests.');
+  }
+}
+
+/**
+ * Open the info modal for a test
+ */
+function openInfoModal(testId) {
+  const tc = EVAL_DATA.testCases.find(t => t.id === testId);
+  if (!tc) return;
+  
+  const modal = document.getElementById('info-modal');
+  const title = document.getElementById('modal-title');
+  const body = document.getElementById('modal-body');
+  
+  title.textContent = `${tc.id} - Evaluation Details`;
+  
+  const recommendation = getRecommendation(tc);
+  
+  body.innerHTML = `
+    <!-- Summary -->
+    <div class="detail-section" style="margin-bottom: 1rem;">
+      <div class="detail-section-header">Judge Summary</div>
+      <div class="detail-section-body">
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+          <span class="test-status ${tc.passed ? 'pass' : 'fail'}">${tc.passed ? '✓' : '✗'}</span>
+          <span class="test-grade ${getGradeColorClass(getGrade(tc.overallScore))}">${getGrade(tc.overallScore)}</span>
+          <span style="font-family: var(--font-mono); color: ${getScoreColor(tc.overallScore)}">${(tc.overallScore * 100).toFixed(0)}%</span>
+        </div>
+        <div class="comparison-text">${renderMarkdown(tc.summary)}</div>
+      </div>
+    </div>
+    
+    <!-- Dimensions -->
+    <div class="detail-section" style="margin-bottom: 1rem;">
+      <div class="detail-section-header">Evaluation Scores</div>
+      <div class="detail-section-body">
+        <div class="dimensions-grid">
+          ${renderDimension('Response Alignment', tc.dimensions.responsePromptAlignment)}
+          ${renderDimension('Completeness', tc.dimensions.informationCompleteness)}
+          ${renderDimension('Clarity', tc.dimensions.responseClarity)}
+          ${renderDimension('Tool Usage', tc.dimensions.toolAppropriateness)}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Findings -->
+    <div class="detail-section" style="margin-bottom: 1rem;">
+      <div class="detail-section-header">Detailed Findings</div>
+      <div class="detail-section-body">
+        <div class="findings-list">
+          ${renderFindings(tc.dimensions)}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Style Analysis -->
+    <div class="detail-section" style="margin-bottom: 1rem;">
+      <div class="detail-section-header" style="background: rgba(236, 72, 153, 0.1); color: #ec4899;">Style & Tone Analysis</div>
+      <div class="detail-section-body">
+        ${renderStyleAnalysis(tc)}
+      </div>
+    </div>
+    
+    <!-- Recommendations -->
+    ${recommendation ? `
+    <div class="recommendations">
+      <div class="recommendations-header">
+        <span>💡</span> Improvement Recommendations
+      </div>
+      ${recommendation.systemPromptFix ? `
+      <div class="recommendation-block">
+        <div class="recommendation-header-row">
+          <div class="recommendation-label">System Prompt Fix</div>
+          <button class="copy-btn" onclick="copyToClipboard(this, \`${escapeForJs(recommendation.systemPromptFix)}\`)">
+            <span class="copy-icon">📋</span>
+            <span class="copy-label">Copy</span>
+          </button>
+        </div>
+        <div class="recommendation-text">${escapeHtml(recommendation.systemPromptFix)}</div>
+      </div>
+      ` : ''}
+      ${recommendation.contextFix ? `
+      <div class="recommendation-block">
+        <div class="recommendation-header-row">
+          <div class="recommendation-label">Context Engineering Fix</div>
+          <button class="copy-btn" onclick="copyToClipboard(this, \`${escapeForJs(recommendation.contextFix)}\`)">
+            <span class="copy-icon">📋</span>
+            <span class="copy-label">Copy</span>
+          </button>
+        </div>
+        <div class="recommendation-text">${escapeHtml(recommendation.contextFix)}</div>
+      </div>
+      ` : ''}
+    </div>
+    ` : ''}
+  `;
+  
+  modal.classList.add('active');
+  
+  // Close on overlay click
+  modal.onclick = (e) => {
+    if (e.target === modal) closeInfoModal();
+  };
+  
+  // Close on Escape key
+  document.addEventListener('keydown', handleModalEscape);
+}
+
+/**
+ * Close the info modal
+ */
+function closeInfoModal() {
+  const modal = document.getElementById('info-modal');
+  modal.classList.remove('active');
+  document.removeEventListener('keydown', handleModalEscape);
+}
+
+/**
+ * Handle Escape key for modal
+ */
+function handleModalEscape(e) {
+  if (e.key === 'Escape') closeInfoModal();
 }
