@@ -1296,6 +1296,10 @@ function renderRaterProgress() {
       <button class="rater-btn" onclick="toggleScorecard()">
         📊 View Results
       </button>
+      <button class="rater-btn import" onclick="document.getElementById('import-json-input-nav').click()" title="Import team member's results">
+        📥 Import
+      </button>
+      <input type="file" id="import-json-input-nav" accept=".json" style="display: none;" onchange="importResultsJSON(this)">
       <button class="rater-btn" onclick="resetRater()" title="Reset all votes">
         🔄 Reset
       </button>
@@ -1594,10 +1598,6 @@ function renderScorecard() {
           <button class="scorecard-export-btn" onclick="exportResultsJSON()">
             <span>💾</span> Export JSON
           </button>
-          <button class="scorecard-export-btn import" onclick="document.getElementById('import-json-input').click()">
-            <span>📥</span> Import Results
-          </button>
-          <input type="file" id="import-json-input" accept=".json" style="display: none;" onchange="importResultsJSON(this)">
         </div>
       </div>
       
